@@ -1,0 +1,41 @@
+# Rock-Paper-Scissors-Lizard-Spock
+
+A front-end JavaScript exercise where the user plays Rock-Paper-Scissors (RPS) against the 
+computer.  
+RPS is a classic two player game. Each player chooses either rock, paper or scissors. The
+items are compared and whichever player chooses the more powerful item wins. The possible outcomes are:    
+* Scissors cuts paper  
+* Paper covers rock  
+* Rock crushes scissors
+* If there's a tie, the game ends in a draw  
+Write a function that will get the computer's choice from an array, read in the player's
+choice and compare the two to determine a winner. Display the results using `console.log`.
+
+> I invented this game (with Karen Bryla) because it seems like when you know someone 
+> well enough, 75-80% of any Rock-Paper-Scissors games you play with that person end 
+> up in a tie. Well, here is a slight variation that reduces that probability.  
+> 
+> **[Sam Kass](http://www.samkass.com/theories/RPSSL.html)** on Rock-Paper-Scissors-Lizard-Spock
+
+Scissors cuts paper,  
+paper covers rock,  
+rock crushes lizard,  
+lizard poisons Spock,  
+Spock smashes scissors,  
+scissors decapitates lizard,  
+lizard eats paper,  
+paper disproves Spock,  
+Spock vaporizes rock,  
+and, as it always has, rock crushes scissors.  
+
+### To Do
+- [x] Add Lizard and Spock to make the game more interesting (plus I think it's funny)
+- [x] Ignore response case  
+- [x] Check for valid input  
+- [x] Make it so player doesn't have to open the console to play/see results  
+- [x] Loop to continue play until player wants to quit  
+- [x] Track wins, losses and ties  
+- [ ] Write to the page instead of having Alert pop-ups  
+
+
+##### ~/tiy/week03/rpsls
