@@ -1,0 +1,153 @@
+* {
+  border: 0;
+  box-sizing: border-box;
+  outline: 0;
+  padding: 0;
+}
+
+/* Chrome */
+::-webkit-input-placeholder {
+  color: #4d4;
+}
+
+body {
+  background-color: #60d9f1;
+  background-color: lightgreen;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+.player {
+  padding-bottom: 1em;
+}
+
+audio::-webkit-media-controls-panel {
+  color: darkgreen;
+}
+
+h1 {
+  color: darkgreen;
+  font-size: 3em;
+  padding-bottom: .5em;
+  text-shadow: 0.02em 0.02em 1em black;
+  text-transform: lowercase;
+}
+
+hr {
+  border-color: #1e1;
+  border-style: inset;
+  border-width: 1px;
+  display: block;
+  width: 80%;
+}
+
+.search {
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
+}
+
+#search-form {
+  display: inline-flex;
+  font-size: 20px;
+}
+
+#search_field {
+  font-size: inherit;
+  border: 1px solid #7e7;
+  border-radius: 0.5em 0 0 0.5em;
+  color: #4d4;
+  padding: 0.2em 0.5em;
+  outline: 0;
+  width: 25em;
+}
+
+#search_field:hover,
+#search_field:focus {
+  border-color: #4d4;
+}
+
+#submit_button {
+  font-size: inherit;
+  border: 1px solid #7e7;
+  border-radius: 0 0.5em 0.5em 0;
+  background-color: #7d7;
+  border-left: 0;
+  padding: 0.2em 0.5em;
+  color: darkgreen;
+  outline: 0;
+  cursor: pointer;
+}
+
+#submit_button:hover,
+#submit_button:focus {
+  border-color: #4e4;
+  background-color: #4e4;
+}
+
+#results {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.artist_container {
+  align-items: center;
+  /* border: 1px solid black;*/ /*used this to align everything in the grid*/
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 1em;
+  width: 25%;
+}
+
+img {
+  box-shadow: .25em .25em .5em;
+  height: 132px;
+  width: 150px;
+}
+
+img:hover {
+  cursor: pointer;
+  background: transparent url(images/Music-128.png); /* not working as intended...INVESTIGATE */
+  opacity: 0.6;
+}
+
+img:active {
+  box-shadow: inset 0 0 0 0; /* semi working as intended...INVESTIGATE */
+}
+
+.title_artist {
+  align-self: center;
+}
+
+.title {
+  width: 25%;
+  font-weight: 900;
+}
+
+#playing {
+  color: darkgreen;
+  font-size: small;
+  font-weight: bold;
+}
+
+#title {
+  color: darkgreen;
+  font-size: small;
+  list-style-type: none;
+  text-align: center
+}
+
+#artist {
+  color: darkgreen;
+  font-size: large;
+  font-weight: 600;
+  list-style-type: none;
+  text-align: center;
+}
