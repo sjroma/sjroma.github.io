@@ -9,7 +9,7 @@ work without having to `clone` or `download` the repo.
 exercise that generates random numbers for playing the _Mega Millions_ and _Powerball_ lottery 
 games  
 
-[Play rock-scissors-paper-lizard-spock](https://sjroma.github.io/rpsls) - a Javascript
+[Play rock-scissors-paper](https://sjroma.github.io/rps) the first version - a Javascript
 exercise where you play against the computer
 
 [Listen to music](https://sjroma.github.io/soundcloud) - a front end Javascript exercise that
