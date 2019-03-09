@@ -1,7 +1,7 @@
 # README  
 
 This is a repo that hosts some of the work I've done. It gives users an easy way to see my
-work without having to `clone` or `download` the repo.  
+work without having to `clone` or `download` the repository.  
 
 ## Links:  
 
@@ -9,7 +9,7 @@ work without having to `clone` or `download` the repo.
 exercise that generates random numbers for playing the _Mega Millions_ and _Powerball_ lottery 
 games  
 
-[Play rock-scissors-paper](https://sjroma.github.io/rps) the first version - a Javascript
+[Play rock-paper-scissors](https://sjroma.github.io/rps) the first version - a Javascript
 exercise where you play against the computer
 
 [Listen to music](https://sjroma.github.io/soundcloud) - a front end Javascript exercise that
@@ -19,4 +19,6 @@ play the result
 ### To-do  
 - [ ] Create a portfolio for this space to showcase these apps and see another example of work
 I can do  
-# sjroma.github.io
+- [ ] Create v2 of rock-paper-scissors. One that does not rely on Alert pop-ups and having the user type in their choice  
+
+##### ~/GitHub/sjroma.github.io
