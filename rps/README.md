@@ -41,4 +41,4 @@ and, as it always has, rock crushes scissors.
 - [ ] Write to the page instead of having Alert pop-ups  
 
 
-##### ~/tiy/week03/rpsls
+##### ~/GitHub/sjroma.github.io/rps
