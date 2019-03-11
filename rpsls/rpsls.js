@@ -1,5 +1,3 @@
-console.log("Hey Steve, here's what you're logging to the console");
-
 let wins = 0;
 let losses = 0;
 let ties = 0;
@@ -21,12 +19,9 @@ function getComp() {
   const computer = [Math.floor(Math.random() * rpsls.length)];
   return rpsls[computer];
 }
-//console.log(getComp());
 
 function userplay(getUser) {
-//  console.log("you clicked..." + getUser);
   const compChoice = getComp();
-//  console.log("computer choice...",compChoice);
   switch (getUser + compChoice) {
     //user wins
     case "rockscissors":
@@ -39,7 +34,6 @@ function userplay(getUser) {
     case "lizardspock":
     case "spockrock":
     case "spockscissors":
-//      console.log("You win!");
       win(getUser, compChoice);
       break;
     //user loses
@@ -53,12 +47,10 @@ function userplay(getUser) {
     case "lizardscissors":
     case "spockpaper":
     case "spocklizard":
-//      console.log("You lose!");
       loss(getUser, compChoice);
       break;
     //default is a tie
     default:
-//      console.log("It's a tie!");
       tie(getUser, compChoice);
       break;
   }
@@ -66,10 +58,7 @@ function userplay(getUser) {
 
 function win(user, computer) {
   wins++;
-//  console.log(wins);
   win_div.innerHTML = wins;
-//  console.log(user);
-//  console.log(computer);
   if (user === "rock" && computer === "scissors") {
     userchoice_div.innerHTML = user + " crushes";
     compchoice_div.innerHTML = computer;
