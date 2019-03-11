@@ -1,24 +1,21 @@
 # Rock-Paper-Scissors-Lizard-Spock
 
-## Click to [play Rock-Paper-Scissors-Lizard-Spock](https://sjroma.github.io/rpsls)
+## Click to [play Rock-Paper-Scissors](https://sjroma.github.io/rps)
 
-A front-end JavaScript exercise where the user plays Rock-Paper-Scissors (RPS) against the 
-computer.  
-RPS is a classic two player game. Each player chooses either rock, paper or scissors. The
-items are compared and whichever player chooses the more powerful item wins. The possible outcomes are:    
+A front-end JavaScript exercise where the user plays Rock-Paper-Scissors (RPS) against the computer.  
+RPS is a classic two player game. Each player chooses either rock, paper or scissors. The items are compared and whichever player chooses the more powerful item wins. The possible outcomes are:    
 * Scissors cuts paper  
 * Paper covers rock  
-* Rock crushes scissors
+* Rock crushes scissors  
 * If there's a tie, the game ends in a draw  
-Write a function that will get the computer's choice from an array, read in the player's
-choice and compare the two to determine a winner. Display the results using `console.log`.
+Write a function that will get the computer's choice from an array, read in the player's choice and compare the two to determine a winner. Display the results using `console.log`.  
 
 And then RPS evolved to Rock-Paper-Scissors-Lizard-Spock  
 > I invented this game (with Karen Bryla) because it seems like when you know someone 
 > well enough, 75-80% of any Rock-Paper-Scissors games you play with that person end 
 > up in a tie. Well, here is a slight variation that reduces that probability.  
 > 
-> **[Sam Kass](http://www.samkass.com/theories/RPSSL.html)** on Rock-Paper-Scissors-Lizard-Spock
+> **[Sam Kass](http://www.samkass.com/theories/RPSSL.html)** on Rock-Paper-Scissors-Lizard-Spock  
 
 Scissors cuts paper,  
 paper covers rock,  
