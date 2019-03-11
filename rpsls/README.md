@@ -1,10 +1,9 @@
 # Rock-Paper-Scissors-Lizard-Spock  
 
-A front-end JavaScript exercise where the user plays Rock-Paper-Scissors (RPS) against the
-computer.  
-RPS is a classic two player game. Each player chooses either rock, paper or scissors. The
-items are compared and whichever player chooses the more powerful item wins. The possible
-outcomes are:  
+## Click to [play Rock-Paper-Scissors-Lizard-Spock](https://sjroma.github.io/rpsls)  
+
+A front-end JavaScript exercise where the user plays Rock-Paper-Scissors (RPS) against the computer.  
+RPS is a classic two player game. Each player chooses either rock, paper or scissors. The items are compared and whichever player chooses the more powerful item wins. The possible outcomes are:  
 * Scissors cuts paper  
 * Paper covers rock  
 * Rock crushes scissors  
