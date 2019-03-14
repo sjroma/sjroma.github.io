@@ -99,6 +99,12 @@ body {
   text-align: center;
 }
 
+.author {
+  color: #f4d481;
+  font-size: small;
+  text-align: center;
+}
+
 @media all and (max-width: 576px) {
   #game-name {
     font-size: large;
