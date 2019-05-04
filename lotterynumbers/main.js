@@ -18,7 +18,7 @@ const pball_div = document.getElementById("pball");
 function getMegaWhite() {
   const MWArray = [];
   while (MWArray.length < 5) {
-    var random = Math.floor(Math.random() * 70 + 1);
+    var random = Math.floor(Math.random() * 70) + 1;
     if (MWArray.indexOf(random) === -1) MWArray.push(random);
   }
   mwball1_div.innerHTML = MWArray.shift();
@@ -29,14 +29,14 @@ function getMegaWhite() {
 }
 
 function getMegaGold() {
-  const megaGoldBall = (Math.floor(Math.random() * 25 + 1));
+  const megaGoldBall = Math.floor(Math.random() * 25) + 1;
   mball_div.innerHTML = megaGoldBall;
 }
 
 function getPwrWhite() {
   const PWArray = [];
   while (PWArray.length < 5) {
-    var random = Math.floor(Math.random() * 69 + 1);
+    var random = Math.floor(Math.random() * 69) + 1;
     if (PWArray.indexOf(random) === -1) PWArray.push(random);
   }
   pwball1_div.innerHTML = PWArray.shift();
@@ -47,7 +47,7 @@ function getPwrWhite() {
 }
 
 function getPwrGold() {
-  const pwrGoldBall = (Math.floor(Math.random() * 26 + 1));
+  const pwrGoldBall = Math.floor(Math.random() * 26) + 1;
   pball_div.innerHTML = pwrGoldBall;
 }
 
