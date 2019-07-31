@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/*this allow the page to be full view height keeping footer at the bottom */
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 5rem;     /*footer height*/
+}
+
+.card-body {
+  font-family: "Indie Flower", sans-serif;
+}
+
+.card-text {
+  font-size: 1.5em;
+}
+
+h3 {
+  padding-top: 1em;
+}
+
+span.li {
+  display: list-item;
+  margin-left: 2em;
+}
+
+#link {
+  text-decoration: none;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  height: 5rem;             /*footer height*/
+}
