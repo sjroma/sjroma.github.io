@@ -1,5 +1,5 @@
 # freeCodeCamp - JavaScript  
-Working through the on-line course, JavaScript Algorithms and Data Structures at [freeCodeCamp](https://freecodecamp.org)  
+Working through the on-line course, _JavaScript Algorithms and Data Structures_ at [freeCodeCamp](https://freecodecamp.org)  
 * The course covers;
   * Basic JavaScript  
   * ES6  
