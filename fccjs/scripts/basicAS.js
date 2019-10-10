@@ -348,13 +348,13 @@ function userInput(script, str) {
   switch (script) {
     case ("cToF"):
       let faren = convertToF(userInput);
-      output = `${userInput}°C equals ${faren}°F`;
+      output = `${userInput} °C equals ${faren} °F`;
 //      console.log('output=', output);
       break;
       
     case ("fToC"):
       let celsius = convertToC(userInput);
-      output = `${userInput}°F equals ${celsius}°C`;
+      output = `${userInput} °F equals ${celsius} °C`;
       break;
 
     case ("revString"):
