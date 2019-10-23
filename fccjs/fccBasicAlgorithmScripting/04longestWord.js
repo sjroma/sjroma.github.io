@@ -2,16 +2,18 @@
 //Return the length of the longest word in the provided sentence.
 //Your response should be a number.
 
+let eachWord;
+let longestWord = 0;
 function findLongestWordLength(str) {
-  var eachWord = str.split(" ");
-  var longestWord = 0;
+  "use strict";
+  eachWord = str.split(" ");
   //  console.log("Split words are ",eachWord);
-  for (var i = 0; i < eachWord.length; i++) {
+  for (let i = 0; i < eachWord.length; i++) {
     if (eachWord[i].length > longestWord) {
       longestWord = eachWord[i].length;
     }
   }
-  console.log("The longest word length is", longestWord, "characters");
+  console.log("The longest word length is " + longestWord + " characters");
   return longestWord;
 }
 

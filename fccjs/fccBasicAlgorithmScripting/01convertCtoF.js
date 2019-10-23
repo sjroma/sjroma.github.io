@@ -3,9 +3,12 @@
 
 //You are given a variable celsius representing a temperature in Celsius. Use the variable fahrenheit already defined and assign it the Fahrenheit temperature equivalent to the given Celsius temperature. Use the algorithm mentioned above to help convert the Celsius temperature to Fahrenheit.
 
+let fahrenheit;
+let celsius;
 function convertToF(celsius) {
-  let fahrenheit = (celsius * (9 / 5) + 32);
-  console.log("Converting...", celsius, "degrees celsius is", fahrenheit, "degrees fahrenheit.");
+  "use strict";
+  fahrenheit = (celsius * (9 / 5) + 32);
+  console.log(celsius + " degrees celsius is", fahrenheit + " degrees fahrenheit");
   return fahrenheit;
 }
 

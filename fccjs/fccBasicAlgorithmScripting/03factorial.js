@@ -9,10 +9,11 @@
 //
 // Only integers greater than or equal to zero will be supplied to the function.
 
+let answer = 0;
 function factorialize(num) {
-  var answer = 0;
+  "use strict";
   if (num < 0) {
-    return "Must be greater than or equal to 0"; 
+    return "Must be greater than or equal to 0";
   } else if (num === 0) {
     answer = 1;
   } else {

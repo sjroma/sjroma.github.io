@@ -3,11 +3,12 @@
 //
 //Remember, you can iterate through an array with a simple for loop, and access each member with array syntax arr[i].
 
+let largestArr = [];
 function largestOfFour(arr) {
-  var largestArr = [];
-  for (var i = 0; i < arr.length; i++) {
-    var largestNum = arr[i][0];
-    for (var j = 0; j < arr[i].length; j++) {
+  "use strict";
+  for (let i = 0; i < arr.length; i++) {
+    let largestNum = arr[i][0];
+    for (let j = 0; j < arr[i].length; j++) {
       if (arr[i][j] > largestNum) {
         largestNum = arr[i][j];
       }

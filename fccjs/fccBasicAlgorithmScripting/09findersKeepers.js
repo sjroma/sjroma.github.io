@@ -3,8 +3,9 @@
 //element in the array that passes a truth test (second argument). If no element passes 
 //the test, return undefined.
 
+let num;
 function findElement(arr, func) {
-  let num;
+  "use strict";
   for (let i = 0; i < arr.length; i++) {
     if (func(arr[i]) === true) {
       num = arr[i];

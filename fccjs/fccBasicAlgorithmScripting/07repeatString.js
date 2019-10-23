@@ -3,15 +3,17 @@
 //Return an empty string if num is not a positive number.
 //The built-in repeat()-method should not be used
 
+let repeated = "";
 function repeatStringNumTimes(str, num) {
+  "use strict";
   if (num <= 0) {
     return "";
   } else if (num === 1) {
     return str;
   } else {
-    str = str + repeatStringNumTimes(str, num - 1);
+    repeated = str + repeatStringNumTimes(str, num - 1);
   }
-  return str;
+  return repeated;
 }
 
 //console.log(repeatStringNumTimes("*", 3)); //should return "***"

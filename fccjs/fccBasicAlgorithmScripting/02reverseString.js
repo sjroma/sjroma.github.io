@@ -2,10 +2,14 @@
 // You may need to turn the string into an array before you can reverse it.
 // Your result must be a string.
 
+let splitString;
+let reverseArray = [];
+let joinArray = [];
 function reverseString(str) {
-  var splitString = str.split("");
-  var reverseArray = splitString.reverse();
-  var joinArray = reverseArray.join("");
+  "use strict";
+  splitString = str.split("");
+  reverseArray = splitString.reverse();
+  joinArray = reverseArray.join("");
   return joinArray;
 }
 

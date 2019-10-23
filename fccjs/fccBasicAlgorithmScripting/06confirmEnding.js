@@ -8,8 +8,9 @@
 //  return str.indexOf(target, str.length - target.length) !== -1;
 //}
 
+let doesIt = ""
 function confirmEnding(str, target) {
-  var doesIt = "";
+  "use strict";
   doesIt = str.indexOf(target, str.length - target.length) !== -1;
   return doesIt;
 }
