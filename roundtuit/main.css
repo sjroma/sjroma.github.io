@@ -4,7 +4,6 @@
 }
 
 body {
-  background: #fff;
   color: #a5464c;
   font-family: sans-serif;
   text-align: center;
@@ -35,11 +34,18 @@ body {
   transform: translate(-50%, -50%); /* precise centering */
 }
 
+img {
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+}
+
 .tuit-poem {
   color: #333;
   font-family: Acme;
   font-size: 1.1em;
   padding-top: 2em;
+  white-space: pre-line;
 }
 
 .copy {
