@@ -5,20 +5,13 @@ body {
   font-family: 'Ubuntu', sans-serif;
     }
 
-h3 {
-/*  color: cornflowerblue;*/
-}
-
-.active {
-	background-color: lightgrey;
-}
-
 section {
   margin-top: 1em;
 }
 
 .dropdown-menu {
-  max-height: 19em;
+  background-color: lightgrey;
+  max-height: 21em;
   overflow-y: auto;
 }
 
