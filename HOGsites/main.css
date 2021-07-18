@@ -17,6 +17,11 @@ section {
   margin-top: 1em;
 }
 
+.dropdown-menu {
+  max-height: 19em;
+  overflow-y: auto;
+}
+
 ul {
   list-style-type: circle;
 }
