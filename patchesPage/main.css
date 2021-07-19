@@ -1,16 +1,22 @@
 :root {
   --bg-color: #c1c1c1;
+  --bg-color: #222;
   --font-color: #222;
+  --font-color: #c1c1c1;
   --heading-color: #222;
+  --heading-color: #ff8500;
   --link-color: #00e;
+  --link-color: #ff8500;
 }
 
+/*
 [data-theme="dark"] {
   --bg-color: #222;
   --font-color: #c1c1c1;
   --heading-color: #ff8500;
   --link-color: #ff8500;
 }
+*/
 
 body {
   background-color: var(--bg-color);
