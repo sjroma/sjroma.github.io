@@ -1,0 +1,37 @@
+body {
+  background-color: #f9f9f9;
+  font-family: Rubik, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.introduction {
+  margin: auto 3.125em;
+  text-align: left;
+}
+
+.grid {
+  display: flex;
+  margin-top: 1.2em;
+}
+
+#features .patch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-height: 150px;
+  min-width: 150px;
+}
+
+.patch-title {
+  padding-left: 1em;
+}
+
+.ride-info {
+  margin: auto 2em;
+}
