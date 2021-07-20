@@ -14,7 +14,8 @@ This is a repo that hosts some of the work I've done. It gives users an easy way
 
 **[HOG websites](https://sjroma.github.io/HOGsites)** - simple page w/navbar dropdowns of HOG websites built with various content management systems (CMS), [HOG[SCAN]](https://www.hogscan.com), [Pinnacle Consulting](http://pin-consult.com), [Wordpress](https://wordpress.com) and [Wix](https://www.wix.com)  
 
-**[RalHOG Patches](https://sjroma.github.io/patchesPage)** - Refactored the old page. Now using CSS Grid instead of a table to make it easier to add Patch image, title and description. I've made the links accessible and included the ability to toggle to dark mode. 
+**[RalHOG Patches](https://sjroma.github.io/patchesPage)** - Refactored the old page. Now using CSS Grid instead of a table to make it easier to add Patch image, title and description. I've made the links accessible ~~and included the ability to toggle to dark mode~~.  I've made the backgrounds on the patch images transparent so the images look best on the page.  
+I was asked to remove the toggle and present the page in dark mode only. The underlying code is still there in case that decision gets overturned. 
 
 **[fccJavaScript](http://sjroma.github.io/fccjs)** - JavaScript code snippets I wanted to save for possible future reference. Users can either;  
 &nbsp;&nbsp;- open Dev Tools and view the console  
