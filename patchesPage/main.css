@@ -34,7 +34,7 @@ h1 {
 }
 
 .contacts {
-  margin: auto 4.0em;
+  margin: 1.0em 4.0em;
 }
 
 .grid {
@@ -144,6 +144,10 @@ input:checked + .slider:before {
   
   .introduction {
     margin: auto 1.125em;
+  }
+  
+  .contacts {
+    margin: 0.5em 0em 0em 1.3em;
   }
   
   h3 {
