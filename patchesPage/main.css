@@ -19,7 +19,7 @@ body {
 
 h1 {
   text-align: center;
-  padding: 0.5em 0;
+  margin: 0.5em auto;
 }
 
 .introduction {
@@ -33,8 +33,7 @@ h1 {
 
 .patch-container {
   display: flex;
-  margin: auto 2.5em;
-  padding: 0.6em 0;
+  margin: 0.6em 2.5em;
 }
 
 .patch-title {
@@ -72,6 +71,7 @@ img {
 
 .line {
   display: block;
+  padding-bottom: 0.5em;
 }
 
 @media screen and (max-width:700px) {
