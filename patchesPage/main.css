@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --bg-color: #222;
   --font-color: #f9f9f9;
@@ -26,9 +32,8 @@ h1 {
 
 .patch-container {
   display: flex;
-  margin-top: 1.2em;
   margin: auto 2.5em;
-  padding-top: 1.2em;
+  padding: 0.6em 0;
 }
 
 .patch-title {
@@ -39,7 +44,7 @@ h1 {
   color: var(--link-color);
 }
 
-.patch-list .patch {
+.patch {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,12 +56,21 @@ img {
   width: 150px;
 }
 
+.description {
+  display:flex;
+  flex-direction: column;
+}
+
 .patch-title {
   padding-left: 1em;
 }
 
 .ride-info {
   margin: auto 2em;
+}
+
+.line {
+  display: block;
 }
 
 @media screen and (max-width:700px) {
@@ -79,6 +93,10 @@ img {
   
   h3 {
     font-size: 0.8em;
+  }
+  
+  .patch-container {
+    margin: auto 1.2em;
   }
   
   img {
