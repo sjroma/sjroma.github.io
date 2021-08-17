@@ -10,19 +10,18 @@ This is a repo that hosts some of the work I've done. It gives users an easy way
 
 **[Listen to Music](https://sjroma.github.io/soundcloud)** - a front-end JavaScript exercise that connects to the Soundcloud API and lets the user search for an Artist or song title and then play the result  
 
-**[Round tuit](http://sjroma.github.io/roundtuit)** - a goofy web page to give motivation to procrastinators  
+**[Round TUIT](http://sjroma.github.io/roundtuit)** - a goofy web page to give motivation to procrastinators  
 
-**[HOG websites](https://sjroma.github.io/HOGsites)** - simple page w/navbar dropdowns of HOG websites built with various content management systems (CMS), [HOG[SCAN]](https://www.hogscan.com), [Pinnacle Consulting](http://pin-consult.com), [Wordpress](https://wordpress.com) and [Wix](https://www.wix.com)  
+**[HOG websites](https://sjroma.github.io/HOGsites)** - simple page w/navbar dropdowns of HOG websites that were built with various content management systems (CMS), [HOG[SCAN]](https://www.hogscan.com), [Pinnacle Consulting](http://pin-consult.com), [Wordpress](https://wordpress.com) and [Wix](https://www.wix.com)  
 
-**[RalHOG Patches](https://sjroma.github.io/patchesPage)** - Refactored the old page. Now using Flexbox instead of a table to make it easier to add Patch image, title and description. I've made the links accessible ~~and included the ability to toggle to dark mode~~.  I've made the backgrounds on the patch images transparent so the images look best on the page.  
-I was asked to remove the toggle and present the page in dark mode only. The underlying code is still there in case that decision gets overturned. 
+**[RalHOG Patches](https://sjroma.github.io/patchesPage)** - a refactored Raleigh HOG Patches page   
 
 **[fccJavaScript](http://sjroma.github.io/fccjs)** - JavaScript code snippets I wanted to save for possible future reference. Users can either;  
 &nbsp;&nbsp;- open Dev Tools and view the console  
 &nbsp;&nbsp;- or open the interactive page, input test cases and see results w/out having to open Dev Tools. This as an exercise I came up with to combine/grow my HTML, CSS and front-end JS skills. 
 
-### To-do
-[ ] Create a portfolio for this space to showcase these apps and see another example of work I can do  
-[x] Create v2 of rock-paper-scissors. One that does not rely on Alert pop-ups and having the user type in their choice  
+### To-do  
+  - [ ] Create a portfolio for this space to showcase these apps and see another example of work I can do   
+  - [x] Create v2 of rock-paper-scissors. One that does not rely on Alert pop-ups and having the user type in their choice   
 
 ##### ~/GitHub/sjroma.github.io  
