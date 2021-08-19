@@ -14,7 +14,7 @@
 body {
   background-color: var(--bg-color);
   color: var(--font-color);
-  font-family: 'Raleway', 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 h1 {
