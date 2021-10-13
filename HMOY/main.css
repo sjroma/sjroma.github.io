@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e0b78d;
+  background-image: url(https://raw.githubusercontent.com/sjroma/fccWebDesignProjects/master/tributePage/images/parchment.jpg);
+  background-size: cover;
+}
+
+.banner {
+  color: #ff8c00;
+  text-shadow: 0.07em 0.07em 0.13em #000;
+  font-family: Raleway, sans-serif;
+  font-size: 3.5em;
+  margin-top: 0.5em;
+  text-align: center;
+}
+
+.award-describe {
+  
+}
+
+.duplicate-winner {
+  color: #333;
+  margin: 0 auto;
+  max-width: 70%;
+  text-align: center;
+}
+
+.award-winners {
+
+  display: flex;
+  flex-wrap: wrap;
+/ padding: 2em;
+/*  border: solid 1px lightgreen;*/
+}
+
+
+p { 
+  margin: 5px 30px 15px;
+}
+
+
+.winner-tag { 
+  width: 400px;
+  width: 300px;
+  line-height: 1.0em;
+  font-family: "Xanh Mono", sans-serif;
+  font-size: 3.125em;
+  font-size: 2.125em;
+  text-align: center;
+/*  margin-left: 30px;*/
+  margin: 0.2em auto;
+  box-shadow: 0.05em 0.05em;
+  color: #333;
+  background-color: goldenrod;
+  border-radius: 15px;
+  text-shadow: 1px 1px 0px rgba(255,255,255,.6); /* 60% white from bottom */
+/*  border: 1px solid red;*/
+}
+
+ul {
+  list-style: none;
+}
+
+.name {
+  font-size: 0.9em;
+}
+
+.year {
+  font-size: 0.70em;
+}
