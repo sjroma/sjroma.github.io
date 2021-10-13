@@ -38,6 +38,10 @@ body {
 /*  border: solid 1px lightgreen;*/
 }
 
+p {
+      margin: 5px 30px 15px;
+    }
+
 .winner-tag { 
   width: 400px;
   width: 300px;
