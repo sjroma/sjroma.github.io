@@ -7,25 +7,19 @@
 body {
   background-color: #e0b78d;
   background-color: #333;
-/*  background-image: url(https://raw.githubusercontent.com/sjroma/fccWebDesignProjects/master/tributePage/images/parchment.jpg);*/
   background-size: cover;
+  font-family: Raleway, sans-serif;
 }
 
 .banner {
   color: #ff8c00;
   text-shadow: 0.07em 0.07em 0.13em #000;
-  font-family: Raleway, sans-serif;
   font-size: 3.5em;
   margin-top: 0.5em;
   text-align: center;
 }
 
-.award-describe {
-  color: #f9f9f9;
-  text-align: center;
-}
-
-.duplicate-winner {
+.award-describe, .duplicate-winner {
   color: #f9f9f9;
   margin: 0 auto;
   max-width: 70%;
@@ -55,6 +49,7 @@ p {
   box-shadow: 0.05em 0.05em #000;
   color: #333;
   background-color: goldenrod;
+  background-color: #daa520;
   border-radius: 15px;
   text-shadow: 1px 1px 0px rgba(255,255,255,.6); /* 60% white from bottom */
 /*  border: 1px solid red;*/
