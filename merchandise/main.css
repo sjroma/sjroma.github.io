@@ -28,7 +28,7 @@ p {
 }
 
 .patches, .rockers, .flags {
-/*  border: solid 1px lightgreen;*/
+  
 }
 
 .section-title {
@@ -50,16 +50,14 @@ img {
 
 .describe {
   color: #f9f9f9;
+  margin: 0 auto;
 }
 
 .stock {
   color: #ff0000;
+  font-style: italic;
 }
 
 .email {
   color: #ff8c00;
-}
-
-.footer {
-  
 }
