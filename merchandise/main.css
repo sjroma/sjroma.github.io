@@ -7,7 +7,6 @@
 body {
   background-color: #e0b78d;
   background-color: #333;
-  background-size: cover;
   font-family: Raleway, sans-serif;
 }
 
@@ -21,12 +20,12 @@ body {
 
 p {
   color: #f9f9f9;
-  margin: 2em auto;
+  margin: 1em auto;
   line-height: 1.3em;
   text-align: center;
 }
 
-.patches, .rockers, .flags {
+.patches, .rockers, .tshirts, .accessory-items {
   
 }
 
@@ -34,6 +33,7 @@ p {
   color: #ff8c00;
   font-size: 2em;
   padding: 1em 0;
+  padding: 1em 0 0.3em 0;
   text-align: center;
 }
 
@@ -44,6 +44,7 @@ p {
 }
 
 .image {
+  border-radius: 5px;
   height: 12.5em;
   color: #f9f9f9;
   text-align: center;
@@ -59,6 +60,6 @@ p {
   font-style: italic;
 }
 
-.email {
+.email, .link {
   color: #ff8c00;
 }
