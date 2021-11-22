@@ -50,6 +50,14 @@ p {
   text-align: center;
 }
 
+.product-tile .image {
+  transition: transform .5s ease;
+}
+
+.product-tile .image:hover {
+  transform: scale(1.5);
+}
+
 .describe {
   color: #f9f9f9;
   margin: 0 auto;
