@@ -1,0 +1,215 @@
+<!--
+  steps to place HOGWASH newsletter on raleighhog.com and then send the Elastic Email campaign
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Update Newsletter Procedures</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f9f9f9;
+      font-family: Raleway, sans-serif;
+    }
+    
+    h1,
+    h2 {
+      text-align: center;
+    }
+
+    .yearly,
+    .website-steps,
+    .send-campaign {
+      border: solid 1px #333;
+      border-radius: 5px;
+      margin: auto;
+      max-width: 90%;
+      margin-bottom: 0.3em;
+    }
+    
+    p {
+      text-align: left;
+      margin: auto 1em;
+    }
+
+
+    h3 {
+      margin-left: 1em;
+    }
+
+    ul {
+      list-style-type: circle;
+      margin-left: 1.4em;
+    }
+
+    ol {
+      counter-reset: section;
+      list-style-type: none;
+    }
+
+    ol>li::before {
+      counter-increment: section;
+      content: counters(section, ".") " ";
+    }
+
+    li {
+      max-width: 95%;
+    }
+
+    .screenshot {
+      border-radius: 5px;
+      margin: 0.3em auto;
+      margin-left: 1.5em;
+      max-width: 90%;
+    }
+
+    .code-font {
+      font-size: 1.3em;
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>Procedure to Upload Newsletter and Send Campaign</h1>
+
+  <article class="yearly">
+    <h2>Create Annual Newsletter Container</h2>
+    <p><b>Steps in this section only need to be done at the start of the calendar year</b>.<br> Once the container has been created and populated with the first newsletter, the remaining newsletters for the calendar year will be added by following the steps in the <a href="#monthly">Upload Newsletter to the Website</a> section.</p>
+
+    <ul>
+      <li>Please note that prior to doing anything in the production environment you can <a href="https://dev.raleighhog.com" target="_blank">test in the sandbox environment</a> first. This environment is used for testing and is not seen by members.
+        <ul>
+          <li>Your webmaster will also help with any questions you may have.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <ol>
+      <li>Login to your account on <a href="https://www.raleighhog.com" target="_blank">raleighhog.com</a> and there will be a smaller Navigational Bar (navbar) on top of the Chapter navbar. See image below</li>
+      <div><img class="screenshot" src="../images/editorNavbar.png" alt="editor navbar"></div>
+      <li>Hover over <b>Content</b> to expand the menu, then hover over <b>Add Content</b> to expand then click <b>Newsletter</b>. See image below.</li>
+      <div><img class="screenshot" src="../images/newsletterCreateContainer.png" alt="screenshot of add content - newsletter dropdown"></div>
+      <li>The page to create the newsletter container opens. See image below.</li>
+      <div><img class="screenshot" src="../images/newsletterAnnualContainer.png" alt="screenshot of create annual container"></div>
+      <li>Fill in the required field, <b>Annual Container Title</b>
+        <ol>
+          <li>Stay with the naming convention of <i>20xx HOGWASH Newsletters</i> where <i>20xx</i> is the new calendar year</li>
+        </ol>
+      </li>
+      <li>Click the <b>Choose File</b> button and select from your machine the current newsletter.pdf file that you wish to upload</li>
+      <li>Click the <b>Upload</b> button</li>
+      <li>Once it uploads fill in the <b>Description</b> field
+        <ol>
+          <li>Stay with the current naming convention. <i>HOGWASH Month YYYY</i> (where <i>Month</i> is the first three letters of the month (e.g. Jan) and <i>YYYY</i> is the four digit calendar year). See image below</li>
+          <div><img class="screenshot" src="../images/editNewsletterFile.png" alt="screenshot showing how to add title"></div>
+        </ol>
+      </li>
+      <li>Scroll to the bottom of the page and click the <b>Save</b> button</li>
+      <li>You're done. A section for the new calendar year has been created and populated with the Jan edition of the newsletter.</li>
+      <li>Stay on this page. Do not log out yet.</li>
+      <li>Go to the <a href="#send-campaign">Send Campaign to Members</a> section to send the newsletter announcement.</li>
+    </ol>
+
+  </article>
+
+  <article class="website-steps">
+    <h2 id="monthly">Upload Newsletter to the Website</h2>
+
+    <ul>
+      <li>Please note that prior to doing anything in the production environment you can <a href="https://dev.raleighhog.com" target="_blank">test in the sandbox environment</a> first. This environment is used for testing and is not seen by members.
+        <ul>
+          <li>Your webmaster will also help with any questions you may have.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <ol>
+      <li>Login to your account on <a href="https://www.raleighhog.com" target="_blank">raleighhog.com</a></li>
+      <li>Navigate to the <b>HOGWASH Newsletters</b> page</li>
+      <li>With your mouse, hover over the section you want to edit. See image below
+        <ol>
+          <li>You will <u>only</u> edit the section in the current calendar year. (Section for "2021 HOGWASH Newletters" is shown as an example)</li>
+          <li>Note: the current section will be outlined when you hover your mouse over the cog icon to the right of the section title</li>
+        </ol>
+      </li>
+      <div><img class="screenshot" src="../images/editNewletters.png" alt="picture of a newsletter section selected and ready for editing"></div>
+      <li>Click on the cog icon and when it expands, click <b>Edit</b>.</li>
+      <li>In <b>FILE INFORMATION</b> scroll down to <b>Add a new file</b> See image below</li>
+      <div><img class="screenshot" src="../images/editNewsletterFile2.png" alt=""></div>
+      <li>Click the <b>Choose File</b> button and select from your machine the current newsletter.pdf file that you wish to upload</li>
+      <li>Click the <b>Upload</b> button</li>
+      <li>Once it uploads fill in the <b>Description</b> field. See image below
+        <ol>
+          <li>Stay with the current naming convention. <i>HOGWASH Month YYYY</i> (where <i>Month</i> is the first three letters of the month (e.g. Jan) and <i>YYYY</i> is the four digit calendar year)</li>
+        </ol>
+      </li>
+      <div><img class="screenshot" src="../images/editNewsletterFile2b.png" alt=""></div>
+      <li>Scroll to the bottom of the page and click the <b>Save</b> button</li>
+      <li>You're done. The current newsletter is appended to the bottom of the list.</li>
+      <li>Stay on this page. Do not log out yet.</li>
+    </ol>
+  </article>
+
+  <article class="send-campaign">
+    <h2 id="send-campaign">Send Campaign to Members</h2>
+
+    <p>Currently (4th Q 2021) we use <b>Elastic Email</b> to send campaigns to members. We will change to a different emailer in version 2 at which time this portion of the document will be updated.</p>
+    <p>There is no test environment for Elastic Email. Please do not stray from the steps outlined below.</p>
+
+    <h3>Edit the campaign</h3>
+
+    <ol>
+      <li>In a new browser tab, login to the <a href="https://elasticemail.com/account" target="_blank">Elastic Email account</a> with the email address and password supplied to you via email</li>
+      <li>Select <b>Templates</b> from the navigation list on the left</li>
+      <li>If not currently selected, select <b>My templates</b> from the Templates list</li>
+      <li>Select the template titled "HOGWASH announce" by clicking on the image or the title. Note: Do not click the white box or the elipsis</li>
+      <li>Left click once on the "Read HOGWASH" button to open the style menu. It will look like the image below</li>
+      <div><img class="screenshot" src="../images/eeNavbar.png" alt="picture of the style menu for the read hogwash button"></div>
+      <li>Go to the website tab and click to open the newsletter that was just uploaded</li>
+      <li>When it opens, double click in the address bar. This will show the full address which includes the <code class="code-font">https</code> protocol.</li>
+      <li>Make sure the full addess is selected/highlighted and use <code class="code-font">CMD + C</code> (<code class="code-font">CTRL + C</code> in Windows) to copy it to your clipboard.</li>
+      <li>Go back to the Elastic Email tab</li>
+      <li>Click the link icon. The mouse is pointing to it in the image above. It looks like a chain link</li>
+      <li>Delete the link that is there (double click anywhere on the link to highlight it, then hit the Delete button to clear it)</li>
+      <li>Use <code class="code-font">CMD + V</code> (<code class="code-font">CTRL + V</code> in Windows) to paste the link from your clipboard</li>
+      <li>Click the <b>Insert Link</b> button</li>
+      <li>Ensure that campaign has saved before moving off the screen. Do not navigate away until the campaign has saved successfully. The image below shows the campaign has saved successfully</li>
+      <div><img class="screenshot" src="../images/eecampaignSaved.png" alt="image showing campaign saved successfully"></div>
+      <li>Optional - You can send a test campaign to yourself to see how it looks prior to sending it to all members.
+        <ol>
+          <li>Click the cog icon (shown on the right in the previous image) enter your email address then click the <b>Send</b> button.</li>
+        </ol>
+      </li>
+      <li>You are now ready to send the campaign to all chapter members</li>
+    </ol>
+
+    <h3>Send the updated campaign</h3>
+
+    <ol>
+      <li>Select <b>Campaigns</b> from the navigation list on the left</li>
+      <li>Ensure <b>Campaign</b> is selected in the list. See image below.</li>
+      <div><img class="screenshot" src="../images/eeCampaignSelected.png" alt="image showing campaign is selected"></div>
+      <li>Click the <b>Create Campaign</b> button. See image above</li>
+      <li>In the <b>SEND TO:</b> section click the chevron to expand the dropdown. See image below</li>
+      <div><img class="screenshot" src="../images/eeselectSendTo.png" alt="image showing chevron to click"></div>
+      <li>Click <b>Chapter Members</b> from the list to select it</li>
+      <li>In the <b>SUBJECT / CONTENT</b> section click <b>Templates</b>. See image below</li>
+      <div><img class="screenshot" src="../images/eeSelectTemplates.png" alt=""></div>
+      <li>From the templates that open select <b>HOGWASH announce</b> by hovering over the image and clicking <b>Select</b>. See image below</li>
+      <div><img class="screenshot" src="../images/eeSelectSpecificTemplate.png" alt=""></div>
+      <li>Do <u>not</u> change any of the preformatted fields (Subject, From (Name) or From (Email)</li>
+      <li>No changes are needed for sections <b>SETTINGS &amp; TRACKING</b> or <b>LEGAL</b></li>
+      <li>Click the <b>Send Campaign</b> button</li>
+      <li>You're finished. You can log out of Elastic Email and raleighhog.com</li>
+    </ol>
+  </article>
+
+</body>
+
+</html>
