@@ -13,14 +13,14 @@ function dropdownChoice() {
   switch (script) {
     case "cToF":
       document.getElementById("descTitle").innerHTML = "Convert Celsius to Fahrenheit";
-      document.getElementById("descText").innerHTML = "The algorithm to convert from Celsius to Fahrenheit is; <code>F = (C x (9/5)) + 32</code>";
+      document.getElementById("descText").innerHTML = "The formula to convert from Celsius to Fahrenheit is; <code>F = (C x (9/5)) + 32</code>";
       document.getElementById("descTests").innerHTML = "<li><i>-30</i> should return a value of <i>-22</i></li><li><i>-10</i> should return a value of <i>14</i></li><li><i>0</i> should return a value of <i>32</i></li><li><i>20</i> should return a value of <i>68</i></li><li><i>30</i> should return a value of <i>86</i></li>";
       document.getElementById("textbox").placeholder = "-40";
       break;
       
     case "fToC":
       document.getElementById("descTitle").innerHTML = "Convert Fahrenheit to Celsius";
-      document.getElementById("descText").innerHTML = "The algorithm to convert from Fahrenheit to Celsius is; <code>C = (F-32) * (5/9)</code><br> This wasn't a script in the course but being in the U.S. I have more reason to use this conversion.<br> One day I'll write a toggle so you don't have to choose from the dropdown.";
+      document.getElementById("descText").innerHTML = "The formula to convert from Fahrenheit to Celsius is; <code>C = (F-32) * (5/9)</code><br> This wasn't a script in the course but being in the U.S. I have more reason to use this conversion.<br> One day I'll write a toggle so you don't have to choose from the dropdown.";
       document.getElementById("descTests").innerHTML = "<li><i>-40</i> should return a value of <i>-40</i> (it's where the two scales cross)</li><li><i>32</i> (freezing point of water) should return a value of <i>0</i></li><li><i>68</i> should return a value of <i>20</i></li><li><i>212</i> (boiling point of water) should return a value of <i>100</i></li><li><i>451</i> (ignition temp of paper) should return a value of <i>233</i></li>";
       document.getElementById("textbox").placeholder = "72";
       break;
