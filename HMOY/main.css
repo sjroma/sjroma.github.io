@@ -31,7 +31,6 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   padding: 2em;
-  /*  border: solid 1px lightgreen;*/
 }
 
 .winner-tag {
@@ -61,7 +60,6 @@ body {
   border-radius: 15px;
   text-shadow: 1px 1px 0px rgba(255, 255, 255, .6);
   /* 60% white from bottom */
-  /*  border: 1px solid red;*/
 }
 
 ul {
