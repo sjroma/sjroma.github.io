@@ -1,11 +1,16 @@
 # CMS HOG[SCAN]
 
-## Chapters
-This subdirectory contains a listing of what I know to be the [HOG chapters powered by HOGSCAN](https://sjroma.github.io/cmshogscan/chapters/) 
+## HOG[SCAN] - a CMS (Content Management System) website  
+A [few notes about about the initial setup of your new HOG[SCAN] website](https://sjroma.github.io/cmshogscan/cmswebsite/)
 
-## CMSWebsite
-This subdirectory contains a [few notes about about the initial setup of your new site](https://sjroma.github.io/cmshogscan/cmswebsite/)
+## HOG Chapters
+A page showing the [HOG chapters powered by HOGSCAN](https://sjroma.github.io/cmshogscan/chapters/) 
 
-## Raleigh HOG pages
-[HOG Member of the Year](https://sjroma.github.io/cmshogscan/pagesralhog/hmoy) is a page unique to the raleighhog.com website. It is a list of chapter members how were selected for this honor each year since its inception in 2004 
-[Merchandise](https://sjroma.github.io/cmshogscan/pagesralhog/merchandise) shows available chapter merchandise 
+## Raleigh HOG pages  
+The following pages were created from scratch for the raleighhog.com website. I have a background writing code with HTML and CSS so it's easier for me to create a page off-line and then copy/paste it to the CMS site.
+  * [HOG Member of the Year](https://sjroma.github.io/cmshogscan/pagesralhog/hmoy) is a page unique to the raleighhog.com website. It is a list of chapter members who were selected for this honor each year since its inception in 2004  
+
+  * [Merchandise](https://sjroma.github.io/cmshogscan/pagesralhog/merchandise) is a page showing available chapter merchandise  
+  The page also shows if an item is out of stock  
+  Hovering over an image causes it to grow  
+  
