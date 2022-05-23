@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e0b78d;
+  background-color: #333;
+  font-family: Raleway, sans-serif;
+}
+
+.banner {
+  color: #ff8c00;
+  text-shadow: 0.07em 0.07em 0.13em #000;
+  font-size: 3.5em;
+  margin-top: 0.5em;
+  text-align: center;
+}
+
+p {
+  color: #f9f9f9;
+  margin: 1em auto;
+  line-height: 1.3em;
+  text-align: center;
+}
+
+.patches, .rockers, .tshirts, .accessory-items {
+  
+}
+
+.section-title {
+  color: #ff8c00;
+  font-size: 2em;
+  padding: 1em 0;
+  padding: 1em 0 0.3em 0;
+  text-align: center;
+}
+
+.product-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.image {
+  border-radius: 5px;
+  height: 12.5em;
+  color: #f9f9f9;
+  text-align: center;
+}
+
+.product-tile .image {
+  transition: transform .5s ease;
+}
+
+.product-tile .image:hover {
+  transform: scale(1.5);
+}
+
+.describe {
+  color: #f9f9f9;
+  margin: 0 auto;
+}
+
+.stock {
+  color: #ff0000;
+  font-style: italic;
+}
+
+.email, .link {
+  color: #ff8c00;
+}
