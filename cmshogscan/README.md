@@ -5,7 +5,7 @@ The pages here started off as notes to myself and to share with team members but
 
 ---  
 
-**[CMS Setup Notes](https://sjroma.github.io/cmshogscan/cmswebsite/)** - HOG\[SCAN\] uses role base permissions to restrict network access based on a members role. This page gives a brief description of the various roles and the access granted to each one.  
+**[HOG\[SCAN\] Setup Notes](https://sjroma.github.io/cmshogscan/cmswebsite/)** - HOG\[SCAN\] uses role base permissions to restrict network access based on a members role. This page gives a brief description of the various roles and the access granted to each one.  
 Additionally the page also briefly shows which directories each role has access to. 
 
 **[HOG chapters powered by HOG\[SCAN\]](https://sjroma.github.io/cmshogscan/chapters/)** - Alphabetized by state and then city, this page lists the HOG chapters that use HOG\[SCAN\] and provides a link to each one. 
