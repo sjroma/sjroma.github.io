@@ -17,7 +17,11 @@ The pages here are shown as examples of what you can do to personalize your webs
   * **[Merchandise](https://sjroma.github.io/cmshogscan/pagesralhog/merchandise)** - a page showing available chapter merchandise. The page also shows if an item is out of stock or low stock. Hovering over an image causes it to grow.  
   There is no JavaScript behind this page. If an item is low, or out of stock, the page has to be manually updated.  
   
-  * **[Patch Rides](https://sjroma.github.io/cmshogscan/pagesralhog/patchrides)** - a page showing various patches members can earn by doing what everyone loves, riding. The page was styled using Flexbox to make it easier to add additional patch images along with the title and description. The description of each patch ride includes a link to a PDF which has the requirements to be met to earn the patch.  
+  * **[Patch Rides](https://sjroma.github.io/cmshogscan/pagesralhog/patchrides)** - a page showing various patches Raleigh NC Chapter members can earn by doing what everyone loves...riding. The page was styled using Flexbox to make it easier to add additional patch images along with the title and description. The description of each patch ride includes a link to a PDF which has the requirements to be met to earn the patch.  
   
   * **[FAQ](https://www.raleighhog.com/faqs)** and **[Ladies of Harley](https://www.raleighhog.com/ladies-harley)** - both pages are simplistic in that there is not much coding that I did when creating them. However, the FAQ page uses the HTML description list rather than an unordered or ordered list only because I think it works better for the page and doesn't require me to put additional tags around the question in order to make the text bold.  
+
+The following pages were created to help ease the transition of someone moving into a new role. They are step-by-step guides that provide a reference.  
+  * **[Update the Event Calendar](https://sjroma.github.io/updateRalHOG/procedures/stepsEventCalUpdate.html)**   
+  * **[Place Newsletters on the Website](https://sjroma.github.io/updateRalHOG/procedures/stepsNewslettersUpdate.html)**  
   
