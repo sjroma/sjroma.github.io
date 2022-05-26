@@ -21,7 +21,7 @@ The pages here are shown as examples of what you can do to personalize your webs
   
   * **[FAQ](https://www.raleighhog.com/faqs)** and **[Ladies of Harley](https://www.raleighhog.com/ladies-harley)** - both pages are simplistic in that there is not much coding that I did when creating them. However, the FAQ page uses the HTML description list rather than an unordered or ordered list only because I think it works better for the page and doesn't require me to put additional tags around the question in order to make the text bold.  
 
-The following pages were created to help ease the transition of someone moving into a new role. They are step-by-step guides that provide a reference.  
+The following pages were created to help ease the transition for someone moving into a new role. They are step-by-step guides that can be used by a first timer as well as provide a reference for those with more experience.  
   * **[Update the Event Calendar](https://sjroma.github.io/updateRalHOG/procedures/stepsEventCalUpdate.html)**   
   * **[Place Newsletters on the Website](https://sjroma.github.io/updateRalHOG/procedures/stepsNewslettersUpdate.html)**  
   
