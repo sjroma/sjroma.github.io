@@ -3,6 +3,8 @@
 [HOG\[SCAN\]](https://www.hogscan.com) is a content management system (CMS) designed to help HOG chapters set up a responsive, easy to maintain website.  
 The pages here started off as notes to myself and to share with team members but I'm going to open this up to any chapter that uses HOG\[SCAN\] in the hopes that they will help someone else.  
 
+If anyone has something they would like to see added here, has something to contribute, or would like to ask me a question please feel free to [send me an email](mailto:webmaster@raleighhog.com).  
+
 ---  
 
 **[HOG\[SCAN\] Setup Notes](https://sjroma.github.io/cmshogscan/cmswebsite/)** - HOG\[SCAN\] uses role base permissions to restrict network access based on a members role. This page gives a brief description of the various roles and the access granted to each one.  
@@ -21,7 +23,8 @@ The pages here are shown as examples of what you can do to personalize your webs
   
   * **[FAQ](https://www.raleighhog.com/faqs)** and **[Ladies of Harley](https://www.raleighhog.com/ladies-harley)** - both pages are simplistic in that there is not much coding that I did when creating them. However, the FAQ page uses the HTML description list rather than an unordered or ordered list only because I think it works better for the page and doesn't require me to put additional tags around the question in order to make the text bold.  
 
-The following pages were created to help ease the transition for someone moving into a new role. They are step-by-step guides that can be used by a first timer as well as provide a reference for those with more experience.  
+The following pages were created to help ease the transition for someone moving into a new role. They are step-by-step how-to guides that can be used by a first timer as well as provide a reference for those with more experience.  
   * **[Update the Event Calendar](https://sjroma.github.io/updateRalHOG/procedures/stepsEventCalUpdate.html)**   
   * **[Place Newsletters on the Website](https://sjroma.github.io/updateRalHOG/procedures/stepsNewslettersUpdate.html)**  
+  * **[Upload Financial Report to the Website](https://sjroma.github.io/updateRalHOG/procedures/stepsFinancialReport.html)**  
   
