@@ -20,6 +20,11 @@ dt {
   margin-top: 1.3em;
 }
 
+.newline {
+  display: block;
+  padding-left: 0.8em;
+}
+
 code {
   font-size: 1.3em;
 }
