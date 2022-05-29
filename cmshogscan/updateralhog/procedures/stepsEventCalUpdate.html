@@ -1,0 +1,187 @@
+<!--
+  steps to update the event calendar on raleighhog.com
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Update Event Cal on website</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f9f9f9;
+      font-family: Raleway, sans-serif;
+    }
+
+    h1,
+    h2 {
+      text-align: center;
+    }
+
+    p {
+      text-align: left;
+      margin-left: 2em;
+    }
+
+    .notes,
+    .create {
+      border: solid 1px #333;
+      border-radius: 5px;
+      margin: auto;
+      margin-bottom: 0.3em;
+      max-width: 90%;
+    }
+
+    ul {
+      list-style-type: circle;
+      margin-left: 1.4em;
+    }
+
+    ol {
+      counter-reset: section;
+      list-style-type: none;
+    }
+
+    ol>li::before {
+      counter-increment: section;
+      content: counters(section, ".") " ";
+      font-weight: bold;
+      color: #f77;
+    }
+
+    li {
+      max-width: 95%;
+    }
+
+    .screenshot {
+      border-radius: 5px;
+      margin: 0.3em auto;
+      margin-left: 1.5em;
+      max-width: 90%;
+    }
+
+    .code-font {
+      font-size: 1.3em;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <h1>Update the Event Calendar on raleighhog.com</h1>
+  <article class="notes">
+
+    <h2>General notes, terminology and policies</h2>
+    <ul>
+      <li>Please note that prior to doing anything in the production environment, you can <a href="https://dev.raleighhog.com" target="_blank">test in the sandbox environment</a> first. This environment is used for testing and is not seen by members.
+        <ul>
+          <li>Your webmaster will also help with any questions you may have.</li>
+        </ul>
+      </li>
+      <li>There are two Event Calendars
+        <ul>
+          <li>Chapter Event Calender - the main calendar, anyone on our website can see all events</li>
+          <li>Road Captain Event Calendar - viewable only by Raleigh NC Chapter Road Captains after successful login to their account</li>
+        </ul>
+      </li>
+      <li>'Event' is a ride, meeting or activity that is posted on the Raleigh NC Chapter Event Calendar. Throughout this document they will all be referred to as event.</li>
+      <li>Most of our events are 'closed', meaning members may invite a guest but the event can only take place if there is greater than 51% current Raleigh NC Chapter members. This is a HOG national policy and is due to insurance concerns.
+        <ul>
+          <li>LOH 'open to all' events are closed events. The 'open to all' statement means the event is not just for LOH members but is open to all Raleigh NC Chapter members, National HOG members and other guests as desired.</li>
+        </ul>
+      </li>
+      <li>Consistancy is key. Do not use different terminology for the same event. For example, throughout the website and in campaigns our monthly meeting is referred to as "Monthly Chapter meeting". It should be referred to as such in the Event Calendar so the naming convention is consistant throughout and transparent to end users.</li>
+      <li>Last names, phone numbers and/or member personal email addresses are not to be displayed in any forward facing document so they are not put in any event. The Raleigh NC Chapter Event Calendar is forward facing.
+        <ul>
+          <li>'Forward facing' means any page that a non-authenticated user has access to. A non-authenticated user is one that has not successfully logged in.</li>
+          <li>The policy of maintaining privacy by not exposing last names, phone numbers, personal email addresses, personal motorcycle information, etc is from HOG national.</li>
+        </ul>
+      </li>
+      <li>National discourages HOG chapters from publishing any photographs of minor children, even with permission from a parent or guardian.</li>
+    </ul>
+  </article>
+
+  <article class="create">
+    <h2>Create an Event</h2>
+    <ol>
+      <li>Login to your account and there will be a smaller Navigational Bar (navbar) on top of the Chapter navbar. See image below</li>
+      <div><img class="screenshot" src="../images/activityNavBar.jpg" alt="screenshot of navbar"></div>
+      <li>Click <b>Add content</b> to go to the following screen... See image below
+        <ol>
+          <li><i>Article</i> - creates a blog entry, not used here and a different document</li>
+          <li><b>Event</b> - this is how Event Calender entries are made and is the purpose of this document</li>
+          <li><i>Event checkin</i> - the check-in process uses the HOG[SCAN] app, this is not used</li>
+          <li><i>Forum topic</i> - forum has been turned off for the website, this is not used</li>
+          <li><i>Gallery</i> - you have access to add to the Gallery but this will be done by the Photographer, not used here and a different document</li>
+        </ol>
+      </li>
+      <div><img class="screenshot" src="../images/activityAddEvent.jpg" alt="screenshot showing selecting event"></div>
+      <li>Click <b>Event</b> and the <b>Create Event</b> page opens</li>
+      <li>There are four required fields. These fields, designated with a red asterisk, must be populated prior to saving the event.
+        <ol>
+          <li><b>Title</b> - A short, descriptive title</li>
+          <li><b>EVENT DATE</b> - Includes Date and Time, <i>Show End Date</i> is only checked if the event is an over-nighter. The second Date / Time fields are populated with the last day of the event.</li>
+          <li><b>Date</b> - Event date formatted as mm/dd/yyyy</li>
+          <li><b>Time</b> - Event time formatted as hh:mm followed by am or pm</li>
+          <li><b>Event type</b> - our events (rides / meetings) are closed events</li>
+          <li><b>Note:</b> If <b>Event type</b> is <i>Road Captain Events</i> or <i>RC pre-rides</i>, the event will only appear on the Road Captain Event Calendar. (The RC Event Calendar can only be viewed by RC's after they've logged in.)</li>
+        </ol>
+      </li>
+      <li><b>Ride Mileage</b> - we do not use this field, it can be left blank</li>
+      <li><b>Points</b> - used only to identify newer members, leave at the default of 10</li>
+      <li><b>Event Coordinator</b> - select from the dropdown. If the name isn't in the list leave it blank</li>
+      <li><b>Image</b> - leave blank. An image, if available, will be included in the Body area. (If populated here it messes with the copy flow and the map.)</li>
+      <li><b>Body (Edit summary)</b> - this is where the destination image and the event details are placed</li>
+      <li>The image below shows the <b>Body</b> toolbar</li>
+      <div><img class="screenshot" src="../images/activityBodyToolbar.jpg"></div>
+      <li>Hover over an icon to see a tooltip pop-up of the function of that icon. The icons highlighted in red are ones that are of use. The rest can be ignored as there is no need to use HTML/CSS to style the copy.
+        <ol>
+          <li><code class="code-font">Link</code> icon - e.g. used to provide a link to a hotel to make reservations for overnight trips</li>
+          <li><code class="code-font">Image</code> icon - e.g. used to include an image of the destination in the copy. Images for frequent ride destinations and dealer events have been preloaded and are currently available.</li>
+          <li><code class="code-font">Bold</code> icon - e.g. used to make text stand out. For instance, <b>Login and click RSVP to repond</b></li>
+          <li><code class="code-font">Italic</code> icon - e.g. the name of the restaurant or destination is usually in italics to make it stand out from the rest of the copy</li>
+          <li><code class="code-font">Size</code> icon - e.g. the font size defaults to 14px. It reads easier if you choose 16 from the dropdown.</li>
+        </ol>
+      </li>
+      <li>Click the <code class="code-font">image</code> icon to add an image to the copy and the following pop-up appears. See image below
+      <div><img class="screenshot" src="../images/activityAddImage.jpg"></div>
+      <ol>
+        <li>Click the <b>Browse Server</b> button. The following window opens...</li>
+        <div><img class="screenshot" src="../images/activityImageSelect.jpg"></div>
+        <li>Click either <b>dealer-event-images</b> or <b>destination-images</b> to open it</li>
+        <li>Select the image you wish to use. NOTE: single click the name to see a preview of the image. Double click the name to select it.</li>
+        <li>You are brought back to the <b>Image Properties</b> pop-up and you can now see a preview of the image you chose.</li>
+        <li><b>Tip:</b> You do not want users to scroll through a large image to see the details of the event. In either the <b>Width</b> or <b>Height</b> boxes change the larger of the two to 400. The images aspect ratio will be maintained and users will appreciate seeing a smaller image.</li>
+        <li>Click the <b>OK</b> button</li>
+        <li>You can continue editing the <b>Body</b> to add text about the event. <br><b>Tip:</b> hit the spacebar so the text starts on the line below the image.</li>
+      </ol>
+      </li>
+      <li>Editing tip for the <b>Body (Edit summary)</b> section.
+        <ol>
+          <li>Use the <code class="code-font">Shift+Enter</code> keys to have a break in the line.</li>
+          <li>Use the <code class="code-font">Enter</code> key to start a new paragraph.</li>
+          <li>Note that in the copy, the times listed match the format of the website timestamp. You want to keep things consistant.</li>
+          <li>See image below for demonstraton</li>
+          <div><img class="screenshot" src="../images/activityEditingTip.png"></div>
+        </ol>
+      </li>
+      <li><b>EVENT LOCATION</b> section
+        <ol>
+          <li>Does not have to be filled in</li>
+          <li>If known, fill in <b>Street, City, State</b> and <b>Postal code</b></li>
+          <li>Click the "Find Address on Map" button to populate the map</li>
+        </ol>
+      </li>
+      <li>Scroll to the bottom of the page and click the "Save" button</li>
+      <li>The event has been added to the appropriate calendar</li>
+    </ol>
+  </article>
+
+</body>
+
+</html>
