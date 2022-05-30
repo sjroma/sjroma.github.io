@@ -39,6 +39,10 @@ li a {
   width: 23.2em;
 }
 
+.defunct {
+  color: #f00;
+}
+
 footer {
   background-color: #444;
   border-radius: 0.5em;
