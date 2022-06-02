@@ -16,6 +16,7 @@ The following pages were created to help ease the transition for someone moving 
   * **[Update the Event Calendar](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEventCalUpdate.html)** - Generally this is the Activities Officer role  
   * **[Place Newsletters on the Website](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsNewslettersUpdate.html)** - Generally this is the Editor role  
   * **[Upload Financial Report to the Website](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsFinancialReport.html)** - Page created by/for Raleigh NC Chapter, Editor role  
+  * **[Upload Images to the Galleries](https://sjroma.github.io/cmshogscan/updateralhog/procedures/comingSoon.html)** - Generally this is the Photographer role 
 
 The following pages were created from scratch for the raleighhog.com website. I have a background writing code with HTML and CSS so it's easier for me to create a page off-line and then copy/paste it to the CMS site.  
 The pages here are shown as examples of what you can do to personalize your website.  
@@ -27,3 +28,5 @@ The pages here are shown as examples of what you can do to personalize your webs
   * **[Patch Rides](https://sjroma.github.io/cmshogscan/pagesralhog/patchrides)** - a page showing various patches Raleigh NC Chapter members can earn by doing what everyone loves...riding. The page was styled using Flexbox to make it easier to add additional patch images along with the title and description. The description of each patch ride includes a link to a PDF which has the requirements to be met to earn the patch.  
   
   * **[FAQ](https://www.raleighhog.com/faqs)** and **[Ladies of Harley](https://www.raleighhog.com/ladies-harley)** - both pages are simplistic in that there is not much coding that I did when creating them. However, the FAQ page uses the HTML description list rather than an unordered or ordered list only because I think it works better for the page and doesn't require me to put additional tags around the question in order to make the text bold.  
+
+##### ~/GitHub/sjroma.github.io/cmshogscan  
