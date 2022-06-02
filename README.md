@@ -14,7 +14,7 @@ This is a repo that hosts some of the work I've done. It gives users an easy way
 
 **[HOG websites](https://sjroma.github.io/HOGsites)** - simple page w/navbar dropdowns of HOG websites that were built with various content management systems (CMS), [HOG[SCAN]](https://www.hogscan.com), [Pinnacle Consulting](http://pin-consult.com), [Wordpress](https://wordpress.com) and [Wix](https://www.wix.com)  
 
-**[RalHOG Patches](https://sjroma.github.io/patchesPage)** - a refactored Raleigh HOG Patches page   
+**[RalHOG Patches](https://sjroma.github.io/cmshogscan/pagesralhog/patchrides)** - a refactored Raleigh HOG Patches page   
 
 **[fccJavaScript](http://sjroma.github.io/fccjs)** - JavaScript code snippets I wanted to save for possible future reference. Users can either;  
 &nbsp;&nbsp;- open Dev Tools and view the console  
