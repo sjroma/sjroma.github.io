@@ -1,0 +1,103 @@
+<!--
+  steps to upload Road Captain documents to the server
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Upload Road Captain Documents</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f9f9f9;
+      font-family: Raleway, sans-serif;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    .notes, .website-steps {
+      border: solid 1px #333;
+      border-radius: 5px;
+      margin: auto;
+      max-width: 90%;
+      margin-bottom: 0.3em;
+    }
+
+    p {
+      text-align: left;
+      margin-left: 2em;
+    }
+
+    ul {
+      list-style-type: circle;
+      margin-left: 1.4em;
+    }
+
+    ol {
+      counter-reset: section;
+      list-style-type: none;
+    }
+
+    ol>li::before {
+      counter-increment: section;
+      content: counters(section, ".") " ";
+      font-weight: bold;
+      color: #f77;
+    }
+
+    li {
+      max-width: 95%;
+    }
+
+    .screenshot {
+      border-radius: 5px;
+      margin: 0.3em auto;
+      margin-left: 1.5em;
+      max-width: 90%;
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>Upload Road Captain Documents</h1>
+
+  <article class="notes">
+   <h2>General Notes</h2>
+    <ul>
+      <li>Please note that prior to doing anything in the production environment you can <a href="https://dev.raleighhog.com" target="_blank">test in the sandbox environment</a> first. This environment is used for testing and is not seen by members.</li>
+      <li>Your login credential are the same for both environments
+        <ul>
+          <li>Your webmaster will also help with any questions you may have.</li>
+        </ul>
+      </li>
+      <li>Please use caution when in the directories. You have the ability to delete files. This should <b>never</b> be done.</li>
+    </ul>
+  </article>
+
+  <article class="website-steps">
+    <ol>
+      <li>Login to your account on <a href="https://www.raleighhog.com">raleighhog.com</a></li>
+      <li>Click on the 'My account' link in the navbar. see image below</li>
+      <div><img class="screenshot" src="../images/rcMyAcct.jpg" alt="screenshot of my account link"></div>
+      <li>Click on the 'File browser' tab. see image below</li>
+      <div><img class="screenshot" src="../images/rcFileBrowserTab.jpg" alt="screenshot of file browser tab"></div>
+      <li>The following window opens. This shows all the directories the Road Captains have access to. Road Captains will only use the 'road_captains' directory for this tutorial.</li>
+      <div><img class="screenshot" src="../images/rcDirectories1.jpg" alt="screenshot of all road captain directories"></div>
+      <li>Click the 'road_captains' directory highlighted in the above image to expand it and it will expand as follows. As years go by there will be directories added. For this tutorial we will be using 2022.</li>
+      <div><img class="screenshot" src="../images/rcDirectories2.jpg" alt="screenshot of expanded road_captains directory"></div>
+      <li>Click on the current calender year to expand the directory. You will see a list of files that have been uploaded. For this tutorial we will use 2022. The expanded directory will look similar to the image below.</li>
+      <div><img class="screenshot" src="../images/rcDirectories3.jpg" alt="screenshot showing 2022 directory opened"></div>
+    </ol>
+  </article>
+
+</body>
+
+</html>
