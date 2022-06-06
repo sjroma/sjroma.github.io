@@ -1,0 +1,93 @@
+<!--
+  steps to place pictures into the Gallery
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Upload Gallery Pictures</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f9f9f9;
+      font-family: Raleway, sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .notes,
+    .website-steps {
+      border: solid 1px #333;
+      border-radius: 5px;
+      margin: auto;
+      max-width: 90%;
+      margin-bottom: 0.3em;
+    }
+
+    p {
+      text-align: left;
+      margin-left: 2em;
+    }
+
+    ul {
+      list-style-type: circle;
+      margin-left: 1.4em;
+    }
+
+    ol {
+      counter-reset: section;
+      list-style-type: none;
+    }
+
+    ol>li::before {
+      counter-increment: section;
+      content: counters(section, ".") " ";
+      font-weight: bold;
+      color: #f77;
+    }
+
+    li {
+      max-width: 95%;
+    }
+
+    .screenshot {
+      border-radius: 5px;
+      margin: 0.3em auto;
+      margin-left: 1.5em;
+      max-width: 90%;
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>Upload Pictures to the Galleries</h1>
+
+  <article class="notes">
+
+    <ul>
+      <li>Please note that prior to doing anything in the production environment you can <a href="https://dev.raleighhog.com" target="_blank">test in the sandbox environment</a> first. This environment is used for testing and is not seen by members.
+        <ul>
+          <li>Your webmaster will also help with any questions you may have.</li>
+        </ul>
+      </li>
+    </ul>
+  </article>
+
+  <article class="website-steps">
+
+    <ol>
+      <li>Login to your account on <a href="https://www.raleighhog.com" target="_blank">raleighhog.com</a> and there will be a smaller Navigational Bar (navbar) on top of the Chapter navbar. See image below</li>
+    </ol>
+
+  </article>
+
+</body>
+
+</html>
