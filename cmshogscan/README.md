@@ -14,7 +14,7 @@ Additionally the page also briefly shows which directories each role has access 
 
 The following pages were created to help ease the transition for someone moving into a new role. They are step-by-step how-to guides that can be used by a first timer as well as provide a reference for those with more experience.  
   * **[Place Newsletters on the Website](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsNewslettersUpdate.html)** - Editor role  
-  * **[Upload Financial Report to the Website](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsFinancialReport.html)** - Page created by/for Raleigh NC Chapter, Editor role  
+  * **[Place Financial Report on the Website](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsFinancialReport.html)** - Page created by/for Raleigh NC Chapter, Editor role  
   * **[Update the Event Calendar](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEventCalUpdate.html)** - Activities Officer role  
   * **[Upload Images to the Galleries](https://sjroma.github.io/cmshogscan/updateralhog/procedures/comingSoon.html)** - Photographer role 
   * **[Upload Road Captain Documents](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsRoadCaptUploads.html)** - Road Captain role
