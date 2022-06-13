@@ -9,8 +9,8 @@ Other webmasters, if you have something you would like to see added here, have s
 
 **[HOG chapters powered by HOG\[SCAN\]](https://sjroma.github.io/cmshogscan/chapters/)** - Alphabetized by state and then city, this page lists the HOG chapters that use HOG\[SCAN\] and provides a link to each one.  
 
-**[HOG\[SCAN\] Setup Notes](https://sjroma.github.io/cmshogscan/cmswebsite/)** - HOG\[SCAN\] uses role base permissions to restrict network access based on a members role. This page gives a brief description of the various roles and the access granted to each one.  
-Additionally the page also briefly shows which directories each role has access to.  
+**[HOG\[SCAN\] Setup Notes](https://sjroma.github.io/cmshogscan/cmswebsite/)** - HOG\[SCAN\] uses role based permissions to restrict network access based on a members role. This page gives a brief description of the various roles and the access granted to each one.  
+Additionally the page also contains notes of things I've learned along the way.  
 
 The following pages were created to help ease the transition for someone moving into a new role. They are step-by-step how-to guides that can be used by a first timer as well as provide a reference for those with more experience.  
   * **[Place a Newsletter on the Website](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsNewslettersUpdate.html)** - Editor role  
