@@ -16,8 +16,9 @@ The following pages were created to help ease the transition for someone moving 
   * **[Place a Newsletter on the Website](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsNewslettersUpdate.html)** - Editor role  
   * **[Place a Financial Report on the Website](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsFinancialReport.html)** - Editor role (page created by/for Raleigh NC Chapter)     
   * **[Update the Event Calendar](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEventCalUpdate.html)** - Activities Officer role  
-  * **[Upload Images to the Galleries page](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsGalleriesAdd.html)** - Photographer role 
-  * **[Upload Road Captain Documents](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsRoadCaptUploads.html)** - Road Captain role
+  * **[Upload Images to the Galleries page](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsGalleriesAdd.html)** - Photographer role  
+  * **[Upload Road Captain Documents](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsRoadCaptUploads.html)** - Road Captain role  
+  * **[Using the HOG\[SCAN\] smartphone application](https://sjroma.github.io/cmshogscan/hogscanapp/index.html)** - Road Captain role  
 
 The following pages were created from scratch for the raleighhog.com website. I have a background writing code with HTML and CSS so it's easier for me to create a page off-line and then copy/paste it to the CMS site.  
 The pages here are shown as examples of what you can do to personalize your website.  
