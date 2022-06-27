@@ -20,10 +20,10 @@
       font-family: Raleway, sans-serif;
     }
 
-    .guidelines, .county-log1, county-log2 {
+    .guidelines, .county-log1, .county-log2, .county-map {
       min-height: 100vh;
     }
-    
+
     .rules {
       margin: 0 5em;
     }
@@ -49,7 +49,6 @@
     table, th, td {
       border: solid 1px lightgrey;
       border-collapse: collapse;
-      font-size: small;
       font-size: 0.95em;
       padding: 0.2em 1em;
     }
@@ -61,6 +60,11 @@
 
     tbody tr:nth-child(even) {
       background-color: #f0f0f0;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
     }
 
     @media screen and (max-width: 600px) {
@@ -79,7 +83,11 @@
     <div class="rules">
       <ul>
         <li>Each participant must register prior to logging visits to any counties</li>
-        <li>Each participant is required to maintain a log of each county visited. The log is included with this document.</li>
+        <li>Each participant is required to maintain a log of each county visited
+          <ul>
+            <li>A log and counties map is included with this document</li>
+          </ul>
+        </li>
         <li>Log should be signed and turned in with documented visits to all 100 North Carolina counties</li>
         <li>Visits to a county can be document in either of two ways;
           <ol>
@@ -93,8 +101,8 @@
   </section>
 
   <section class="county-log1">
-   <h2>North Carolina 100 Counties Log</h2>
-   <p>HOG Participant Name:</p>
+    <h2>North Carolina 100 Counties Log</h2>
+    <p>HOG Participant Name:</p>
     <div class="row">
       <div class="column">
         <table>
@@ -485,8 +493,8 @@
   </section>
 
   <section class="county-log2">
-   <h2>North Carolina 100 Counties Log</h2>
-   <p>HOG Participant Name:</p>
+    <h2>North Carolina 100 Counties Log</h2>
+    <p>HOG Participant Name:</p>
     <div class="row">
       <div class="column">
         <table>
@@ -874,6 +882,12 @@
     <p>Signature: </p>
     <p>Date: </p>
     <p>page 2 of 2</p>
+  </section>
+
+  <section class="county-map">
+    <h2>North Carolina Counties Map</h2>
+    <img src="../images/ncCountyMap2.jpg">
+    <p>Participant name: </p>
   </section>
 
 </body>
