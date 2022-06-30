@@ -15,6 +15,10 @@ h1 {
   text-align: center;
 }
 
+h1, h2, dt {
+  color: violet;
+}
+
 dt {
   font-size: 1.2em;
   margin-top: 1.3em;
