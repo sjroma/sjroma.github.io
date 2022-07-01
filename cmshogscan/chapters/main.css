@@ -15,13 +15,16 @@ body {
 }
 
 h1 {
-/*  color: #ff8c00;*/
   margin-top: 1em;
   text-align: center;
 }
 
 h2 {
   padding: 1em 0 0 1em;
+}
+
+h1, h2 {
+  color: #B0C4DE;
 }
 
 li {
