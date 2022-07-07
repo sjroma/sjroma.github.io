@@ -31,7 +31,7 @@ The pages here are shown as examples of what you can do to personalize your webs
   
   * **[FAQ](https://www.raleighhog.com/faq)** and **[Ladies of Harley](https://www.raleighhog.com/ladies-harley)** - both pages are simplistic in that there is not much coding that I did when creating them. However, the FAQ page uses the HTML description list rather than an unordered or ordered list only because I think it works better for the page and doesn't require me to put additional tags around the question in order to make the text bold.  
   
-This page was created as a place for you to see what other webmasters that use the CMS website HOG\[SCAN\] want to see added as an enhancement and, see what has been reported as a potential bug. You are encouraged to email to add to the list.
-  * **[HOG\[SCAN\] wishlist](https://sjroma.github.io/cmshogscan/cmswishlist)** 
+The following page shows what other webmasters using the CMS website HOG\[SCAN\] want to see added as enhancements and, what has been reported as a potential bug. You are encouraged to email to add to the list.
+  * **[HOG\[SCAN\] wishlist](https://sjroma.github.io/cmshogscan/cmswishlist)** - view requested enhancements and reported bugs
 
 ##### ~/GitHub/sjroma.github.io/cmshogscan  
