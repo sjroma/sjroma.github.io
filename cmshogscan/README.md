@@ -29,7 +29,7 @@ The pages here are shown as examples of what you can do to personalize your webs
 * **[Patch Rides](https://sjroma.github.io/cmshogscan/pagesralhog/patchrides)** - shows various patches Raleigh NC Chapter members can earn by doing what everyone loves...riding. The page was styled using Flexbox to make it easier to add additional patch images along with the title and description. The description of each patch ride includes a link to a PDF which has the requirements to be met to earn the patch.  
 * **[FAQ](https://www.raleighhog.com/faq)** and **[Ladies of Harley](https://www.raleighhog.com/ladies-harley)** - both pages are simplistic in that there is not much coding that I did when creating them. However, the FAQ page uses the HTML description list rather than an unordered or ordered list only because I think it works better for the page and doesn't require me to put additional tags around the question in order to make the text bold.  
 
-The following is for webmasters using the CMS website HOG\[SCAN\] give input for enhancements and, to report bugs. You are encouraged to email to add to the list.
+The following is for webmasters using the CMS website HOG\[SCAN\]. Give your input for enhancements or report a bug.  
 * **[HOG\[SCAN\] Wishlist](https://sjroma.github.io/cmshogscan/cmswishlist)** - view requested enhancements and reported bugs
 
 ##### ~/GitHub/sjroma.github.io/cmshogscan  
