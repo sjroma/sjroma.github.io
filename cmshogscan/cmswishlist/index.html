@@ -15,9 +15,9 @@
 
   <div class="page-container">
     <div class="content-wrapper">
-      <h1>HOG[SCAN] Wish List</h1>
+      <h1>HOG[SCAN] Wishlist</h1>
       <section>
-        <p>In no particular order these are some features/fixes webmasters using HOG[SCAN] would like to see incorporated</p>
+        <p>In no particular order these are some enhancements and fixes that webmasters using HOG[SCAN] would like to see incorporated</p>
         <h2>Enhancements</h2>
         <dl>
           <dt>Show member mileage for Ride 365</dt>
@@ -35,6 +35,11 @@
         <dl>
          <dt>Unable to download/view the 'Chapter Charter' or 'Chapter Handbook' when clicking the respective links</dt>
          <dd>On the <code>About</code> page, clicking the link to download the 'Chapter Charter' or 'Chapter Handbook' fails. This is because the code repeats the <code>https</code> protocol for each link.</dd>
+         <dd>Webmasters, until there is an official fix, edit the 'About Us' page. Change the 'Text format' to 'HTML Code' and scroll down to the <i>Chapter Charter &amp; Handbook</i> section. It looks like this <code>&lt;strong&gt;Chapter Charter &amp; Handbook&lt;/strong&gt;</code>.</dd>
+         <dd>Change the following line from <code>&lt;a href="https[hogscan:charter-url]" rel="nofollow" target="_blank"&gt;</code></dd>
+         <dd>to <code>&lt;a href="[hogscan:charter-url]" rel="nofollow" target="_blank"&gt;</code></dd>
+         <dd>Do the same with the link to the <i>Chapter Handbook</i>. That is, delete <code>https</code>.</dd>
+         <dd>Be sure and Save your changes</dd>
           <dt>Fix the GPX mapping feature on the event page</dt>
           <dd>- Seems to have stopped working around the same time the H-D Ride Planner altered how it gens a GPX file</dd>
         </dl>
@@ -43,7 +48,7 @@
 
     <footer class="foot">
       <p>Webmasters, is there something you would like to see included in this list? <a href="mailto:webmaster@raleighhog.com">Send me an email</a> and I'll place it here.</p>
-      <p>Please, be descriptive. What do you see versus what do you want to see.
+      <p>Please, be descriptive. What do you see versus what do you want to see?
         <span class="newline">Is there something that you would like to see incorporated that is currently not available?
         </span>
         <span class="newline">Are you reporting an enhancement or a bug?</span>
