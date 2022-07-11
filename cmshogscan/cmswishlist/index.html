@@ -33,13 +33,15 @@
 
         <h2>Bugs</h2>
         <dl>
-         <dt>Unable to download/view the 'Chapter Charter' or 'Chapter Handbook' when clicking the respective links</dt>
-         <dd>On the <code>About</code> page, clicking the link to download the 'Chapter Charter' or 'Chapter Handbook' fails. This is because the code repeats the <code>https</code> protocol for each link.</dd>
-         <dd>Webmasters, until there is an official fix, edit the 'About Us' page. Change the 'Text format' to 'HTML Code' and scroll down to the <i>Chapter Charter &amp; Handbook</i> section. It looks like this <code>&lt;strong&gt;Chapter Charter &amp; Handbook&lt;/strong&gt;</code>.</dd>
-         <dd>Change the following line from <code>&lt;a href="https://[hogscan:charter-url]" rel="nofollow" target="_blank"&gt;</code></dd>
-         <dd>to <code>&lt;a href="[hogscan:charter-url]" rel="nofollow" target="_blank"&gt;</code></dd>
-         <dd>Do the same with the link to the <i>Chapter Handbook</i>. That is, delete <code>https://</code>.</dd>
-         <dd>Be sure and Save your changes</dd>
+          <dt>Unable to download/view the 'Chapter Charter' or 'Chapter Handbook' when clicking the respective links.</dt>
+          <dd>On the <code>About</code> page, clicking the link to download the 'Chapter Charter' or 'Chapter Handbook' fails. End user's see "This site can't be reached" message. This is because the code repeats the <code>https</code> protocol for each link.</dd>
+          <dd>Webmasters, until there is an official fix, edit the 'About Us' page. Change the 'Text format' to 'HTML Code' and scroll down to the <i>Chapter Charter &amp; Handbook</i> section. The start of the section looks like this: <code>&lt;strong&gt;Chapter Charter &amp;amp; Handbook&lt;/strong&gt;</code></dd>
+          <dd>Within that section change the following line</dd>
+          <dd><code>&lt;a href="https://[hogscan:charter-url]" rel="nofollow" target="_blank"&gt;</code></dd>
+          <dd>to</dd>
+          <dd><code>&lt;a href="[hogscan:charter-url]" rel="nofollow" target="_blank"&gt;</code></dd>
+          <dd>Do the same with the link to the <i>Chapter Handbook</i>. That is, delete <code>https://</code></dd>
+          <dd>Be sure to scroll down and Save your changes</dd>
           <dt>Fix the GPX mapping feature on the event page</dt>
           <dd>- Seems to have stopped working around the same time the H-D Ride Planner altered how it gens a GPX file</dd>
         </dl>
@@ -48,10 +50,10 @@
 
     <footer class="foot">
       <p>Webmasters, is there something you would like to see included in this list? <a href="mailto:webmaster@raleighhog.com">Send me an email</a> and I'll place it here.</p>
-      <p>Please, be descriptive. What do you see versus what do you want to see?
-        <span class="newline">Is there something that you would like to see incorporated that is currently not available?
-        </span>
+      <p>Please, be descriptive.
         <span class="newline">Are you reporting an enhancement or a bug?</span>
+        <span class="newline">For an enhancement, what you would like to see that is currently not available?</span>
+        <span class="newline">For a bug, what do you see versus what should you see?</span>
       </p>
     </footer>
   </div>
