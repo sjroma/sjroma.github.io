@@ -1,0 +1,145 @@
+<!--
+  steps to place the monthly Financial Report onto raleighhog.com
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Add Team Member Steps</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f9f9f9;
+      font-family: Raleway, sans-serif;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #00f;
+    }
+
+    .notes, .website-steps, .no-role {
+      border: solid 1px #333;
+      border-radius: 5px;
+      margin: auto;
+      max-width: 90%;
+      margin-bottom: 0.3em;
+    }
+
+    p {
+      text-align: left;
+      margin-left: 2em;
+    }
+
+    ul {
+      list-style-type: circle;
+    }
+
+    ol {
+      counter-reset: section;
+      list-style-type: none;
+    }
+
+    ol>li::before {
+      counter-increment: section;
+      content: counters(section, ".") " ";
+      font-weight: bold;
+      color: #f77;
+    }
+
+    li {
+      max-width: 95%;
+    }
+
+    .screenshot {
+      border-radius: 5px;
+      display: block;
+      margin: 0.3em auto;
+      margin-left: 1.5em;
+      max-width: 90%;
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>Add Team Members</h1>
+
+  <article class="notes">
+    <h2>General notes, terminology and policies</h2>
+    <ul>
+      <li>There are two environments in which you can work;
+        <ul>
+          <li>The <i>sandbox environment</i> is where you can test and try things out to familiarize yourself with the steps you will be going through. The sandbox environment starts with <i>dev</i>. Our sandbox environment is https://dev.raleighhog.com</li>
+          <li>The <i>production environment</i> is the site that all members see. This is where you make the changes that chapter members see. Our production environment is https://www.raleighhog.com</li>
+        </ul>
+      </li>
+      <li>Please note that prior to doing anything in the production environment you can <a href="https://dev.raleighhog.com" target="_blank">test in the sandbox environment</a> first. This environment is used for testing and is not seen by members.
+        <ul>
+          <li>Your login credentials are the same for both environments</li>
+          <li>Your webmaster will help with any questions you may have</li>
+        </ul>
+      </li>
+    </ul>
+  </article>
+
+  <article class="website-steps">
+    <h2>Add a Team Member</h2>
+    <ol>
+      <li>Login to your account on <a href="https://www.raleighhog.com" target="_blank">raleighhog.com</a> and there will be a smaller Navigational Bar (navbar) on top of the Chapter navbar. See image below <img class="screenshot" src="../images/editorNavbar.jpg" alt="editor navbar"></li>
+      <li>Hover your mouse over the 'Content' link and when the menu expands click the 'Add Content' link. The following screen will display. <img class="screenshot" src="../images/editorTeamMember1.jpg" alt="screenshot of the add content page">
+        <ol>
+          <li>Note: Ignore 'Ask a question!' Clicking it will send it to an admin where it will not be seen. See your webmaster for any questions.</li>
+          <li>If you clicked the 'Content' link, you will need to click the '+ Add Content' link on the page that pops-up. see image below <img class="screenshot" src="../images/editorNewsletterContentb.jpg" alt="screenshot of add content link"></li>
+        </ol>
+      </li>
+      <li>The Add Content page has links to the following:
+        <ol>
+          <li><i>Article</i> - creates a blog entry, not used here and a different document</li>
+          <li><i>Basic page</i> - creates a page, not used here and a different document</li>
+          <li><i>Event</i> - this is done by the Activities Officer, not used here and a different document</li>
+          <li><i>Forum topic</i> - forum has been turned off for the website, this is not used</li>
+          <li><i>Gallery</i> - this will be done by the Photographer, not used here and a different document</li>
+          <li><i>Newsletter</i> - this will be done by the newsletter editor, not used here and a different document</li>
+          <li><b>Team Member</b> - create a team member. The purpose of this document</li>
+        </ol>
+      </li>
+      <li>Click the 'Team Member' link and the following page opens. see image below <img class="screenshot" src="../images/editorTeamMember2.jpg" alt="screenshot of create team member page">
+        <ol>
+          <li><b>First Name &amp; Last Initial</b> - Fill in the Team Member's name this field is required</li>
+          <li><b>Member Type</b> - Choose only one Member type
+            <ul>
+              <li><i>Primary Officer</i> will display on the Home page - the four Primary Officers are Director, Assistant Director, Secretary and Treasurer</li>
+              <li><i>Chapter Officer</i> will appear on the Chapter Officers page found in the 'About Us' menu</li>
+              <li><i>Road Captain</i> will appear on the Road Captains page found in the 'About Us' menu</li>
+              <li>Note: if the member has a dual role (Primary Officer &amp; Road Captain or Chapter Officer &amp; Road Captain) you will create that member twice selecting the appropriate role each time</li>
+            </ul>
+          </li>
+          <li><b>Image</b> - add the members picture by clicking 'Choose File' button, selecting the image from your local computer and then clicking the 'Upload' button. A thumbnail image will display after a successful upload</li>
+          <li><b>Email Address</b> - add the member's email address. Since this is a forward facing page I only add the local email addresses of the Primary and Chapter Officers. E.g. <i>director@localchapter.com</i> Road Captains do not need to have personal email addresses displayed</li>
+        </ol>
+      </li>
+      <li>When all fields are filled in scroll to the bottom of the page. see image below <img src="../images/editorTeamMember3.jpg" alt="screenshot of bottom of create team member page">
+        <ol>
+          <li><b>Weight</b> - optionally add a number to organize how Chapter Officers and Road Captains display on the respective pages. The higher numbers display first. For example, on the Road Captains page I want the Safety Officer and Head Road Captain to display first and then show the remaining RC's alphabetically.</li>
+          <li>Optionally add a <b>Revision log message</b>. Something as simple as 'initial team member create' lets the next person editing know what was done previously</li>
+        </ol>
+      </li>
+      <li>Click the <b>Save</b> button to complete</li>
+      <li>Repeat steps 2 through 6 to add additional Team Members</li>
+    </ol>
+  </article>
+  
+  <article class="no-role">
+    <p>You may have a chapter member that leads destination rides but is neither a Chapter Officer or a Road Captain and you want their picture to show as the Event Coordinator when the event it displayed on Calendar.</p>
+    <p>Create the Team Member only filling in the required <i>First Name &amp; Last Initial</i> field and the optional <i>Image</i> field. Save it.</p>
+    <p>The Activities Officer will be able to select this member as the Event Coordinator and the member does not appear on either the Chapter Officers or Road Captains page.</p>
+  </article>
+
+</body>
+
+</html>
