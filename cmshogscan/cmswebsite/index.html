@@ -16,7 +16,7 @@
   <h1>HOG[SCAN] (CMS) Setup Notes</h1>
 
   <section>
-    <h2>Assignable Roles</h2>
+    <h2 id="assign">Assignable Roles</h2>
     <p><i>HOG[SCAN]</i> uses "role based permissions" to restrict network access based on a members role within the HOG chapter. This allows you, the webmaster, to control what roles each officer, primary and discretionary, has to the different levels of the system. For example, not every primary officer wants, or needs, the Primary Officer role.</p>
     <p>Remember, you have a sandbox (dev) environment to work/test in. Make changes and try things in that environment first. It is easier to undo errors there than it is in your production environment.
       <span class="newline">Login credentials are the same for both environments</span>
@@ -131,12 +131,12 @@
 
   <section>
     <h2>Production vs Sandbox</h2>
-    <p>Remember that there are two environments that you, the webmaster, and any Chapter Officer that has an assignable role can work in.
+    <p>Remember that there are two environments that you, the webmaster, and any Chapter Officer that has an <a href="#assign">assignable role</a> can work in.
       <span class="newline">Production - this is the website that all members see</span>
       <span class="newline">Sandbox - this is where you can try things out to see how they work without having an impact on what members see. It is easier to correct errors in this environment than in Production.</span>
       <span class="newline mini-paragraph">The Sandbox environment starts with <i>dev</i></span>
       <span class="newline mini-paragraph">Login credentials are the same for both environments</span>
-      <span class="newline mini-paragraph">You can see that the Sandbox is a mirror of the Production but also note that changes to the Production environment may take a few days or more to show in the Sandbox. They are not synced daily. (Syncing is done from Production to Sandbox. Not vice versa.)</span>
+      <span class="newline mini-paragraph">You can see that the Sandbox is a mirror of Production but also note that changes made to the Production environment may take a few days or more to show in the Sandbox. They are not synced daily. (Syncing is done from Production to Sandbox. Not vice versa.)</span>
       <span class="newline">If you make an error in the Sandbox that you cannot correct you will need to contact the Administrator (Russ) to get it back in sync with Production if you are unable to wait for a few days until they sync up again.</span>
     </p>
   </section>
