@@ -44,7 +44,7 @@ footer {
   padding: 1em 0.5em 0.5em 0.5em;
 } 
 
-footer a {
+footer a, p a {
   color: #ff8c00;
 }
 
