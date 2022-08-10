@@ -19,6 +19,7 @@ Note, the role listed is the minimum role a member needs to have to accomplish t
 * **[Place a Newsletter on the Website](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsNewslettersUpdate.html)** - Editor role  
 * **[Place a Financial Report on the Website](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsFinancialReport.html)** - Editor role (page created by/for Raleigh NC Chapter)     
 * **[Update the Event Calendar](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEventCalUpdate.html)** - Activities Officer role  
+* **[Create a Blog entry](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsBlogCreate.html)** - Activities Officer role  
 * **[Upload Images to the Galleries page](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsGalleriesAdd.html)** - Photographer role  
 * **[Upload Road Captain Documents](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsRoadCaptUploads.html)** - Road Captain role  
 * **[Using the HogScan smartphone application](https://sjroma.github.io/cmshogscan/hogscanapp/index.html)** - Road Captain role  
