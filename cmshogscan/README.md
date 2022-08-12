@@ -8,8 +8,6 @@ _HOG\[SCAN\]_ webmasters, if you have something you would like to see added here
 
 ---  
 
-**[HOG chapters powered by _HOG\[SCAN\]_](https://sjroma.github.io/cmshogscan/chapters/)** - Alphabetized by state and then city, this page lists the HOG chapters that use _HOG\[SCAN\]_ and provides a link to each one.  
-
 **[_HOG\[SCAN\]_ Setup Notes](https://sjroma.github.io/cmshogscan/cmswebsite/)** - _HOG\[SCAN\]_ uses role based permissions to restrict network access based on a members role. This page gives a brief description of the various roles and the access granted to each one.  
 Additionally, the page also contains notes of things I've learned along the way.  
 
@@ -31,6 +29,8 @@ The pages here are shown as examples of what you can do to personalize your webs
   There is no JavaScript behind this page. If an item is low, or out of stock, the page has to be manually updated.  
 * **[Patch Rides](https://sjroma.github.io/cmshogscan/pagesralhog/patchrides)** - shows various patches Raleigh NC Chapter members can earn by doing what everyone loves...riding. The page was styled using Flexbox to make it easier to add additional patch images along with the title and description. The description of each patch ride includes a link to a PDF which has the requirements to be met to earn the patch.  
 * **[FAQ](https://www.raleighhog.com/faq)** and **[Ladies of Harley](https://www.raleighhog.com/ladies-harley)** - both pages are simplistic in that there is not much coding that I did when creating them. However, the FAQ page uses the HTML description list rather than an unordered or ordered list only because I think it works better for the page and doesn't require me to put additional tags around the question in order to make the text bold.  
+
+**[HOG chapters powered by _HOG\[SCAN\]_](https://sjroma.github.io/cmshogscan/chapters/)** - Alphabetized by state and then city, this page lists the HOG chapters that use _HOG\[SCAN\]_ and provides a link to each one.  
 
 The following is for webmasters using the CMS website _HOG\[SCAN\]_. Give your input for enhancements or report a bug.  
 * **[_HOG\[SCAN\]_ Wishlist](https://sjroma.github.io/cmshogscan/cmswishlist)** - view requested enhancements and reported bugs
