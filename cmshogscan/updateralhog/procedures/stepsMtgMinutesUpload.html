@@ -1,0 +1,147 @@
+<!--
+  steps to upload meeting minutes to the website
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Update Meeting Minutes</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f9f9f9;
+      font-family: Raleway, sans-serif;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #00f;
+    }
+
+    .notes, .website-steps {
+      border: solid 1px #333;
+      border-radius: 5px;
+      margin: auto;
+      max-width: 90%;
+      margin-bottom: 0.3em;
+    }
+
+    p {
+      text-align: left;
+      margin-left: 2em;
+    }
+
+    ul {
+      list-style-type: circle;
+    }
+
+    ol {
+      counter-reset: section;
+      list-style-type: none;
+    }
+
+    ol>li::before {
+      counter-increment: section;
+      content: counters(section, ".") " ";
+      font-weight: bold;
+      color: #f77;
+    }
+
+    li {
+      max-width: 95%;
+    }
+
+    .newline {
+      display: block;
+      padding-left: 0.5em;
+    }
+
+    code {
+      font-size: 1.3em;
+    }
+
+    .screenshot {
+      border-radius: 5px;
+      display: block;
+      margin: 0.3em auto;
+      margin-left: 1.5em;
+      max-width: 90%;
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>Upload Meeting Minutes</h1>
+
+  <article class="notes">
+    <h2>General notes, terminology and policies</h2>
+    <ul>
+      <li>There are two environments in which you can work;
+        <ul>
+          <li>The <i>sandbox environment</i> is where you can test and try things out to familiarize yourself with the steps you will be going through. The sandbox environment starts with <i>dev</i>. Our sandbox environment is https://dev.raleighhog.com</li>
+          <li>The <i>production environment</i> is the site that all members see. This is where you make the changes that chapter members see. Our production environment is https://www.raleighhog.com</li>
+        </ul>
+      </li>
+      <li>Please note that prior to doing anything in the production environment you can <a href="https://dev.raleighhog.com" target="_blank">test in the sandbox environment</a> first. This environment is used for testing and is not seen by members.
+        <ul>
+          <li>Your login credentials are the same for both environments</li>
+          <li>Your webmaster will also help with any questions you may have.</li>
+        </ul>
+      </li>
+      <li>Please use caution when in the directories. You have the ability to delete files. This should <b>never</b> be done.</li>
+      <li>Files being uploaded should include a datestamp. This is how we distinguish the latest file to be used.
+        <ul>
+          <li>For instance, <code>YYYYMMDD.pdf</code> where <code>YYYY</code> is the four digit year, <code>MM</code> is the two digit month and <code>DD</code> is the two digit day. This is a good filename as it allows the files to easily be ordered.</li>
+        </ul>
+      </li>
+      <li>Note that there is a directory under <code>root --> users</code>. The directory name starts with a '<code>u</code>'. This is a directory that only you can see. You can upload files here but they cannot be shared with others. This directory will not be addressed in this document. Additional information about it can be found by talking with your local webmaster.
+        <ul>
+          <li>By default, this is the directory selected when you first log in. Be sure and follow the instructions below to upload into the correct, working directory.</li>
+        </ul>
+      </li>
+    </ul>
+  </article>
+
+  <article class="website-steps">
+    <h2>Upload the Monthly Minutes</h2>
+    <ol>
+      <li>Login to your account on <a href="https://www.raleighhog.com">raleighhog.com</a></li>
+      <li>With your mouse, hover over the <b>My Account</b> link and click the <b>Meeting Minutes</b> link. see image below <img class="screenshot" src="../images/mtgMinEdit02.jpg" alt="navbar screenshot showing my account link"></li>
+      <li>On the page that opens, click the <b>Edit</b> tab. see image below <img class="screenshot" src="../images/mtgMinEdit03.jpg" alt="screenshot of meeting minutes page showing edit tab"></li>
+      <li>The <b>Meeting Minutes</b> page opens in edit mode. The next three steps will add the line for the next month's minutes.
+        <ol>
+          <li> Place your cursor at the end of the line for the last month listed in the current calendar year. Jun of 2022 is shown for this tutorial. see screenshot below <img class="screenshot" src="../images/mtgMinEdit04.jpg" alt="screenshot of edit basic meeting minutes page"></li>
+          <li>Tap the <b>Enter</b> key to move to a new line. (Do NOT add a space prior to hitting the Enter key) see screenshot below <img class="screenshot" src="../images/mtgMinEdit05.jpg" alt="screenshot of meeting minutes with start of new line"></li>
+          <li>Following the naming convention, type in the line for the next month. (Do NOT add any extra spaces at the end of the line) see image below <img class="screenshot" src="../images/mtgMinEdit06.jpg" alt="screenshot showing next month typed in"></li>
+        </ol>
+      </li>
+      <li>The next five steps will walk through uploading the meeting minutes and linking to them
+        <ol>
+          <li>Highlight the entire line you just added by hovering the cursor over it and clicking three times. When the line is highlighted, move the cursor and click the <b>link</b> icon in the <b>Body</b> toolbar (outlined in the image). see image below <img class="screenshot" src="../images/mtgMinEdit07.jpg" alt="screenshot showing new line highlighted"></li>
+          <li>In the pop-up window that opens, click the <b>Browse Server</b> button. see image below <img class="screenshot" src="../images/mtgMinEdit08.jpg" alt="screenshot of link pop-up"></li>
+          <li>Click on the <b>shared</b> directory to expand it, then click on the <b>meeting_minutes</b> subdirectory to expand it, the click on the current year subdirectory to expand it. (2022 is expanded for this tutorial) The list of files currently in the subdirectory are listed. Click <b>Upload</b> from the toolbar. see image below <img class="screenshot" src="../images/mtgMinEdit09.jpg" alt="screenshot showing expanded shared and meeting_minutes directories"></li>
+          <li>Click the <b>Choose File</b> button and select from your machine the PDF file you want to upload. (This file will be in whichever directory you placed it.)
+            <span class="newline">When the file finishes loading click the <b>Upload</b> button.
+              <span class="newline">Click the <b>x</b> in the upper right to close the window. see image below</span> <img class="screenshot" src="../images/mtgMinEdit10.jpg" alt="screenshot showing upload pop-up"></span>
+          </li>
+          <li>The PDF has been successfully uploaded to the server</li>
+        </ol>
+      </li>
+      <li>In the list of files, double click on the file you just uploaded to select it, then click the <b>Upload</b> icon in the toolbar. see image below <img class="screenshot" src="../images/mtgMinEdit11.jpg" alt="screenshot showing new file in subdirectory"></li>
+      <li>The <b>URL</b> path has been filled in. Click the <b>OK</b> button. see image below <img class="screenshot" src="../images/mtgMinEdit12.jpg" alt="screenshot showing URL field populated"></li>
+      <li>The Meeting Minutes is now a link to the PDF you just uploaded<img class="screenshot" src="../images/mtgMinEdit13.jpg" alt="screenshot showing completed live link in the Body"></li>
+      <li>Scroll down to the bottom of the screen. Optionally fill in the <b>Revision log message</b> with a short message of what you just did. Something short like "add Jul 2022 mtg minutes" is good enough to let others know what you did.
+        <span class="newline">Click the <b>Save</b> button to save your changes. see image below</span> <img class="screenshot" src="../images/mtgMinEdit14.jpg" alt="">
+      </li>
+      <li>Sucess! You are brought back to the <b>Meeting Minutes</b> home page showing the meeting minutes link you just added. <img class="screenshot" src="../images/mtgMinEdit15.jpg" alt="screenshot of meeting minutes homepage"></li>
+    </ol>
+  </article>
+
+</body>
+
+</html>
