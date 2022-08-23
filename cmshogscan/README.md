@@ -19,6 +19,8 @@ Note, the role listed is the minimum role a member needs to have to accomplish t
 * **[Update the Event Calendar](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEventCalUpdate.html)** - Activities Officer role  
 * **[Create a Blog entry](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsBlogCreate.html)** - Activities Officer role  
 * **[Upload Images to the Galleries page](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsGalleriesAdd.html)** - Photographer role  
+* **[Add Monthly Meeting Minutes](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsMtgMinutesUpload.html)** - 
+Photographer role (note: access control as changed to have the minimal role needed to update this basic page)
 * **[Upload Road Captain Documents](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsRoadCaptUploads.html)** - Road Captain role  
 * **[Using the HogScan smartphone application](https://sjroma.github.io/cmshogscan/hogscanapp/index.html)** - Road Captain role  
 
@@ -30,7 +32,7 @@ The pages here are shown as examples of what you can do to personalize your webs
 * **[HOG Member of the Year](https://sjroma.github.io/cmshogscan/pagesralhog/hmoy)** - an award unique to the Raleigh NC Chapter. It is a list of chapter members who were selected for this honor each year since its inception in 2004. I tried to make the nameplates look plaque-like by giving a light source effect to each one.  
 * **[FAQ](https://www.raleighhog.com/faq)** and **[Ladies of Harley](https://www.raleighhog.com/ladies-harley)** - both pages are simplistic in that there is not much coding that I did when creating them. However, the FAQ page uses the HTML description list rather than an unordered or ordered list only because I think it works better for the page and doesn't require me to put additional tags around the question in order to make the text bold. 
 * A **[Financial Reports](https://www.raleighhog.com/financial-reports)** page and a **[Meeting Minutes](https://www.raleighhog.com/meeting-minutes)** page were created for the Raleigh HOG chapter. These pages are only viewable by authenticated users.  
-I wasn't able to clone the newsletters page but I did use its format as a starting point in how I wanted these two pages to display to users.  
+I wasn't able to clone the newsletters page but I did use its format as a starting point in how I wanted these two pages to display. I used a similar color scheme and call the PDF icon for the bullet points.
 
 The following is for webmasters using the CMS website _HOG\[SCAN\]_. Give your input for enhancements or report a bug.  
 * **[_HOG\[SCAN\]_ Wishlist](https://sjroma.github.io/cmshogscan/cmswishlist)** - view requested enhancements and reported bugs  
