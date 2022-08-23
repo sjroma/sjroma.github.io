@@ -20,7 +20,7 @@ Note, the role listed is the minimum role a member needs to have to accomplish t
 * **[Create a Blog entry](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsBlogCreate.html)** - Activities Officer role  
 * **[Upload Images to the Galleries page](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsGalleriesAdd.html)** - Photographer role  
 * **[Add Monthly Meeting Minutes](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsMtgMinutesUpload.html)** - 
-Photographer role (note: access control as changed to have the minimal role needed to update this basic page)
+Photographer role (note: access control was changed to have the minimal role needed to update this basic page)
 * **[Upload Road Captain Documents](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsRoadCaptUploads.html)** - Road Captain role  
 * **[Using the HogScan smartphone application](https://sjroma.github.io/cmshogscan/hogscanapp/index.html)** - Road Captain role  
 
