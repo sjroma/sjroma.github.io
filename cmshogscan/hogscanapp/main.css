@@ -1,6 +1,4 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -14,7 +12,7 @@ body {
   text-align: center;
 }
 
-h1, h2, h3 {
+h1, h2, h3, .display-list dt {
   color: #B0C4DE;
 }
 
@@ -29,7 +27,6 @@ p {
 
 .newline {
   display: block;
-  padding-left: 0.8em;
 }
 
 .link {
@@ -51,8 +48,6 @@ p {
   height: 500px;
   margin: auto;
 }
-
-.app-screenshot {}
 
 .description {
   max-width: 75%;
