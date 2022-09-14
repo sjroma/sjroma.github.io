@@ -17,7 +17,27 @@
     <div class="content-wrapper">
       <h1><i>HOG[SCAN]</i> Wishlist</h1>
       <section>
-        <p>In no particular order these are some enhancements and fixes that webmasters using <i>HOG[SCAN]</i> would like to see incorporated</p>
+        <p>In no particular order these are some fixes and enhancements that webmasters using <i>HOG[SCAN]</i> would like to see incorporated</p>
+
+        <h2>Bugs</h2>
+        <dl>
+          <dt>Unable to download/view the <i>Chapter Charter</i> or <i>Chapter Handbook</i> when clicking the respective links.</dt>
+          <dd>On the <code>About</code> page, clicking the link to download the <i>Chapter Charter</i> or <i>Chapter Handbook</i> fails. End user's see "This site can't be reached" message. This is because the code repeats the <code>https</code> protocol for each link.</dd>
+          <dd>Webmasters, until there is an official fix, edit the 'About Us' page. Change the 'Text format' to 'HTML Code' and scroll down to the <i>Chapter Charter &amp; Handbook</i> section. The start of the section looks like this: <code>&lt;strong&gt;Chapter Charter &amp;amp; Handbook&lt;/strong&gt;</code></dd>
+          <dd>Within that section change the following line</dd>
+          <dd><code>&lt;a href="https://[hogscan:charter-url]" rel="nofollow" target="_blank"&gt;</code></dd>
+          <dd>to</dd>
+          <dd><code>&lt;a href="[hogscan:charter-url]" rel="nofollow" target="_blank"&gt;</code></dd>
+          <dd>Do the same with the link to the <i>Chapter Handbook</i>. That is, delete <code>https://</code></dd>
+          <dd>Be sure to scroll down and Save your changes</dd>
+
+          <dt>The smartphone app exposes member information to Road Captains</dt>
+          <dd>The smartphone app should not expose member's HOG ID or ICE information to Road Captains</dd>
+
+          <dt>Fix the GPX mapping feature on the event page</dt>
+          <dd>- Seems to have stopped working around the same time the H-D Ride Planner altered how it gens a GPX file</dd>
+        </dl>
+
         <h2>Enhancements</h2>
         <dl>
           <dt>Show member mileage for Ride 365</dt>
@@ -39,35 +59,22 @@
           <dd>- Currently the Ride Mileage is not shown in the copy of the event if it's been filled in.
             <span class="newline">If the Ride Mileage field for an event has been filled in (i.e. it's not the default of zero) then show the mileage in the event copy. Much like an Event Coordinator is shown when that field has been filled in.</span>
           </dd>
+
+          <dt>Give webmasters the ability to sync the sandbox environment with the production environment</dt>
+          <dd>Currently a request has to be made to the Admin in order to have the sandbox environment synced up with the production environment.
+            <span class="newline">It would be nice if webmaster's had a button to click that would run the job to sync the sandbox with production so it could be done on-demand.</span>
+          </dd>
         </dl>
 
-        <h2>Bugs</h2>
-        <dl>
-          <dt>Unable to download/view the <i>Chapter Charter</i> or <i>Chapter Handbook</i> when clicking the respective links.</dt>
-          <dd>On the <code>About</code> page, clicking the link to download the <i>Chapter Charter</i> or <i>Chapter Handbook</i> fails. End user's see "This site can't be reached" message. This is because the code repeats the <code>https</code> protocol for each link.</dd>
-          <dd>Webmasters, until there is an official fix, edit the 'About Us' page. Change the 'Text format' to 'HTML Code' and scroll down to the <i>Chapter Charter &amp; Handbook</i> section. The start of the section looks like this: <code>&lt;strong&gt;Chapter Charter &amp;amp; Handbook&lt;/strong&gt;</code></dd>
-          <dd>Within that section change the following line</dd>
-          <dd><code>&lt;a href="https://[hogscan:charter-url]" rel="nofollow" target="_blank"&gt;</code></dd>
-          <dd>to</dd>
-          <dd><code>&lt;a href="[hogscan:charter-url]" rel="nofollow" target="_blank"&gt;</code></dd>
-          <dd>Do the same with the link to the <i>Chapter Handbook</i>. That is, delete <code>https://</code></dd>
-          <dd>Be sure to scroll down and Save your changes</dd>
-          
-          <dt>The smartphone app exposes member information to Road Captains</dt>
-          <dd>The smartphone app should not expose member's HOG ID or ICE information to Road Captains</dd>
-          
-          <dt>Fix the GPX mapping feature on the event page</dt>
-          <dd>- Seems to have stopped working around the same time the H-D Ride Planner altered how it gens a GPX file</dd>
-        </dl>
       </section>
     </div>
 
     <footer class="foot">
       <p>Webmasters, is there something you would like to see included in this list? <a href="mailto:webmaster@raleighhog.com">Send me an email</a> and I'll place it here.</p>
       <p>Please, be descriptive.
-        <span class="newline">Are you reporting an enhancement or a bug?</span>
-        <span class="newline">For an enhancement, what you would like to see that is currently not available?</span>
+        <span class="newline">Are you reporting a bug or an enhancement?</span>
         <span class="newline">For a bug, what do you see versus what should you see?</span>
+        <span class="newline">For an enhancement, what you would like to see that is currently not available?</span>
       </p>
     </footer>
   </div>
