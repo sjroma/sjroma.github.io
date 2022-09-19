@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -5,50 +7,45 @@
 }
 
 body {
-  background-color: #e0b78d;
   background-color: #333;
-  background-size: cover;
   font-family: Raleway, sans-serif;
 }
 
 .memory-poem {
   color: #f9f9f9;
   font-family: Charm, sans-serif;
-  font-size: 1.2em;
+  font-size: 19px;
   margin: 0 auto;
-  margin-top: 1em;
   max-width: 70%;
   text-align: center;
+  white-space: pre-line;
 }
 
 .banner {
-  color: #ff8c00;
+  color: #a9a9a9;
   text-shadow: 0.07em 0.07em 0.13em #000;
-  font-size: 3em;
-/*  margin-top: 0.5em;*/
+  font-size: 48px;
   text-align: center;
 }
 
 .past-members {
+  margin: 8px 32px 32px 32px;
+}
+
+.unknown-dates, .known-dates {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  padding: 2em;
+  margin-bottom: 16px;
 }
 
 .memory-tag {
-  width: 400px;
-  width: 300px;
-  line-height: 1.0em;
-  font-family: "Xanh Mono", sans-serif;
-  font-size: 3.125em;
-  font-size: 2.125em;
+  width: 350px;
+  line-height: 1em;
+  font-family: "Xanh Mono", serif;
+  font-size: 34px;
   text-align: center;
   margin: 0.2em auto;
-  box-shadow: 0.05em 0.05em #000;
   color: #333;
-  background-color: goldenrod;
-  background-color: #daa520;
   background-image: linear-gradient(345deg,
       hsl(43deg 74% 49%) 0%,
       hsl(43deg 73% 53%) 21%,
@@ -67,6 +64,9 @@ body {
 
 ul {
   list-style: none;
+  margin: auto;
+  margin-left: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 .name {
@@ -75,4 +75,19 @@ ul {
 
 .year {
   font-size: 0.70em;
+}
+
+.hide {
+  display: contents !important;
+  visibility: hidden;
+}
+
+@media screen and (max-width:800px) {
+  .memory-poem {
+    font-size: 14px;
+  }
+  
+  .unknown-dates {
+    margin-bottom: 1em;
+  }
 }
