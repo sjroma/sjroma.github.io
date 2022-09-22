@@ -13,138 +13,140 @@
 
 <body>
 
-  <h1>HOG[SCAN] (CMS) Setup Notes</h1>
+  <div class="container">
+    <h1>HOG[SCAN] (CMS) Setup Notes</h1>
 
-  <section>
-    <h2 id="assign">Assignable Roles</h2>
-    <p><i>HOG[SCAN]</i> uses "role based permissions" to restrict network access based on a members role within the HOG chapter. This allows you, the webmaster, to control what roles each officer, primary and discretionary, has to the different levels of the system. For example, not every primary officer wants, or needs, the Primary Officer role.</p>
-    <p>Remember, you have a sandbox (dev) environment to work/test in. Make changes and try things in that environment first. It is easier to undo errors there than it is in your production environment.
-      <span class="newline">Login credentials are the same for both environments</span>
-      <span class="newline">It's helpful to create a dummy user. You can assign different roles to this user and login to see what a user with each role can/cannot do.</span>
-    </p>
-    <p>Roles on this page are listed by permissions, highest to lowest.</p>
-    <p>Please note that the Webmaster, Primary Officer and Membership Officer roles have access to member information. Assign these roles with caution.</p>
+    <section>
+      <h2 id="assign">Assignable Roles</h2>
+      <p><i>HOG[SCAN]</i> uses "role based permissions" to restrict network access based on a members role within the HOG chapter. This allows you, the webmaster, to control what roles each officer, primary and discretionary, has to the different levels of the system. For example, not every primary officer wants, or needs, the Primary Officer role.</p>
+      <p>Remember, you have a sandbox (dev) environment to work/test in. Make changes and try things in that environment first. It is easier to undo errors there than it is in your production environment.
+        <span class="newline">Login credentials are the same for both environments</span>
+        <span class="newline">It's helpful to create a dummy user. You can assign different roles to this user and login to see what a user with each role can/cannot do.</span>
+      </p>
+      <p>Roles on this page are listed by permissions, highest to lowest.</p>
+      <p>Please note that the Webmaster, Primary Officer and Membership Officer roles have access to member information. Assign these roles with caution.</p>
 
-    <dl>
-      <dt>Webmaster</dt>
-      <dd>- Access to member information</dd>
-      <dd>- All permissions</dd>
-      <dd>- File browser directories (click 'My account' then the 'File browser' tab)
-        <span class="newline">read/write access to the <code>shared, primary_officers, activities, road_captains</code> and <code>membership</code> directories</span>
-      </dd>
+      <dl>
+        <dt>Webmaster</dt>
+        <dd>- Access to member information</dd>
+        <dd>- All permissions</dd>
+        <dd>- File browser directories (click 'My account' then the 'File browser' tab)
+          <span class="newline">read/write access to the <code>shared, primary_officers, activities, road_captains</code> and <code>membership</code> directories</span>
+        </dd>
 
-      <dt>Primary Officer</dt>
-      <dd>- Access to member information</dd>
-      <dd>- Permissions to add/edit Article, Basic page, Event, Forum topic, Gallery, Newletter and Team Member content
-        <span class="newline">access to read/edit member information and approve Blog comments</span>
-        <span class="newline">ability to do Chapter Administration as well as see all Chapter Reports</span>
-      </dd>
-      <dd>- Can see Check-ins and RSVPs in the Event Calendar</dd>
-      <dd>- File browser directories (click 'My account' then the 'File browser' tab)
-        <span class="newline">read/write access to the <code>shared, primary_officers, activities, road_captains</code> and <code>membership</code> directories</span>
-      </dd>
+        <dt>Primary Officer</dt>
+        <dd>- Access to member information</dd>
+        <dd>- Permissions to add/edit Article, Basic page, Event, Forum topic, Gallery, Newletter and Team Member content
+          <span class="newline">access to read/edit member information and approve Blog comments</span>
+          <span class="newline">ability to do Chapter Administration as well as see all Chapter Reports</span>
+        </dd>
+        <dd>- Can see Check-ins and RSVPs in the Event Calendar</dd>
+        <dd>- File browser directories (click 'My account' then the 'File browser' tab)
+          <span class="newline">read/write access to the <code>shared, primary_officers, activities, road_captains</code> and <code>membership</code> directories</span>
+        </dd>
 
-      <dt>Membership Officer</dt>
-      <dd>- Access to member information</dd>
-      <dd>- Permissions to add/edit Article, Forum topic and Gallery content
-        <span class="newline">access to read/edit member information</span>
-        <span class="newline">ability to do Chapter Administration as well as see all Chapter Reports</span>
-      </dd>
-      <dd>- Can see Check-ins and RSVPs in the Event Calendar</dd>
-      <dd>- File browser directories (click 'My account' then the 'File browser' tab)
-        <span class="newline">read/write access to the <code>shared</code> and <code>membership</code> directories</span>
-      </dd>
+        <dt>Membership Officer</dt>
+        <dd>- Access to member information</dd>
+        <dd>- Permissions to add/edit Article, Forum topic and Gallery content
+          <span class="newline">access to read/edit member information</span>
+          <span class="newline">ability to do Chapter Administration as well as see all Chapter Reports</span>
+        </dd>
+        <dd>- Can see Check-ins and RSVPs in the Event Calendar</dd>
+        <dd>- File browser directories (click 'My account' then the 'File browser' tab)
+          <span class="newline">read/write access to the <code>shared</code> and <code>membership</code> directories</span>
+        </dd>
 
-      <dt>Editor</dt>
-      <dd>- No access to member information</dd>
-      <dd>- Permissions to add/edit Article, Basic Page, Event, Forum topic, Gallery, Newsletter and Team Member content.
-        <span class="newline">permission to make some changes to the look of the overall website</span>
-      </dd>
-      <dd>- Cannot see Check-ins and RSVPs in the Event Calendar</dd>
-      <dd>- File browser directories (click 'My account' then the 'File browser' tab)
-        <span class="newline">read/write access to the <code>shared</code> directory</span>
-      </dd>
+        <dt>Editor</dt>
+        <dd>- No access to member information</dd>
+        <dd>- Permissions to add/edit Article, Basic Page, Event, Forum topic, Gallery, Newsletter and Team Member content.
+          <span class="newline">permission to make some changes to the look of the overall website</span>
+        </dd>
+        <dd>- Cannot see Check-ins and RSVPs in the Event Calendar</dd>
+        <dd>- File browser directories (click 'My account' then the 'File browser' tab)
+          <span class="newline">read/write access to the <code>shared</code> directory</span>
+        </dd>
 
-      <dt>Activities Officer</dt>
-      <dd>- No access to member information</dd>
-      <dd>- Permissions to add/edit Article, Event, Forum topic and Gallery content</dd>
-      <dd>- Can see Check-ins and RSVPs in the Event Calendar</dd>
-      <dd>- File browser directories (click 'My account' then the 'File browser' tab)
-        <span class="newline">read/write access to the <code>shared</code> and <code>activities</code> directories</span>
-      </dd>
+        <dt>Activities Officer</dt>
+        <dd>- No access to member information</dd>
+        <dd>- Permissions to add/edit Article, Event, Forum topic and Gallery content</dd>
+        <dd>- Can see Check-ins and RSVPs in the Event Calendar</dd>
+        <dd>- File browser directories (click 'My account' then the 'File browser' tab)
+          <span class="newline">read/write access to the <code>shared</code> and <code>activities</code> directories</span>
+        </dd>
 
-      <dt>Photographer</dt>
-      <dd>- No access to member information</dd>
-      <dd>- Permissions to add/edit Forum topic and Gallery content</dd>
-      <dd>- Cannot see Check-ins and RSVPs in the Event Calendar</dd>
-      <dd>- File browser directories (click 'My account' then the 'File browser' tab)
-        <span class="newline">read/write access to the <code>shared</code> directory</span>
-      </dd>
+        <dt>Photographer</dt>
+        <dd>- No access to member information</dd>
+        <dd>- Permissions to add/edit Forum topic and Gallery content</dd>
+        <dd>- Cannot see Check-ins and RSVPs in the Event Calendar</dd>
+        <dd>- File browser directories (click 'My account' then the 'File browser' tab)
+          <span class="newline">read/write access to the <code>shared</code> directory</span>
+        </dd>
 
-      <dt>Road Captain</dt>
-      <dd>- No access to member information</dd>
-      <dd>- No permissions but can see the RC Calendar and RC Forms &amp; Documents page</dd>
-      <dd>- Can see Check-ins and RSVPs in the Event Calendar</dd>
-      <dd>- File browser directories (click 'My account' then the 'File browser' tab)
-        <span class="newline">read/write access to the <code>road_captains</code> and <code>shared</code> directories</span>
-      </dd>
-    </dl>
-  </section>
+        <dt>Road Captain</dt>
+        <dd>- No access to member information</dd>
+        <dd>- No permissions but can see the RC Calendar and RC Forms &amp; Documents page</dd>
+        <dd>- Can see Check-ins and RSVPs in the Event Calendar</dd>
+        <dd>- File browser directories (click 'My account' then the 'File browser' tab)
+          <span class="newline">read/write access to the <code>road_captains</code> and <code>shared</code> directories</span>
+        </dd>
+      </dl>
+    </section>
 
-  <section>
-    <h2>Production vs Sandbox</h2>
-    <p>Remember that there are two environments that you, the webmaster, and any Chapter Officer that has an <a href="#assign">assignable role</a> can work in.
-      <span class="newline">Production - the website that all members see</span>
-      <span class="newline">Sandbox - where you can try things out to see how they work without having an impact on what members see. It is easier to correct errors in this environment than in Production.</span>
-      <span class="newline mini-paragraph">The Sandbox environment starts with <i>dev</i>. (E.g. our sandbox environment is dev.raleighhog.com)</span>
-      <span class="newline mini-paragraph">Login credentials are the same for both environments</span>
-      <span class="newline mini-paragraph">You can see that the Sandbox is a mirror of Production but also note that changes made to the Production environment may take a few days or more to show in the Sandbox. They are not synced daily. (Syncing is done from Production to Sandbox. Not vice versa.)</span>
-      <span class="newline">If you make an error in the Sandbox that you cannot correct you will need to contact the Administrator (Russ) to get it back in sync with Production if you are unable to wait for a few days until they sync up again.</span>
-    </p>
-  </section>
+    <section>
+      <h2>Production vs Sandbox</h2>
+      <p>Remember that there are two environments that you, the webmaster, and any Chapter Officer that has an <a href="#assign">assignable role</a> can work in.
+        <span class="newline">Production - the website that all members see</span>
+        <span class="newline">Sandbox - where you can try things out to see how they work without having an impact on what members see. It is easier to correct errors in this environment than in Production.</span>
+        <span class="newline mini-paragraph">The Sandbox environment starts with <i>dev</i>. (E.g. our sandbox environment is dev.raleighhog.com)</span>
+        <span class="newline mini-paragraph">Login credentials are the same for both environments</span>
+        <span class="newline mini-paragraph">You can see that the Sandbox is a mirror of Production but also note that changes made to the Production environment may take a few days or more to show in the Sandbox. They are not synced daily. (Syncing is done from Production to Sandbox. Not vice versa.)</span>
+        <span class="newline">If you make an error in the Sandbox that you cannot correct you will need to contact the Administrator (Russ) to get it back in sync with Production if you are unable to wait for a few days until they sync up again.</span>
+      </p>
+    </section>
 
-  <section>
-    <h2>Directories</h2>
-    <p>Use the read/write access to directories to your advantage. Do not just dump files or images into a directory. Rather, create subdirectories as needed.
-      <span class="newline">For example, in the <code>activities</code> directory you can create one subdirectory to place images for destination rides and another subdirectory for images for dealer events. It's clear to you, and to others, what the different directories are for.</span>
-    </p>
-    <p>In addition to the aforementioned directories, each assignable role also has read/write permission to a <code>users</code> directory. This directory is unique to each person, even those that share the same role cannot see another's user directory.</p>
-  </section>
+    <section>
+      <h2>Directories</h2>
+      <p>Use the read/write access to directories to your advantage. Do not just dump files or images into a directory. Rather, create subdirectories as needed.
+        <span class="newline">For example, in the <code>activities</code> directory you can create one subdirectory to place images for destination rides and another subdirectory for images for dealer events. It's clear to you, and to others, what the different directories are for.</span>
+      </p>
+      <p>In addition to the aforementioned directories, each assignable role also has read/write permission to a <code>users</code> directory. This directory is unique to each person, even those that share the same role cannot see another's user directory.</p>
+    </section>
 
-  <section>
-    <h2>Team member - Primary Officer versus Chapter Officer versus Road Captain</h2>
-    <p>There are three different pages that show the Primary Officers, Chapter Officers and Road Captains. The four Primary Officers display on the Home page. Chapter Officers and Road Captains each have pages in the About Us menu.
-      <span class="newline mini-paragraph">
-        A member may have a dual role. That is, in addition to being a Primary Officer or a Chapter Officer they may be a Primary Officer AND a Road Captain or a Chapter Officer AND a Road Captain. When you 'Create Team Member' for someone that has dual roles be sure and keep the roles separate. That means you will add that team member twice. Once where you'll check the box if they are a Primary Officer or Chapter Officer and the second time where you check the box for the Road Captain role.</span>
-      <span class="newline mini-paragraph">
-        This will help when ordering the Chapter Officers and Road Captains pages. For instance, when viewing the Chapter Officers I assign a weight to each of the officers to order how each one is displayed.
-      </span>
-      <span class="newline mini-paragraph">
-        In a similar way on the Road Captains page, I want the Safety Officer and Head Road Captain to display first so they are assigned higher weights. I then assign a weight to each of the remaining Road Captains so they are listed alphabetically.
-      </span>
-    </p>
-  </section>
+    <section>
+      <h2>Team member - Primary Officer versus Chapter Officer versus Road Captain</h2>
+      <p>There are three different pages that show the Primary Officers, Chapter Officers and Road Captains. The four Primary Officers display on the Home page. Chapter Officers and Road Captains each have pages in the About Us menu.
+        <span class="newline mini-paragraph">
+          A member may have a dual role. That is, in addition to being a Primary Officer or a Chapter Officer they may be a Primary Officer AND a Road Captain or a Chapter Officer AND a Road Captain. When you 'Create Team Member' for someone that has dual roles be sure and keep the roles separate. That means you will add that team member twice. Once where you'll check the box if they are a Primary Officer or Chapter Officer and the second time where you check the box for the Road Captain role.</span>
+        <span class="newline mini-paragraph">
+          This will help when ordering the Chapter Officers and Road Captains pages. For instance, when viewing the Chapter Officers I assign a weight to each of the officers to order how each one is displayed.
+        </span>
+        <span class="newline mini-paragraph">
+          In a similar way on the Road Captains page, I want the Safety Officer and Head Road Captain to display first so they are assigned higher weights. I then assign a weight to each of the remaining Road Captains so they are listed alphabetically.
+        </span>
+      </p>
+    </section>
 
-  <section>
-    <h2>Creating a Basic Page</h2>
-    <p>Know that when creating a basic page, by default, non-authenticated users can view the page
-      <span class="newline mini-paragraph">
-        If the page you are creating should only been seen by authenticated users, a best-practice is to give the page a Title, provide a menu link and then Save the page. You can then go to the page and click the 'Access control' tab to configure the access control settings for the page. Submit the settings to save them prior to editing the page and filling in the content.
-      </span>
-    </p>
-  </section>
+    <section>
+      <h2>Creating a Basic Page</h2>
+      <p>Know that when creating a basic page, by default, non-authenticated users can view the page
+        <span class="newline mini-paragraph">
+          If the page you are creating should only been seen by authenticated users, a best-practice is to give the page a Title, provide a menu link and then Save the page. You can then go to the page and click the 'Access control' tab to configure the access control settings for the page. Submit the settings to save them prior to editing the page and filling in the content.
+        </span>
+      </p>
+    </section>
 
-  <section>
-    <h2>Event Calendar Notes</h2>
-    <p>While we want as many people as possible to attend and enjoy our events there is a difference between an "open" event and a "closed" event. Be sure you understand the difference and mark events appropriately.</p>
-    <p>Check with your HOG Regional Manager for clarification but the big difference between the two is liability. For your HOG Chapter the majority of events are "closed" events. This means that 51% of the participants need to be local chapter members. If this is not true, the event can still take place but it is no longer considered a chapter event.</p>
-    <p>In order for an event to be considered an "open" event additional insurance is needed. The chapter needs to apply for this a few weeks in advance of the event and it needs to be approved.</p>
-  </section>
+    <section>
+      <h2>Event Calendar Notes</h2>
+      <p>While we want as many people as possible to attend and enjoy our events there is a difference between an "open" event and a "closed" event. Be sure you understand the difference and mark events appropriately.</p>
+      <p>Check with your HOG Regional Manager for clarification but the big difference between the two is liability. For your HOG Chapter the majority of events are "closed" events. This means that 51% of the participants need to be local chapter members. If this is not true, the event can still take place but it is no longer considered a chapter event.</p>
+      <p>In order for an event to be considered an "open" event additional insurance is needed. The chapter needs to apply for this a few weeks in advance of the event and it needs to be approved.</p>
+    </section>
 
 
-  <footer>
-    <p class="github-link"><a class="profile-link" href="https://sjroma.github.io/cmshogscan/" target="_blank"><i class="fa fa-github text-center" aria-hidden="true"></i> Roma GitHub</a></p>
-  </footer>
+    <footer>
+      <p class="github-link"><a class="profile-link" href="https://sjroma.github.io/cmshogscan/" target="_blank"><i class="fa fa-github text-center" aria-hidden="true"></i> Roma GitHub</a></p>
+    </footer>
+  </div>
 
 </body>
 
