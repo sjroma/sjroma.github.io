@@ -32,7 +32,8 @@ The pages here are shown as examples of what you can do to personalize your webs
 * **[FAQ](https://www.raleighhog.com/faq)** and **[Ladies of Harley](https://www.raleighhog.com/ladies-harley)** - both pages are simplistic in that there is not much coding that I did when creating them. However, the FAQ page uses the HTML description list rather than an unordered or ordered list only because I think it works better for the page and doesn't require me to put additional tags around the question in order to make the text bold. 
 * A **[Financial Reports](https://www.raleighhog.com/financial-reports)** page and a **[Meeting Minutes](https://www.raleighhog.com/meeting-minutes)** page were created for the Raleigh HOG chapter. These pages are only viewable by authenticated users.  
 I wasn't able to clone the newsletters page but I did use its format as a starting point in how I wanted these two pages to display. I used a similar color scheme and call the PDF icon for the bullet points.  
-* **[Memorial Wall](https://sjroma.github.io/cmshogscan/pagesralhog/memorial)** - Remembering chapter members who have passed. This is a sample layout. Authenticated users see first and last names.  
+* **[Memorial Wall](https://sjroma.github.io/cmshogscan/pagesralhog/memorial)** - Remembering chapter members who have passed. This is a sample layout. (Authenticated users see first and last names)    
+* **[Former Officers](https://sjroma.github.io/cmshogscan/pagesralhog/pastofficers)** - With 35 years of history and still going we wanted to have a page to look back on all our former officers. (Authenticated users see first and last names)  
 
 The following is for webmasters using the CMS website _HOG\[SCAN\]_. Give your input for enhancements or report a bug.  
 * **[_HOG\[SCAN\]_ Wishlist](https://sjroma.github.io/cmshogscan/cmswishlist)** - view requested enhancements and reported bugs  
