@@ -2,7 +2,7 @@
 # _HOG\[SCAN\]_ Notes
 
 [_HOG\[SCAN\]_](https://www.hogscan.com) is a content management system (CMS) designed to help HOG chapters set up a responsive, easy to maintain website.  
-The pages here started off as notes to myself and to share with team members but I'm going to open this up to any chapter that uses _HOG\[SCAN\]_ in the hopes that they will help someone else.  
+The pages here started off as notes to myself and something I could share with team members but, I'm going to open this up to any chapter that uses _HOG\[SCAN\]_ in the hopes that they will help someone else.  
 
 _HOG\[SCAN\]_ webmasters, if you have something you would like to see added here, have something to contribute, or would like to ask me a question please feel free to [send me an email](mailto:webmaster@raleighhog.com).  
 
@@ -29,11 +29,11 @@ The pages here are shown as examples of what you can do to personalize your webs
 * **[Merchandise](https://sjroma.github.io/cmshogscan/pagesralhog/merchandise)** - shows available chapter merchandise. The page also shows if an item is out of stock or low stock. Hovering over an image causes it to grow.  
   There is no JavaScript behind this page. If an item is low, or out of stock, the page has to be manually updated.  
 * **[HOG Member of the Year](https://sjroma.github.io/cmshogscan/pagesralhog/hmoy)** - an award unique to the Raleigh NC Chapter. It is a list of chapter members who were selected for this honor each year since its inception in 2004. I tried to make the nameplates look plaque-like by giving a light source effect to each one. (Authenticated users see first and last names)  
-* **[FAQ](https://www.raleighhog.com/faq)** and **[Ladies of Harley](https://www.raleighhog.com/ladies-harley)** - both pages are simplistic in that there is not much coding that I did when creating them. However, the FAQ page uses the HTML description list rather than an unordered or ordered list only because I think it works better for the page and doesn't require me to put additional tags around the question in order to make the text bold. 
+* **[FAQ](https://www.raleighhog.com/faq)** and **[Ladies of Harley](https://www.raleighhog.com/ladies-harley)** - both pages are simplistic in that there is not much coding that I did when creating them. However, the FAQ page uses the HTML description list rather than an unordered or ordered list only because I think it works better for the page and doesn't require me to put additional tags around the question in order to make the text bold.  
 * A **[Financial Reports](https://www.raleighhog.com/financial-reports)** page and a **[Meeting Minutes](https://www.raleighhog.com/meeting-minutes)** page were created for the Raleigh HOG chapter. These pages are only viewable by authenticated users.  
 I wasn't able to clone the newsletters page but I did use its format as a starting point in how I wanted these two pages to display. I used a similar color scheme and call the PDF icon for the bullet points.  
 * **[Memorial Wall](https://sjroma.github.io/cmshogscan/pagesralhog/memorial)** - Remembering chapter members who have passed. This is a sample layout. (Authenticated users see first and last names)    
-* **[Former Officers](https://sjroma.github.io/cmshogscan/pagesralhog/pastofficers)** - With 35 years of history and still going we wanted to have a page to look back on all our former officers. (Authenticated users see first and last names)  
+* **[Former Officers](https://sjroma.github.io/cmshogscan/pagesralhog/pastofficers)** - With 35 years of chapter history and still going we wanted to have a page to look back on all our former officers. I was trying to think of a different design for this page. I think the cards work well. (Authenticated users see first and last names)  
 
 The following is for webmasters using the CMS website _HOG\[SCAN\]_. Give your input for enhancements or report a bug.  
 * **[_HOG\[SCAN\]_ Wishlist](https://sjroma.github.io/cmshogscan/cmswishlist)** - view requested enhancements and reported bugs  
