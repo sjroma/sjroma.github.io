@@ -14,7 +14,7 @@ Note, the role listed is the minimum role a member needs to have to accomplish t
 * <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsAddTeamMember.html" target="_blank">**Add a Team Member**</a> - **Editor** role  
 * <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsNewslettersUpdate.html" target="_blank">**Place a Newsletter on the Website**</a> - **Editor** role  
 * <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsFinancialReport.html" target="_blank">**Place a Financial Report on the Website**</a> - **Editor** role (page created by/for Raleigh NC Chapter)  
-* **[Update the Event Calendar](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEventCalUpdate.html)** - **Activities Officer** role  
+* <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEventCalUpdate.html" target="_blank">**Update the Event Calendar**</a> - **Activities Officer** role  
 * **[Create a Blog entry](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsBlogCreate.html)** - **Activities Officer** role  
 * **[Upload Images to the Galleries page](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsGalleriesAdd.html)** - **Photographer** role  
 * **[Add Monthly Meeting Minutes](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsMtgMinutesUpload.html)** - **Photographer** role (note: access control was changed from Editor to give the minimal role needed to update this basic page)  
