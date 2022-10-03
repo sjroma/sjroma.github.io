@@ -34,7 +34,7 @@ I wasn't able to clone the newsletters page but I did use its format as a starti
 * <a href="https://sjroma.github.io/cmshogscan/pagesralhog/pastofficers" target="_blank">**Former Officers**</a> - With 35 years of chapter history and still going we wanted to have a page to look back on all our former officers. I was trying to think of a different design for this page. I think the cards work well. (Authenticated users see first and last names)  
 
 The following is for webmasters using the CMS website _HOG\[SCAN\]_. Give your input for enhancements or report a bug.  
-* **[_HOG\[SCAN\]_ Wishlist](https://sjroma.github.io/cmshogscan/cmswishlist)** - view requested enhancements and reported bugs  
+* <a href="https://sjroma.github.io/cmshogscan/cmswishlist" target="_blank">**_HOG\[SCAN\]_ Wishlist**</a> - view requested enhancements and reported bugs  
 
 **[HOG chapters powered by _HOG\[SCAN\]_](https://sjroma.github.io/cmshogscan/chapters/)** - Alphabetized by state and then city, this page lists the HOG chapters that use _HOG\[SCAN\]_ and provides a link to each one.  
 
