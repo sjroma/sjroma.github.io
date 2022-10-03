@@ -6,7 +6,7 @@ This repo hosts some work I've done. It gives users an easy way to see some of m
 
 <a href="https://sjroma.github.io/rpsls" target="_blank">**Play ROCK-PAPER-SCISSORS-LIZARD-SPOCK**</a> v2.0 - a front-end JavaScript exercise where you play rock-paper-scissors-lizard-spock against the computer. In this version the user chooses by clicking an icon and feedback is provided on the page.  
 
-  * **[Play ROCK-PAPER-SCISSORS](https://sjroma.github.io/rps)** v1.0 - a front-end JavaScript exercise where you play rock-paper-scissors-lizard-spock against the computer. In this version the user is prompted with Alert pop-ups, makes their choice via the keyboard and feedback is provided with pop-ups.
+  * <a href="https://sjroma.github.io/rps" target="_blank">**Play ROCK-PAPER-SCISSORS**</a> v1.0 - a front-end JavaScript exercise where you play rock-paper-scissors-lizard-spock against the computer. In this version the user is prompted with Alert pop-ups, makes their choice via the keyboard and feedback is provided with pop-ups.  
 
 **[Listen to Music](https://sjroma.github.io/soundcloud)** - a front-end JavaScript exercise that connects to the Soundcloud API and lets the user search for an Artist or song title and then play the result  
 
