@@ -1,8 +1,7 @@
 
 # _HOG\[SCAN\]_ Notes
 
-[_HOG\[SCAN\]_](https://www.hogscan.com) is a content management system (CMS) designed to help HOG chapters set up a responsive, easy to maintain website.  
-The pages here started off as notes to myself and something I could share with team members but, I'm going to open this up to any chapter that uses _HOG\[SCAN\]_ in the hopes that they will help someone else.  
+<a href="https://www.hogscan.com" target="_blank">_HOG\[SCAN\]_</a> is a content management system (CMS) designed to help HOG chapters set up a responsive, easy to maintain website. The pages here started off as notes to myself and something I could share with team members but, I'm going to open this up to any chapter that uses _HOG\[SCAN\]_ in the hopes that they will help someone else.  
 
 _HOG\[SCAN\]_ webmasters, if you have something you would like to see added here, have something to contribute, or would like to ask me a question please feel free to [send me an email](mailto:webmaster@raleighhog.com).  
 
