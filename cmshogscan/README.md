@@ -18,7 +18,7 @@ Note, the role listed is the minimum role a member needs to have to accomplish t
 * <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsBlogCreate.html" target="_blank">**Create a Blog entry**</a> - **Activities Officer** role  
 * <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsGalleriesAdd.html" target="_blank">**Upload Images to the Galleries page**</a> - **Photographer** role  
 * <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsMtgMinutesUpload.html" target="_blank">**Add Monthly Meeting Minutes**</a> - **Photographer** role (note: access control was changed from Editor to give the minimal role needed to update this basic page)  
-* **[Upload Road Captain Documents](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsRoadCaptUploads.html)** - **Road Captain** role  
+* <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsRoadCaptUploads.html" target="_blank">**Upload Road Captain Documents**</a> - **Road Captain** role  
 * **[Using the HogScan smartphone application](https://sjroma.github.io/cmshogscan/hogscanapp/index.html)** - **Road Captain** role  
 
 The following pages were created from scratch for the raleighhog.com website. I have a background writing code with HTML and CSS so it's easier for me to create a page off-line and then copy/paste it to the CMS site.  
