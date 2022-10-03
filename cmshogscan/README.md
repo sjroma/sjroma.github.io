@@ -11,7 +11,7 @@ Additionally, the page contains other useful setup notes.
 
 The following pages were created to help ease the transition for someone moving into a new role. They are step-by-step how-to guides that can be used by a first timer as well as provide a reference for those with more experience.  
 Note, the role listed is the minimum role a member needs to have to accomplish the task.
-* **[Add a Team Member](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsAddTeamMember.html)** - **Editor** role  
+* <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsAddTeamMember.html" target="_blank">**Add a Team Member**</a> - **Editor** role  
 * **[Place a Newsletter on the Website](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsNewslettersUpdate.html)** - **Editor** role  
 * **[Place a Financial Report on the Website](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsFinancialReport.html)** - **Editor** role (page created by/for Raleigh NC Chapter)     
 * **[Update the Event Calendar](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEventCalUpdate.html)** - **Activities Officer** role  
