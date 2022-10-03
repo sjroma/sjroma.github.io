@@ -13,7 +13,7 @@ The following pages were created to help ease the transition for someone moving 
 Note, the role listed is the minimum role a member needs to have to accomplish the task.
 * <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsAddTeamMember.html" target="_blank">**Add a Team Member**</a> - **Editor** role  
 * <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsNewslettersUpdate.html" target="_blank">**Place a Newsletter on the Website**</a> - **Editor** role  
-* **[Place a Financial Report on the Website](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsFinancialReport.html)** - **Editor** role (page created by/for Raleigh NC Chapter)     
+* <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsFinancialReport.html" target="_blank">**Place a Financial Report on the Website</a>** - **Editor** role (page created by/for Raleigh NC Chapter)  
 * **[Update the Event Calendar](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEventCalUpdate.html)** - **Activities Officer** role  
 * **[Create a Blog entry](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsBlogCreate.html)** - **Activities Officer** role  
 * **[Upload Images to the Galleries page](https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsGalleriesAdd.html)** - **Photographer** role  
