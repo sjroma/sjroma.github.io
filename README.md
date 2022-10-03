@@ -8,17 +8,17 @@ This repo hosts some work I've done. It gives users an easy way to see some of m
 
   * <a href="https://sjroma.github.io/rps" target="_blank">**Play ROCK-PAPER-SCISSORS**</a> v1.0 - a front-end JavaScript exercise where you play rock-paper-scissors-lizard-spock against the computer. In this version the user is prompted with Alert pop-ups, makes their choice via the keyboard and feedback is provided with pop-ups.  
 
-**[Listen to Music](https://sjroma.github.io/soundcloud)** - a front-end JavaScript exercise that connects to the Soundcloud API and lets the user search for an Artist or song title and then play the result  
+<a href="https://sjroma.github.io/soundcloud" target="_blank">**Listen to Music**</a> - a front-end JavaScript exercise that connects to the Soundcloud API and lets the user search for an Artist or song title and then play the result  
 
-**[fccJavaScript](http://sjroma.github.io/fccjs)** - JavaScript code snippets I wanted to save for possible future reference. Users can either;  
+<a href="http://sjroma.github.io/fccjs" target="_blank">**fccJavaScript**</a> - JavaScript code snippets I wanted to save for possible future reference. Users can either;  
 &nbsp;&nbsp;- open Dev Tools and view the console  
 &nbsp;&nbsp;- or open the interactive page, input test cases and see results w/out having to open Dev Tools. This as an exercise I came up with to combine/grow my HTML, CSS and front-end JS skills.  
 
-**[cmshogscan](https://sjroma.github.io/cmshogscan)** - created as a way for me to share hints, tips and other information with webmasters that use HOG\[SCAN\], a content management system designed to help HOG chapters set up a responsive, easy to maintain website  
+<a href="https://sjroma.github.io/cmshogscan" target="_blank">**cmshogscan**</a> - created as a way for me to share hints, tips and other information with webmasters that use HOG\[SCAN\], a content management system designed to help HOG chapters set up a responsive, easy to maintain website  
 
-**[HOG chapter websites](https://sjroma.github.io/HOGsites)** - simple page w/navbar dropdowns of HOG chapter websites that were built with various content management systems (CMS), such as [HOG[SCAN]](https://www.hogscan.com), [Pinnacle Consulting](http://pin-consult.com), [Wordpress](https://wordpress.com) and [Wix](https://www.wix.com)   
+<a href="https://sjroma.github.io/HOGsites" target="_blank">**HOG chapter websites**</a> - simple page w/navbar dropdowns of HOG chapter websites that were built with various content management systems (CMS), such as <a href="https://www.hogscan.com" target="_blank">HOG[SCAN]</a>, <a href="http://pin-consult.com" target="_blank">Pinnacle Consulting</a>, <a href="https://wordpress.com" target="_blank">Wordpress</a> and <a href="https://www.wix.com" target="_blank">Wix</a>  
 
-**[Round TUIT](http://sjroma.github.io/roundtuit)** - a goofy web page to give motivation to procrastinators  
+<a href="http://sjroma.github.io/roundtuit" target="_blank">**Round TUIT**</a> - a goofy web page to give motivation to procrastinators  
 
 ### To-do  
   - [ ] Create a portfolio for this space to showcase these apps and see another example of work I can do   
