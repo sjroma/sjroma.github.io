@@ -17,6 +17,11 @@ body {
   text-align: center;
 }
 
+.chapter {
+  color: #a9a9a9;
+  text-shadow: 0.07em 0.07em 0.13em #000;
+}
+
 .past-officers {
   display: flex;
   flex-wrap: wrap;
