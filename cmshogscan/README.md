@@ -6,7 +6,7 @@
 _HOG\[SCAN\]_ webmasters, if you have something you would like to see added here, have something to contribute, or would like to ask me a question please feel free to [send me an email](mailto:webmaster@raleighhog.com).  
 
 ---    
-**[_HOG\[SCAN\]_ Setup Notes](https://sjroma.github.io/cmshogscan/cmswebsite/)** - _HOG\[SCAN\]_ uses role based permissions to restrict network access based on a members role. This page gives a description of the various roles and the access granted to each one.  
+<a href="https://sjroma.github.io/cmshogscan/cmswebsite/" target="_blank">**_HOG\[SCAN\]_ Setup Notes**</a> - _HOG\[SCAN\]_ uses role based permissions to restrict network access based on a members role. This page gives a description of the various roles and the access granted to each one.  
 Additionally, the page contains other useful setup notes.  
 
 The following pages were created to help ease the transition for someone moving into a new role. They are step-by-step how-to guides that can be used by a first timer as well as provide a reference for those with more experience.  
