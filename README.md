@@ -2,7 +2,7 @@
 This repo hosts some work I've done. It gives users an easy way to see some of my work without having to `clone` or `download` a specific repository.  
 
 ## Links:  
-**[Generate Random Lottery Numbers](https://sjroma.github.io/lotterynumbers)** - a front-end JavaScript exercise that generates random numbers for playing the U.S. based _Mega Millions_ and _Powerball_ lottery games. Contains an Easter egg that shows the various ways to win and the odds of winning.  
+<a href="https://sjroma.github.io/lotterynumbers" target="_blank">**Generate Random Lottery Numbers**</a> - a front-end JavaScript exercise that generates random numbers for playing the U.S. based _Mega Millions_ and _Powerball_ lottery games. Contains an Easter egg that shows the various ways to win and the odds of winning.  
 
 **[Play ROCK-PAPER-SCISSORS-LIZARD-SPOCK](https://sjroma.github.io/rpsls)** v2.0 - a front-end JavaScript exercise where you play rock-paper-scissors-lizard-spock against the computer. In this version the user chooses by clicking an icon and feedback is provided on the page.  
 
