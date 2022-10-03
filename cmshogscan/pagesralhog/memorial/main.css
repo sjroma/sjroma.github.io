@@ -62,6 +62,10 @@ body {
   /* 60% white from bottom */
 }
 
+.placeholder {
+  visibility: hidden;
+}
+
 ul {
   list-style: none;
   margin: auto;
