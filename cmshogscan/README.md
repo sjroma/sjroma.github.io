@@ -36,6 +36,6 @@ I wasn't able to clone the newsletters page but I did use its format as a starti
 The following is for webmasters using the CMS website _HOG\[SCAN\]_. Give your input for enhancements or report a bug.  
 * <a href="https://sjroma.github.io/cmshogscan/cmswishlist" target="_blank">**_HOG\[SCAN\]_ Wishlist**</a> - view requested enhancements and reported bugs  
 
-**[HOG chapters powered by _HOG\[SCAN\]_](https://sjroma.github.io/cmshogscan/chapters/)** - Alphabetized by state and then city, this page lists the HOG chapters that use _HOG\[SCAN\]_ and provides a link to each one.  
+<a href="https://sjroma.github.io/cmshogscan/chapters/" target="_blank">**HOG chapters powered by _HOG\[SCAN\]_**</a> - Alphabetized by state and then city, this page lists the HOG chapters that use _HOG\[SCAN\]_ and provides a link to each one.  
 
 ##### ~/GitHub/sjroma.github.io/cmshogscan  
