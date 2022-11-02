@@ -1,10 +1,10 @@
 # Raleigh HOG Patches  
 
-## View the [Raleigh HOG Patches](https://sjroma.github.io/patchesPage/index.html) page  
+## View the <a href="https://sjroma.github.io/patchesPage/index.html" target="_blank">Raleigh HOG Patches</a> page
 
 Refactored the old page to 
   - use Flexbox instead of a table making it easier to add a future `.patch-container` class which holds the patch image, title and ride description  
-  - use [accessible links](https://webaim.org/techniques/hypertext/link_text) rather than having users click on the word "here"  
+  - use <a href="https://webaim.org/techniques/hypertext/link_text" target="_blank"> accessible links</a> rather than having users click on the word "here"  
   - make patch image backgrounds transparent  
   - add templates for ease of updating PDF files and to make files look uniform  
 
