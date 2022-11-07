@@ -17,12 +17,16 @@
       font-family: Raleway, sans-serif;
     }
 
-    h1, h2 {
+    h1, h2, h3 {
       text-align: center;
       color: #00f;
     }
 
-    .notes, .website-steps {
+    h3 {
+      color: #f00;
+    }
+
+    .notes, .subdir-add, .website-steps {
       border: solid 1px #333;
       border-radius: 5px;
       margin: auto;
@@ -32,7 +36,7 @@
 
     p {
       text-align: left;
-      margin-left: 2em;
+      margin: auto 1em;
     }
 
     ul {
@@ -101,20 +105,42 @@
     </ul>
   </article>
 
-  <article class="website-steps">
-    <h2>Upload a Document</h2>
+  <article class="subdir-add">
+    <h2>Create a new Subdirectory</h2>
+    <h3>Steps in this section only need to be done at the start of the calender year</h3>
+    <p>Once the subdirectory for the current year has been created, files will be added by following the steps in the <a href="#upload">Upload a Document</a> section.</p>
     <ol>
       <li>Login to your account on <a href="https://www.raleighhog.com">raleighhog.com</a></li>
-      <li>Click on the 'My account' link in the navbar. see image below <img class="screenshot" src="../images/rcMyAcct.jpg" alt="screenshot of my account link"></li>
-      <li>On your account page, click the 'File browser' tab. see image below <img class="screenshot" src="../images/rcFileBrowserTab.jpg" alt="screenshot of file browser tab"></li>
+      <li>Click on the <b>My account</b> link in the navbar. see image below <img class="screenshot" src="../images/rcMyAcct.jpg" alt="screenshot of my account link"></li>
+      <li>On your account page, click the <b>File browser</b> tab. see image below <img class="screenshot" src="../images/rcFileBrowserTab.jpg" alt="screenshot of file browser tab"></li>
+      <li>The following window opens. This shows all the directories the Road Captains have access to. Road Captains will only use the 'road_captains' directory for this tutorial. <img class="screenshot" src="../images/rcDirectories1.jpg" alt="screenshot of all road captain directories"></li>
+      <li>Click the 'road_captains' directory highlighted in the above image to expand it. see image below<img class="screenshot" src="../images/rcCreateDir1.jpg" alt="screenshot of expanded road_captains directory"></li>
+      <li>If the current calendar year does not show, use the following steps to create the a subdirectory. Otherwise, go to the <a href="#upload">Upload a Document</a> section to continue.
+        <ol>
+          <li>This tutorial assumes that a directory for 2023 needs to be added and the steps following show how to add it. Follow these steps to create the yearly subdirectory for your current situation.</li>
+        </ol>
+      </li>
+      <li>In the toolbar, click <b>Directory</b> and there will be a dropdown. see image below <img class="screenshot" src="../images/rcCreateDir2.jpg" alt="screenshot showing directory in toolbar and subsequent dropdown"></li>
+      <li>Fill in the name for the new directory, then click the <b>Add</b> button. For this tutorial, 2023 will be the name of the new directory. see image below <img class="screenshot" src="../images/rcCreateDir3.jpg" alt=""></li>
+      <li>The new directory shows in the list. Click the <b>x</b> in the upper right corner of the dropdown to close it. see image below<img class="screenshot" src="../images/rcCreateDir4.jpg" alt=""></li>
+      <li>Go to step <b style="color: #f77">6</b> in the next section, <a href="#upload">Upload a Document</a>, to populate the new directory</li>
+    </ol>
+  </article>
+
+  <article class="website-steps">
+    <h2 id="upload">Upload a Document</h2>
+    <ol>
+      <li>Login to your account on <a href="https://www.raleighhog.com">raleighhog.com</a></li>
+      <li>Click on the <b>My account</b> link in the navbar. see image below <img class="screenshot" src="../images/rcMyAcct.jpg" alt="screenshot of my account link"></li>
+      <li>On your account page, click the <b>File browser</b> tab. see image below <img class="screenshot" src="../images/rcFileBrowserTab.jpg" alt="screenshot of file browser tab"></li>
       <li>The following window opens. This shows all the directories the Road Captains have access to. Road Captains will only use the 'road_captains' directory for this tutorial. <img class="screenshot" src="../images/rcDirectories1.jpg" alt="screenshot of all road captain directories"></li>
       <li>Click the 'road_captains' directory highlighted in the above image to expand it and it will expand as follows. As years go by there will be directories added. For this tutorial we will be using 2022. <img class="screenshot" src="../images/rcDirectories2.jpg" alt="screenshot of expanded road_captains directory"></li>
-      <li>Click on the current calender year to expand the directory. You will see a list of files that have been uploaded. For this tutorial we will use 2022. The expanded directory will look similar to the image below. <img class="screenshot" src="../images/rcDirectories3.jpg" alt="screenshot showing 2022 directory opened"></li>
-      <li>To upload a new file into the directory click 'Upload' in the toolbar. see image below <img class="screenshot" src="../images/rcDirectories4.jpg" alt="screenshot showing upload in toolbar"></li>
-      <li>In the pop-up that opens click 'Choose File', then select the file on your local machine that you wish to upload. see image below <img class="screenshot" src="../images/rcDirectories5.jpg" alt="screenshot showing upload pop-up"></li>
-      <li>Click the 'Upload' button in the pop-up to load the file onto the server. see image below <img class="screenshot" src="../images/rcDirectories6.jpg" alt="screenshot showing pop-up upload button"></li>
-      <li>You will see the file you just uploaded in the list of files. If you need to upload another file continue by repeating the steps from step #8.</li>
-      <li>When you are done uploading your file(s), click the 'x' in the pop-up window to close it. see image below <img class="screenshot" src="../images/rcDirectories7.jpg" alt="screenshot showing how to close pop-up"></li>
+      <li>Click on the current calender year to expand the directory. You will see a list of files that have been uploaded. For this tutorial we will use 2022. The expanded directory will look similar to the image below. (The directory will be empty if you've just created a new directory for the calendar year.) <img class="screenshot" src="../images/rcDirectories3.jpg" alt="screenshot showing 2022 directory opened"></li>
+      <li>To upload a new file into the directory click <b>Upload</b> in the toolbar. see image below <img class="screenshot" src="../images/rcDirectories4.jpg" alt="screenshot showing upload in toolbar"></li>
+      <li>In the pop-up that opens click <b>Choose File</b>, then select the file on your local machine that you wish to upload. see image below <img class="screenshot" src="../images/rcDirectories5.jpg" alt="screenshot showing upload pop-up"></li>
+      <li>Click the <b>Upload</b> button in the pop-up to load the file onto the server. see image below <img class="screenshot" src="../images/rcDirectories6.jpg" alt="screenshot showing pop-up upload button"></li>
+      <li>You will see the file you just uploaded in the list of files. If you need to upload another file continue by repeating the steps from step <b style="color: #f77">8</b>.</li>
+      <li>When you are done uploading your file(s), click the <b>x</b> in the pop-up window to close it. see image below <img class="screenshot" src="../images/rcDirectories7.jpg" alt="screenshot showing how to close pop-up"></li>
       <li>Logout when you have finished.</li>
       <li>Our website has pointers to files in this directory. If you've uploaded a new Road Captain list, then let the webmaster know so that the pointer can be updated to point to this latest file.</li>
     </ol>
