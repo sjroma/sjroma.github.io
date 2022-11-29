@@ -4,23 +4,29 @@
 }
 
 body {
-  background-color: #222;
+  background-color: #000;
   color: #f9f9f9;
   font-family: Raleway, sans-serif;
+  background-image: url(images/barShieldLogo.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
 }
 
 .page-container {
-  position: relative;
-  min-height: 100vh;
-  margin: 0 0.5em;
-  padding: 0 0.5em;
+  background: rgba(001, 001, 001, 0.75);
+  border-radius: .25em;
+  margin: auto;
+  padding: 1.25em;
+  max-width: 97%;
 }
 
 .content-wrapper {
   padding-bottom: 2.5rem;
 }
 
-h1 {
+h1, h3 {
   text-align: center;
 }
 
@@ -47,13 +53,6 @@ dd {
 
 code {
   font-size: 1.3em;
-}
-
-.foot {
-  position: absolute;
-/*  bottom: 0;*/
-  width: 100%;
-/*  height: 2.5rem;*/
 }
 
 .foot a {
