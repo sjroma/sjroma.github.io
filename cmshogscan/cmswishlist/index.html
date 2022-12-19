@@ -14,8 +14,8 @@
 <body>
 
   <div class="page-container">
+    <h1><i>HOG[SCAN]</i> Wishlist</h1>
     <div class="content-wrapper">
-      <h1><i>HOG[SCAN]</i> Wishlist</h1>
       <h3>"Spiders are the only web developers happy to find bugs"</h3>
       <section>
         <p>In no particular order, these are some fixes and enhancements that webmasters using <i>HOG[SCAN]</i> would like to see incorporated</p>
@@ -23,34 +23,35 @@
         <h2>Bugs</h2>
         <dl>
           <dt>Global token for Chapter Handbook needs to be updated</dt>
-          <dd>The global token <code>[hogscan:handbook_url]</code> points to the 2018 Chapter Handbook. It needs to be updated to point to the 2022 Chapter Handbook.
+          <dd>- The global token <code>[hogscan:handbook_url]</code> points to the 2018 Chapter Handbook. It needs to be updated to point to the 2022 Chapter Handbook.
           <dd>The new URL is; <a href="https://s3.us-east-1.amazonaws.com/fonteva-customer-media/00Dj0000000HVTSEA4/AXLXrNsr_2022_HOG_Chapter_Handbook_pdf">https://s3.us-east-1.amazonaws.com/fonteva-customer-media/00Dj0000000HVTSEA4/AXLXrNsr_2022_HOG_Chapter_Handbook_pdf</a>
             <span class="newline">This token is used in the <i>About us</i> page.</span>
           </dd>
 
           <dt>Global token for member release form needs to be updated</dt>
-          <dd>The global token <code>[hogscan:member_release_url]</code> needs to be updated to point to the new form as shown in the new <a href="https://s3.us-east-1.amazonaws.com/fonteva-customer-media/00Dj0000000HVTSEA4/AXLXrNsr_2022_HOG_Chapter_Handbook_pdf">2022 Chapter Handbook</a> on page 60.
+          <dd>- The global token <code>[hogscan:member_release_url]</code> needs to be updated to point to the new form, shown on page 60, in the new <a href="https://s3.us-east-1.amazonaws.com/fonteva-customer-media/00Dj0000000HVTSEA4/AXLXrNsr_2022_HOG_Chapter_Handbook_pdf">2022 Chapter Handbook</a>.
             <span class="newline">This token is used in the <i>Join the Chapter</i> page.</span>
           </dd>
 
           <dt>Unable to download/view the <i>Chapter Charter</i> or <i>Chapter Handbook</i> when clicking the respective links.</dt>
-          <dd>On the <code>About</code> page, clicking the link to download the <i>Chapter Charter</i> or <i>Chapter Handbook</i> fails. End user's see "This site can't be reached" message. This is because the code repeats the <code>https</code> protocol for each link.</dd>
-          <dd>Webmasters, until there is an official fix, edit the 'About Us' page. Change the 'Text format' to 'HTML Code' and scroll down to the <i>Chapter Charter &amp; Handbook</i> section. The start of the section looks like this: <code>&lt;strong&gt;Chapter Charter &amp;amp; Handbook&lt;/strong&gt;</code></dd>
-          <dd>Within that section change the following line</dd>
-          <dd><code>&lt;a href="https://[hogscan:charter-url]" rel="nofollow" target="_blank"&gt;</code></dd>
-          <dd>to</dd>
-          <dd><code>&lt;a href="[hogscan:charter-url]" rel="nofollow" target="_blank"&gt;</code></dd>
-          <dd>Do the same with the link to the <i>Chapter Handbook</i>. That is, delete <code>https://</code></dd>
-          <dd>Be sure to scroll down and Save your changes</dd>
+          <dd>- On the <code>About</code> page, clicking the link to download the <i>Chapter Charter</i> or <i>Chapter Handbook</i> fails. End user's see "This site can't be reached" message. This is because the code repeats the <code>https</code> protocol for each link.
+            <span class="newline">Webmasters, until there is an official fix, edit the 'About Us' page. Change the 'Text format' to 'HTML Code' and scroll down to the <i>Chapter Charter &amp; Handbook</i> section. The start of the section looks like this: <code>&lt;strong&gt;Chapter Charter &amp;amp; Handbook&lt;/strong&gt;</code></span>
+            <span class="newline">Within that section change the following line</span>
+            <span class="newline"><code>&lt;a href="https://[hogscan:charter-url]" rel="nofollow" target="_blank"&gt;</code></span>
+            <span class="newline">to</span>
+            <span class="newline"><code>&lt;a href="[hogscan:charter-url]" rel="nofollow" target="_blank"&gt;</code></span>
+            <span class="newline">Do the same with the link to the <i>Chapter Handbook</i>. That is, delete <code>https://</code></span>
+            <span class="newline">Be sure to scroll down and Save your changes</span>
+          </dd>
 
           <dt>The smartphone app exposes member information to Road Captains</dt>
-          <dd>The smartphone app should not expose member's HOG ID or ICE information to Road Captains. The app is the only place where member's private info is exposed to the Road Captain role.</dd>
+          <dd>- The smartphone app should not expose member's HOG ID or ICE information to Road Captains. The app is the only place where member's private info is exposed to the Road Captain role.</dd>
 
           <dt>Fix the GPX mapping feature on the event page</dt>
           <dd>- Seems to have stopped working around the same time the H-D Ride Planner altered how it gens a GPX file</dd>
 
           <dt>Mailer link points to an out of date URL</dt>
-          <dd>The HOG[SCAN]-->Mailer link in the admins navbar points to an old/outdated link to Elastic Email.
+          <dd>- The HOG[SCAN]-->Mailer link in the admins navbar points to an old/outdated link to Elastic Email.
             <span class="newline">The link needs to be updated to point to https://mailer.hogscan.com</span>
           </dd>
         </dl>
@@ -78,7 +79,7 @@
           </dd>
 
           <dt>Give webmasters the ability to sync the sandbox environment with the production environment</dt>
-          <dd>Currently a request has to be made to the Admin in order to have the sandbox environment synced up with the production environment.
+          <dd>- Currently a request has to be made to the Admin in order to have the sandbox environment synced up with the production environment.
             <span class="newline">It would be nice if webmaster's had a button to click that would run the job to sync the sandbox with production so it could be done on-demand.</span>
           </dd>
         </dl>
