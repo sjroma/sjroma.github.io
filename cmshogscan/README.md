@@ -11,7 +11,7 @@ _HOG\[SCAN\]_ webmasters, if you have something you would like to see added here
 Additionally, you will find other useful setup notes.  
 
 ## _HOG\[SCAN\]_ How-to Guides 
-The following documents were created to help ease the transition for someone moving into a new role. They are step-by-step how-to guides that can be used by a first timer as well as provide a reference for those with more experience.  
+The following documents were created to help ease the transition for someone moving into a new role. They are step-by-step how-to guides that can be used by a first timer as well as provide a reference for those with more experience. Although certain steps may be specific to the Raleigh NC Chapter website, the overall steps should be generic enough that other chapters using HOG\[SCAN\] should be able to follow along with slight modifications.  
 Note, the role listed is the minimum role a member needs to have to accomplish the task.  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsAddTeamMember.html" target="_blank">**Add a Team Member**</a> - **Editor** role  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsNewslettersUpdate.html" target="_blank">**Place a Newsletter on the Website**</a> - **Editor** role  
