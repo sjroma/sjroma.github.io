@@ -22,6 +22,17 @@
 
         <h2>Bugs</h2>
         <dl>
+          <dt>Global token for Chapter Handbook needs to be updated</dt>
+          <dd>The global token <code>[hogscan:handbook_url]</code> points to the 2018 Chapter Handbook. It needs to be updated to point to the 2022 Chapter Handbook.
+          <dd>The new URL is; <a href="https://s3.us-east-1.amazonaws.com/fonteva-customer-media/00Dj0000000HVTSEA4/AXLXrNsr_2022_HOG_Chapter_Handbook_pdf">https://s3.us-east-1.amazonaws.com/fonteva-customer-media/00Dj0000000HVTSEA4/AXLXrNsr_2022_HOG_Chapter_Handbook_pdf</a>
+            <span class="newline">This token is used in the <i>About us</i> page.</span>
+          </dd>
+
+          <dt>Global token for member release form needs to be updated</dt>
+          <dd>The global token <code>[hogscan:member_release_url]</code> needs to be updated to point to the new form as shown in the new <a href="https://s3.us-east-1.amazonaws.com/fonteva-customer-media/00Dj0000000HVTSEA4/AXLXrNsr_2022_HOG_Chapter_Handbook_pdf">2022 Chapter Handbook</a> on page 60.
+            <span class="newline">This token is used in the <i>Join the Chapter</i> page.</span>
+          </dd>
+
           <dt>Unable to download/view the <i>Chapter Charter</i> or <i>Chapter Handbook</i> when clicking the respective links.</dt>
           <dd>On the <code>About</code> page, clicking the link to download the <i>Chapter Charter</i> or <i>Chapter Handbook</i> fails. End user's see "This site can't be reached" message. This is because the code repeats the <code>https</code> protocol for each link.</dd>
           <dd>Webmasters, until there is an official fix, edit the 'About Us' page. Change the 'Text format' to 'HTML Code' and scroll down to the <i>Chapter Charter &amp; Handbook</i> section. The start of the section looks like this: <code>&lt;strong&gt;Chapter Charter &amp;amp; Handbook&lt;/strong&gt;</code></dd>
