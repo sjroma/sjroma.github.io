@@ -1,5 +1,6 @@
 <!--
   steps to upload Road Captain documents to the server
+  edit access for this page given to Head Road Cap'n
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -29,12 +30,12 @@
       color: #00f;
       text-decoration: none;
     }
-    
+
     a:hover {
       text-decoration: underline;
     }
 
-    .notes, .subdir-add, .website-steps {
+    .notes, .subdir-add, .website-steps, .update-link {
       border: solid 1px #333;
       border-radius: 5px;
       margin: auto;
@@ -65,6 +66,11 @@
 
     li {
       max-width: 95%;
+    }
+
+    .newline {
+      display: block;
+      padding-left: 0.5em;
     }
 
     code {
@@ -152,7 +158,48 @@
       <li>You will see the file you just uploaded in the list of files. If you need to upload another file continue by repeating the steps from step <b style="color: #f77">8</b>.</li>
       <li>When you are done uploading your file(s), click the <b>x</b> in the pop-up window to close it. see image below <img class="screenshot" src="../images/rcDirectories7.jpg" alt="screenshot showing how to close pop-up"></li>
       <li>Logout when you have finished.</li>
-      <li>Our website has pointers to files in this directory. If you've uploaded a new Road Captain list, then let the webmaster know so that the pointer can be updated to point to this latest file.</li>
+      <li>Our website has pointers to files in this directory. If you've uploaded new files then continue to the next section, <a href=#update-page>Update Road Captain Forms, Documents &amp; Procedure Links</a>.
+        <ol>
+          <li>If you need help or have any quesions please contact your webmaster.</li>
+        </ol>
+      </li>
+    </ol>
+  </article>
+
+  <article class="update-link">
+    <h2 id="update-page">Update Road Captain Forms, Documents &amp; Procedures Links</h2>
+    <ol>
+      <li>This section assumes you are currently logged in and have just completed upload one or more Road Captain documents.
+        <ol>
+          <li>Login to your account if you are not currently logged in.</li>
+        </ol>
+      </li>
+      <li>Navigate to the RC Forms &amp; Documents page. see image below <img class="screenshot" src="../images/rcUpdate01.jpg" alt="screenshot of rc forms and documents page"></li>
+      <li>Click the <b>Edit</b> tab. see image below (<img class="screenshot" src="../images/rcUpdate02.jpg" alt="screenshot showing edit tab on forms and docs page"></li>
+      <li>For this document we will assume the Raleigh HOG Road Captains list has been updated and the title link needs to point to the new document. Steps to update other title links will follow these same steps.
+        <span class="newline">Note, we only edit the links for <b>Raleigh NC Chapter</b>. The links for <b>HOG Legal</b> point to HOG National and are kept current by them.</span> see screenshot below <img class="screenshot" src="../images/rcUpdate03.jpg" alt="screenshot of editable forms and docs page">
+      <li>The following steps will unlink the currently linked document so you can link to the new one
+        <ol>
+          <li>Highlight the entire title link. (Move the mouse pointer to the beginning of the title link, right click and drag it across the entire length of the link to highlight it.) see image below</li>
+          <li>Then click the <b>Unlink</b> icon. see image below <img class="screenshot" src="../images/rcUpdate04.jpg" alt="screenshot showing link highlighted"></li>
+          <li>You can see it was successful by the <b>unlink</b> icon being grayed out and the title to the linked document no longer has an underline. see image below <img class="screenshot" src="../images/rcUpdate05.jpg" alt="screenshot showing title unlinked"></li>
+        </ol>
+      </li>
+      <li>The following steps will link the new document (pdf) you just uploaded
+        <ol>
+          <li>Leaving the title highlighted, click the <b>Link</b> icon. In the pop-up that appears click the <b>Browse server</b> button. see image below<img class="screenshot" src="../images/rcUpdate06.jpg" alt="screenshot showing link pop-up"></li>
+          <li>Ensure you are in the current year sub-directory within the road_captains directory. (For this document 2022 is the current year). Note: Clicking <b>File name</b> will order the list of files from high to low, or low to high. see image below<img class="screenshot" src="../images/rcUpdate07.jpg" alt="screenshot showing road captain documents for 2022"></li>
+          <li>Double click the file you are linking. Notice you can tell the latest file by the filename, FileName_YYYYMMDD where YYYY is the calendar year, MM is the two digit month and DD is the two digit day. see image below<img class="screenshot" src="../images/rcUpdate08.jpg" alt="screenshot showing road captain documents for 2022"></li>
+          <li>You are brought back to the pop-up window. Note that the URL is now populated for you. Click the <b>OK</b> button. see image below<img class="screenshot" src="../images/rcUpdate09.jpg" alt="screenshot showing pop-up window with URL populated and location of ok button"></li>
+        </ol>
+      </li>
+      <li>Final steps
+        <ol>
+          <li>The pop-up window goes away and you can see that the title is now a link again. see image below<img class="screenshot" src="../images/rcUpdate10.jpg" alt="screenshot showing pop-up window with URL populated and location of ok button"></li>
+          <li>Scroll to the bottom of the page. Optionally fill in the <b>Revision log message</b>. Something as simple as "update 2022 Raleigh HOG Road Captains link" is sufficient to let others know what was done. see image below<img class="screenshot" src="../images/rcUpdate11.jpg" alt="screenshot showing pop-up window with URL populated and location of ok button"></li>
+          <li>Click the <b>Save</b> button to finish. Note, do now click the 'Ask a question!' button. It will send an email to the Admin and will not be seen. If you have any questions, please contact your webmaster.</li>
+        </ol>
+      </li>
     </ol>
   </article>
 
