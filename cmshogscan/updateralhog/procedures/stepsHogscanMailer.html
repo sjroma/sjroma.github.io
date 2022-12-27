@@ -1,5 +1,6 @@
 <!--
   steps for using HOGScan Mailer aka Elastic Email
+  no role as this is separate from HOGScan, should be done by the Activities Director
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -58,7 +59,7 @@
       color: #00f;
       text-decoration: none;
     }
-    
+
     a:hover {
       text-decoration: underline;
     }
@@ -111,9 +112,10 @@
         See image below<img class="screenshot" src="../images/HOGScanMailer2.jpg" alt="screenshot of the hogscan mailer landing page">
       </li>
       <li>Prior to sending a campaign it is necessary to prepare the template we want to send.<span class="newline">Click <b>Campaigns</b> from the navbar to expand the dropdown, then click <b>Email Templates</b>.</span><span class="newline"> The following screen appears. Note on the page that the '<b>My templates</b>' tab is selected as shown by it being underlined. See image below</span><img class="screenshot" src="../images/HOGScanMailer3.jpg" alt="screenshot of hogscan mailer template page">
-      <ol>
-        <li>Note at the bottom of the navbar the blue circle with the <b>S</b> and partial address of <b>secretary@ralei...</b> Click it, and in the pop-up click <b>Log out</b> to logout when you have finished.</li>
-      </ol></li>
+        <ol>
+          <li>Note at the bottom of the navbar the blue circle with the <b>S</b> and partial address of <b>secretary@ralei...</b> Click it, and in the pop-up click <b>Log out</b> to logout when you have finished.</li>
+        </ol>
+      </li>
       <li>Note, the templates may not display in the same order as shown in the previous image.
         <span class="newline">We mainly use only four (4) of the templates. The ones used most are;</span>
         <ol>
@@ -138,7 +140,7 @@
       </li>
       <li>Do NOT change the template names. The names are used in the campaigns and we have a precedent/standard that has been in place for over a year.</li>
       <li></li>
-      <li>You are ready to send the campaign. Follow the instructions in the next section, <a href="#campaign">Send a Campaign</a>.</li>
+      <li>The template has been saved and you are ready to send the campaign. Follow the instructions in the next section, <a href="#campaign">Send a Campaign</a>.</li>
     </ol>
   </article>
 
@@ -146,12 +148,50 @@
     <h2>Send a Campaign</h2>
     <ol>
       <li>This document assumes that you have logged in and modified a template and are now ready to send a campaign.
-      <ol>
-        <li>If you have not logged in and modified a template, <a href="#template">follow the instructions in the Update a Template section</a> above.</li>
-      </ol></li>
-      <li>After updating a template, click the <b>All Campaigns</b> link in the navbar to prepare for sending the campaign. See image below<img class="screenshot" src="../images/HOGScanMailer5.jpg" alt="screenshot of the campaigns landing page"></li>
-      <li>Click the <b>Create campaign</b> button found in the upper right corner of the page. see image below<img class="screenshot" src=""  alt="screenshot showing location of create campaign button"></li>
-      <li></li>
+        <ol>
+          <li>If you have not logged in and modified a template, <a href="#template">follow the instructions in the Update a Template section</a> above.</li>
+        </ol>
+      </li>
+      <li>After updating a template, click the <b>All Campaigns</b> link in the navbar to prepare for sending the campaign. See image below <img class="screenshot" src="../images/HOGScanMailer5.jpg" alt="screenshot of the campaigns landing page"></li>
+      <li>The following steps will go through the steps to prepare sending an Upcoming Chapter Events campaign to all chapter members.
+        <span class="newline">Steps to mail a different campaign, such as LoH Upcoming Events, will be similar. The exceptions being the mail group in step 3.2 and the template selected in step 3.5 will each be different.</span>
+        <ol>
+          <li>Click the <b>Create campaign</b> button found in the upper right corner of the page. see image below<img class="screenshot" src="../images/HOGScanMailCampaign1.jpg" alt="screenshot showing location of create campaign button"></li>
+          <li>In the <b>1 SEND TO:</b> section of the page that opens, click the down carat to expand the list of mail groups. see image below <img class="screenshot" src="../images/HOGScanMailCampaign2.jpg" alt="screenshot showing location of carat to show mail list groups">
+            <ol>
+              <li>For the purpose of this document, the campaign is being sent to all chapter members.
+                <span class="newline">Select <b>currentMembersb_YYYYMMDD</b> see image below</span>
+                <span class="newline">Note<sub>1</sub>, the numbers after a list name is a date in the format YYYYMMDD, where YYYY is the year, MM is the month, and DD is the day. If there are ever two lists with the same name, use the one that has the most current date.</span>
+                <span class="newline">Note<sub>2</sub>, the <b>Chapter Officers</b>, <b>Road_Captains_YYYYMMDD</b> and <b>LoH_YYYYMMDD</b> lists are subsets of the currentMembers list. Do not select any of these, or the <b>All Contacts</b> list, otherwise members will receive duplicate emails and that is considered spam.</span>
+                <span class="newline">Note<sub>3</sub>, if a campaign is being sent to LoH only, then you would select only <b>LoH_YYYYMMDD</b></span>
+                <img class="screenshot" src="../images/HOGScanMailCampaign3.jpg" alt="screenshot showing mail list groups">
+              </li>
+            </ol>
+          </li>
+          <li>In the <b>2 SUBJECT / CONTENT</b> section, click the <b>Templates</b> placeholder image. see image below <img class="screenshot" src="../images/HOGScanMailCampaign4.jpg" alt="screenshot showing location of templates placeholder">
+            <ol>
+              <li>In the page that opens, hover over the <b>Upcoming Chapter Events</b> template and click the <b>select</b> icon. see image below <img class="screenshot" src="../images/HOGScanMailCampaign5.jpg" alt="screenshot showing upcoming chapter events hovered over and select button"></li>
+              <li>You are brought back to the Campaign Creator page. Notice that the <b>Subject</b>, <b>From (Name)</b>, <b>From (Email) have been filled in for you and thumbnail image of the template is shown.</b>
+                <span class="newline">Do not change/alter any of the filled-in fields</span>
+                <span class="newline">Optionally, you can click the <b>Send test</b> button to send the campaign to yourself</span>
+                see image below <img class="screenshot" src="../images/HOGScanMailCampaign6.jpg" alt="screenshot showing subject / content section auto-filled">
+              </li>
+            </ol>
+          </li>
+          <li>Expand the <b>3 SETTINGS &amp; TRACKING</b> section and fill in the <b>Campaign name</b> field.
+            <span class="newline">Something simple, such as "upcoming week xx" where "xx" is the week number will suffice. see image below</span>
+            <span class="newline">Leave <b>When to send</b> at the default of "Send now"</span>
+            <span class="newline">Leave <b>Send-time optimization:</b> at the default of "2. Send to the most engaged contacts first to optimize delivery"</span>
+            <span class="newline">Do NOT check the box to "Enable different UTMs for templates"</span>
+            <img class="screenshot" src="../images/HOGScanMailCampaign7.jpg" alt="screenshot showing settings tracking section with placeholder for campaign name">
+          </li>
+          <li>There is nothing to do in <b>4 LEGAL</b>. Leave it as it is.</li>
+          <li>Click the <b>Send campaign</b> button to send the campaign. see image below <img class="screenshot" src="../images/HOGScanMailCampaign8.jpg" alt="screenshot showing location of send campaign button"></li>
+        </ol>
+      </li>
+      <li>You will see the following screen indicating success.
+        <img class="screenshot" src="../images/HOGScanMailCampaign.jpg" alt=" ">
+      </li>
     </ol>
   </article>
 
