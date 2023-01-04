@@ -6,11 +6,11 @@
 _HOG\[SCAN\]_ webmasters, if you have something you would like to see added here, have something to contribute, or would like to ask me a question please feel free to [send me an email](mailto:webmaster@raleighhog.com).  
 
 ---    
-## _HOG\[SCAN\]_ Setup  
+## Setup  
 <a href="https://sjroma.github.io/cmshogscan/cmswebsite/" target="_blank">**_HOG\[SCAN\]_ Setup Notes**</a> - _HOG\[SCAN\]_ uses role based permissions to restrict network access based on a members role. This contains a description of the various roles and the access granted to each one.  
 Additionally, you will find other useful setup notes.  
 
-## _HOG\[SCAN\]_ How-to Guides 
+## How-to Guides 
 The following documents were created to help ease the transition for someone moving into a new role. They are step-by-step how-to guides that can be used by a first timer as well as provide a reference for those with more experience. Although certain steps may be specific to the Raleigh NC Chapter website, the overall steps should be generic enough that other chapters using HOG\[SCAN\] should be able to follow along with slight modifications.  
 Note, the role listed is the minimum role a member needs to have to accomplish the task.  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsAddTeamMember.html" target="_blank">**Add a Team Member**</a> - **Editor** role  
@@ -23,10 +23,10 @@ Note, the role listed is the minimum role a member needs to have to accomplish t
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsRoadCaptUploads.html" target="_blank">**Upload Road Captain Documents**</a> - **Road Captain** role  
 * How to <a href="https://sjroma.github.io/cmshogscan/hogscanapp/index.html" target="_blank">**Use the HogScan smartphone application**</a> - **Road Captain** role  
 
-## _HOG\[SCAN\]_ Mailer How-to Guide  
+## Mailer How-to Guide  
 * **coming soon**  How to Update Templates and send a Campaign  
 
-## Added _HOG\[SCAN\]_ pages
+## Added pages
 The following pages were created from scratch for the raleighhog.com website. I have a background writing code with HTML and CSS so it's easier for me to create a page off-line and then copy/paste it to the CMS site.  
 The pages here are shown as examples of what you can do to personalize your website.  
 These pages are open source, meaning you should feel free to use them if you want. If you need help using them on your website, or would like me to help you create a basic page for your website, feel free to contact me.
@@ -44,7 +44,7 @@ I wasn't able to clone the newsletters page but I did use its format as a starti
 The following is for webmasters using the CMS website _HOG\[SCAN\]_. Report a bug or give your input for enhancements.  
 <a href="https://sjroma.github.io/cmshogscan/cmswishlist" target="_blank">**_HOG\[SCAN\]_ Wishlist**</a> - See reported bugs and requested enhancements  
 
-## Chapters using _HOG\[SCAN\]_
+## Chapters  
 <a href="https://sjroma.github.io/cmshogscan/chapters/" target="_blank">**HOG chapters powered by _HOG\[SCAN\]_**</a> - Alphabetized by state and then city, this page lists the HOG chapters that use _HOG\[SCAN\]_ and provides a link to each one.  
 
 ##### ~/GitHub/sjroma.github.io/cmshogscan  
