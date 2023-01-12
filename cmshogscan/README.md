@@ -26,6 +26,9 @@ Note, the role listed is the minimum role a member needs to have to accomplish t
 ## Mailer How-to Guide  
 * **coming soon**  How to Update Templates and send a Campaign  
 
+## cPanel How-to Guide  
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEmailAccts.html" target="_blank">Set-up and Manage Officer Email Accounts</a>
+
 ## Report a bug  
 The following is for webmasters using the CMS website _HOG\[SCAN\]_. Report a bug or give your input for enhancements.  
 <a href="https://sjroma.github.io/cmshogscan/cmswishlist" target="_blank">**_HOG\[SCAN\]_ Wishlist**</a> - See reported bugs and requested enhancements  
