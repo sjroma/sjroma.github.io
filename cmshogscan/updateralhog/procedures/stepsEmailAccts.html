@@ -1,0 +1,136 @@
+<!--
+  steps for creating/updating email accounts with cPanel
+  no role as this is separate from HOGScan, usually done by the webmaster
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>cPanel Email Accounts | HOG[SCAN] Notes</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f9f9f9;
+      font-family: Raleway, sans-serif;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    .notes, .accounts, .password {
+      border: solid 1px #333;
+      border-radius: 5px;
+      margin: auto;
+      max-width: 90%;
+      margin-bottom: 0.3em;
+    }
+
+    p {
+      text-align: left;
+      margin-left: 2em;
+    }
+
+    ul {
+      list-style-type: circle;
+    }
+
+    ol {
+      counter-reset: section;
+      list-style-type: none;
+    }
+
+    ol>li::before {
+      counter-increment: section;
+      content: counters(section, ".") " ";
+      font-weight: bold;
+      color: #f77;
+    }
+
+    li {
+      max-width: 95%;
+    }
+
+    a {
+      color: #00f;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .newline {
+      display: block;
+      padding-left: 0.5em;
+    }
+
+    .screenshot {
+      border-radius: 5px;
+      display: block;
+      margin: 0.3em auto;
+      margin-left: 1.5em;
+      max-width: 90%;
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>cPanel - Set-up &amp; Manage Officer Email Accounts</h1>
+
+  <article class="notes">
+    <h2>General notes, terminology and policies</h2>
+    <ul>
+      <li>This environment is different than the website. There is only one, shared, account that is used for logging in. Do NOT change the Username or the Password.</li>
+      <li>This document currently only covers creating an email account and changing an account password. They will show as separate sections within this document;
+        <ul>
+          <li><a href="#account">Creating Email Accounts</a></li>
+          <li><a href="#pwd">Change an Account Password</a></li>
+        </ul>
+      </li>
+      <li>The login links are for cpanel.raleighhog.com You will need to go to cpanal.yourdomain.topdomain where <i>topdomain</i> is .com, .org or .net</li>
+    </ul>
+  </article>
+
+  <article id="account" class="accounts">
+    <h2>Creating Email Accounts</h2>
+    <ol>
+      <li><a href="https://cpanel.raleighhog.com/#/login" target="_blank">Login to the shared account for cPanel</a>. As this is shared do NOT change the Username or Password. see image below <img class="screenshot" src="../images/cpanelManage1.jpg" alt="screenshot of login screen"></li>
+      <li>After logging in, click <i>Email Accounts</i> in the Email section. see image below <img class="screenshot" src="../images/cpanelManage2.jpg" alt="screenshot of the tools page showing email and preferences section"></li>
+      <li>Click the <b>+Create</b> button to start creating the first account. see image below<img class="screenshot" src="../images/cpanelManage3.jpg" alt=" "></li>
+      <li>Referencing the image below
+        <ol>
+          <li>Fill in the <b>Username</b> (for instance, director). Note that your domain name is already populated.</li>
+          <li>Set the <b>Password</b>. Optionally, click the <b>Generate</b> button to have a random password generated for you.</li>
+          <li>Click the <b>+Create</b> button to complete creating the account.</li>
+          <li>Optionally, click the box to "Stay on this page after I click create" if you have additional accounts to create.</li>
+        </ol><img class="screenshot" src="../images/cpanelManage4.jpg" alt=" ">
+      </li>
+      <li>Inform each officer of their newly created account and let them know the password. (Also let them know they should change their password)</li>
+    </ol>
+  </article>
+
+  <article id="pwd" class="password">
+    <h2>Change an Account Password</h2>
+    <p>Occasionally, you may have an officer leaving a postion that has forgotten their email account password and it has to be reset so the new officer can access the email. The following steps will walk you through changing an account password.</p>
+    <ol>
+      <li><a href="https://cpanel.raleighhog.com/#/login" target="_blank">Login to the shared account for cPanel</a>. As this is shared do NOT change the Username or Password. see image below <img class="screenshot" src="../images/cpanelManage1.jpg" alt="screenshot of login screen"></li>
+      <li>After logging in, click <i>Email Accounts</i> in the Email section. see image below <img class="screenshot" src="../images/cpanelManage2.jpg" alt="screenshot of the tools page showing email and preferences section"></li>
+      <li>The page opens showing all created email accounts. Click the <b>Manage</b> button for the account you want to change the password. The activies account (activities@raleighhog.com) is shown as an example in this tutorial. see image below <img class="screenshot" src="../images/cpanelManagePwd1.jpg" alt=" "></li>
+      <li>In the page that opens, enter in the <b>New Password</b>.
+        <span class="newline">Optionally, you can click on the <b>Generate</b> button to have the system gen a new password for you.</span>
+        <span class="newline">When clicked, the eye with the line through it will let you see that password that you are entering.</span>see image below <img class="screenshot" src="../images/cpanelManagePwd2.jpg" alt=" ">
+      </li>
+      <li>After entering the new password, scroll down and click the <b>Update Email Settings</b> button to save it. see image below <img class="screenshot" src="../images/cpanelManagePwd3.jpg" alt=" "></li>
+      <li>Inform the user of their new password.</li>
+    </ol>
+  </article>
+
+</body>
+
+</html>
