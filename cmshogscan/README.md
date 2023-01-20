@@ -23,11 +23,12 @@ Note, the role listed is the minimum role a member needs to have to accomplish t
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsRoadCaptUploads.html" target="_blank">**Upload Road Captain Documents**</a> - **Road Captain** role  
 * How to <a href="https://sjroma.github.io/cmshogscan/hogscanapp/index.html" target="_blank">**Use the HogScan smartphone application**</a> - **Road Captain** role  
 
-## Mailer How-to Guide  
+## Mailer  
 * **coming soon**  How to Update Templates and send a Campaign  
 
-## cPanel How-to Guide  
-* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEmailAccts.html" target="_blank">Set-up and Manage Officer Email Accounts</a>
+## cPanel / Webmail  
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEmailAccts.html" target="_blank">**Set-up and Manage Officer Email Accounts**</a> - **Webmaster** role  
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEmailForward.html" target="_blank">**Forward Officer Emails to Personal Accounts**</a>
 
 ## Report a bug  
 The following is for webmasters using the CMS website _HOG\[SCAN\]_. Report a bug or give your input for enhancements.  
