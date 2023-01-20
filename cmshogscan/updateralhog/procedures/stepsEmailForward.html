@@ -1,0 +1,131 @@
+<!--
+  steps for forwarding email from Webmail to personal account
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>cPanel Email Forwarding | HOG[SCAN] Notes</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f9f9f9;
+      font-family: Raleway, sans-serif;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    .notes, .forward {
+      border: solid 1px #333;
+      border-radius: 5px;
+      margin: auto;
+      max-width: 90%;
+      margin-bottom: 0.3em;
+    }
+
+    p {
+      text-align: left;
+      margin-left: 1em 3em;
+    }
+
+    ul {
+      list-style-type: circle;
+    }
+
+    ol {
+      counter-reset: section;
+      list-style-type: none;
+    }
+
+    ol>li::before {
+      counter-increment: section;
+      content: counters(section, ".") " ";
+      font-weight: bold;
+      color: #f77;
+    }
+
+    li {
+      max-width: 95%;
+    }
+
+    a {
+      color: #00f;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .newline {
+      display: block;
+      padding-left: 0.5em;
+    }
+
+    .screenshot {
+      border-radius: 5px;
+      display: block;
+      margin: 0.3em auto;
+      margin-left: 1.5em;
+      max-width: 90%;
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>Webmail - Forward Email to Your Personal Account</h1>
+
+  <article class="notes">
+    <h2>General notes, terminology and policies</h2>
+    <ul>
+      <li>This environment is different than the website. To login to your email;
+        <ul>
+          <li>In the address bar of your browser enter <i>webmail.raleighhog.com</i></li>
+          <li>Fill in the email address and password that were provided to you in a separate email
+            <span class="newline">Note: This is not the userid/password you use to login to the website</span>
+          </li>
+        </ul>
+      </li>
+      <li>This tutorial shows how to forward emails sent to xxx@raleighhog.com to your personal email account
+        <ul>
+          <li>There is no requirement to forward your emails</li>
+          <li>A good practice when replying is to login to your xxx@raleighhog.com and reply from there, keeping your personal email address private</li>
+        </ul>
+      </li>
+      <li>Using xxx@raleighhog.com allows this address to be published in calendar events, thus not exposing your private information</li>
+      <li>Using xxx@raleighhog.com allows the next person stepping into the role to see any unfinished business</li>
+      <li>Chapter members have one address for correspondence with chapter officers; xxx@raleighhog.com</li>
+    </ul>
+  </article>
+
+  <article class="forward">
+    <h2>Forward Emails</h2>
+    <ol>
+      <li>Enter the <b>Email Address</b> and <b>Password</b> that were provided to you, then click the <b>Log in</b> button to login. see image below <img class="screenshot" src="../images/webmailForward1.jpg" alt=" "></li>
+      <li>Click <b>Webmail Home</b>
+        <span class="newline">Note: your screen may look different than the image. <b>Webmail Home</b> may be on the left side, at the bottom</span> see image below <img class="screenshot" src="../images/webmailForward2.jpg" alt=" ">
+      </li>
+      <li>In the screen that opens, click <b>Forwarders</b>. see image below <img class="screenshot" src="../images/webmailForward3.jpg" alt=" "></li>
+      <li>In the screen that opens, click the <b>Add Forwarder</b> button. see image below <img class="screenshot" src="../images/webmailForward4.jpg" alt=" "></li>
+      <li>In the screen that opens;
+        <ul>
+          <li>Fill in your personal email address</li>
+          <li>Click the <b>Add Forwarder</b> button</li>
+        </ul> see image below <img class="screenshot" src="../images/webmailForward5.jpg" alt=" ">
+      </li>
+      <li>That's it! When members send email to your xxx@raleighhog.com address, a copy of the email will also be sent to your personal account.
+        <span class="newline">A good practice is to login to xxx@raleighhog.com when replying to keep your personal information private. It also allows the next person stepping into the role to see if additional steps are required.</span>
+      </li>
+    </ol>
+  </article>
+
+</body>
+
+</html>
