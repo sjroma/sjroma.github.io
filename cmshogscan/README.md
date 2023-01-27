@@ -31,9 +31,10 @@ Note, the role listed is the minimum role a member needs to have to accomplish t
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEmailAccts.html" target="_blank">**Set-up and Manage Officer Email Accounts**</a> - **Webmaster** role  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEmailForward.html" target="_blank">**Forward Officer Emails to Personal Accounts**</a> - **Primary/Discretionary Officers**
 
-## Report a bug  
-The following is for webmasters using the CMS website _HOG\[SCAN\]_. Report a bug or give your input for enhancements.  
-<a href="https://sjroma.github.io/cmshogscan/cmswishlist" target="_blank">**_HOG\[SCAN\]_ Wishlist**</a> - See reported bugs and requested enhancements  
+## Defects / Enhancements  
+<a href="https://sjroma.github.io/cmshogscan/cmswishlist" target="_blank">**_HOG\[SCAN\]_ Wishlist**</a> - Here you can see reported defects and enhancements  
+Defect - the software isn't working the way it says it will  
+Enhancement - the software isn't working the way the customer wants  
 
 ## Chapters  
 <a href="https://sjroma.github.io/cmshogscan/chapters/" target="_blank">**HOG Chapters Powered by _HOG\[SCAN\]_**</a> - Alphabetized by state and then city, this page has the HOG chapters using _HOG\[SCAN\]_ and provides a link to each one.  
@@ -43,6 +44,7 @@ The following pages were created for the raleighhog.com website. I have a backgr
 The pages here are shown as examples of what you can do to personalize your website.  
 These pages are open source, meaning you should feel free to use them if you want. If you need help using them on your website, or would like me to help you create a basic page for your website, feel free to contact me.  
 * <a href="https://www.raleighhog.com/frequently-asked-questions" target="_blank">**FAQ**</a> and <a href="https://www.raleighhog.com/ladies-harley" target="_blank">**Ladies of Harley**</a> - both pages are simplistic in that there is not much coding that I did when creating them. However, the FAQ page uses the HTML description list rather than an unordered or ordered list only because I think it works better for the page and doesn't require me to put additional tags around the question in order to make the text bold.  
+* <a href="https://www.raleighhog.com/10-23-ride-challenge-destinations" target="_blank">**10 for '23 Ride Challenge**</a>, <a href="https://www.raleighhog.com/dealership-check-challenge" target="_blank">**Dealership Check-in Challenge**</a>, <a href="https://www.raleighhog.com/50-rides-one-nation" target="_blank">**50 Rides, One Nation**</a>, <a href="https://www.raleighhog.com/ride-365-participation-perks" target="_blank">**Participation Perks**</a> and <a href="https://www.raleighhog.com/2023-hog-rally-schedule" target="_blank">**HOG Rally Schedule**</a> - All are from national's Ride 365 challenges. I thought adding them to the website would be another way to get members out and riding...solo or in a group.  
 * <a href="https://sjroma.github.io/cmshogscan/pagesralhog/patchrides" target="_blank">**Patch Rides**</a> - shows various patches Raleigh NC Chapter members can earn by doing what everyone loves...riding. The page was styled using Flexbox to make it easier to add additional patch images along with the title and description. The description of each patch ride includes a link to a PDF which has the requirements to be met to earn the patch.  
 * <a href="https://sjroma.github.io/cmshogscan/pagesralhog/merchandise" target="_blank">**Merchandise**</a> - shows available chapter merchandise. The page also shows if an item is out of stock or low stock. Hovering over an image causes it to grow.  
   There is no JavaScript behind this page. If an item is low, or out of stock, the page has to be manually updated.  
