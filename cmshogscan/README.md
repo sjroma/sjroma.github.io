@@ -6,22 +6,23 @@
 _HOG\[SCAN\]_ webmasters, if you have something you would like to see added here, have something to contribute, or would like to ask me a question please feel free to [send me an email](mailto:webmaster@raleighhog.com).  
 
 ---    
-## Setup  
-<a href="https://sjroma.github.io/cmshogscan/cmswebsite/" target="_blank">**_HOG\[SCAN\]_ Setup Notes**</a> - _HOG\[SCAN\]_ uses role based permissions to restrict network access based on a members role. This contains a description of the various roles and the access granted to each one.  
-Additionally, you will find other useful setup notes.  
+## Set up  
+<a href="https://sjroma.github.io/cmshogscan/cmswebsite/" target="_blank">**_HOG\[SCAN\]_ Set up Notes**</a> - _HOG\[SCAN\]_ uses role based permissions to restrict network access based on a members role. This contains a description of the various roles and the access granted to each one.  
+Additionally, you will find other useful set up notes.  
 
-## How-to Guides 
-The following documents were created to help ease the transition for someone moving into a new role. They are step-by-step how-to guides that can be used by a first timer as well as provide a reference for those with more experience. Although certain steps may be specific to the Raleigh NC Chapter website, the overall steps should be generic enough that other chapters using HOG\[SCAN\] should be able to follow along with slight modifications.  
+## How-to Guides / Tutorials  
+The following tutorials were created to help ease the transition for someone moving into a new role. They are step-by-step how-to guides that can be used by a first timer as well as provide a reference for those with more experience. Although certain steps may be specific to the Raleigh NC Chapter website, the overall steps should be generic enough that other chapters using HOG\[SCAN\] can follow along with slight modifications.  
 Note, the role listed is the minimum role a member needs to have to accomplish the task.  
+### Website 
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsAddTeamMember.html" target="_blank">**Add a Team Member**</a> - **Editor** role  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsNewslettersUpdate.html" target="_blank">**Place a Newsletter on the Website**</a> - **Editor** role  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsFinancialReport.html" target="_blank">**Place a Financial Report on the Website**</a> - **Editor** role (page created by/for Raleigh NC Chapter)  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEventCalUpdate.html" target="_blank">**Update the Event Calendar**</a> - **Activities Officer** role  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsBlogCreate.html" target="_blank">**Create a Blog entry**</a> - **Activities Officer** role  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsGalleriesAdd.html" target="_blank">**Upload Images to the Galleries page**</a> - **Photographer** role  
-* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsMtgMinutesUpload.html" target="_blank">**Add Monthly Meeting Minutes**</a> - **Photographer** role (page created by/for Raleigh NC Chapter)  
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsMtgMinutesUpload.html" target="_blank">**Add Monthly Meeting Minutes**</a> - Access granted to username (page created by/for Raleigh NC Chapter)  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsRoadCaptUploads.html" target="_blank">**Upload Road Captain Documents**</a> - **Road Captain** role  
-* How to <a href="https://sjroma.github.io/cmshogscan/hogscanapp/index.html" target="_blank">**Use the HogScan smartphone application**</a> - **Road Captain** role  
+* How to <a href="https://sjroma.github.io/cmshogscan/hogscanapp/index.html" target="_blank">**Use the HogScan Smartphone Application**</a> - **Road Captain** role  
 
 ### Mailer  
 * **coming soon**  How to Update Templates and send a Campaign  
@@ -35,7 +36,7 @@ The following is for webmasters using the CMS website _HOG\[SCAN\]_. Report a bu
 <a href="https://sjroma.github.io/cmshogscan/cmswishlist" target="_blank">**_HOG\[SCAN\]_ Wishlist**</a> - See reported bugs and requested enhancements  
 
 ## Chapters  
-<a href="https://sjroma.github.io/cmshogscan/chapters/" target="_blank">**HOG chapters powered by _HOG\[SCAN\]_**</a> - Alphabetized by state and then city, this page has the HOG chapters using _HOG\[SCAN\]_ and provides a link to each one.  
+<a href="https://sjroma.github.io/cmshogscan/chapters/" target="_blank">**HOG Chapters Powered by _HOG\[SCAN\]_**</a> - Alphabetized by state and then city, this page has the HOG chapters using _HOG\[SCAN\]_ and provides a link to each one.  
 
 ## Added pages
 The following pages were created for the raleighhog.com website. I have a background writing code with HTML and CSS so it's easier for me to create a page off-line and then copy/paste it to the CMS site.  
@@ -45,7 +46,7 @@ These pages are open source, meaning you should feel free to use them if you wan
 * <a href="https://sjroma.github.io/cmshogscan/pagesralhog/patchrides" target="_blank">**Patch Rides**</a> - shows various patches Raleigh NC Chapter members can earn by doing what everyone loves...riding. The page was styled using Flexbox to make it easier to add additional patch images along with the title and description. The description of each patch ride includes a link to a PDF which has the requirements to be met to earn the patch.  
 * <a href="https://sjroma.github.io/cmshogscan/pagesralhog/merchandise" target="_blank">**Merchandise**</a> - shows available chapter merchandise. The page also shows if an item is out of stock or low stock. Hovering over an image causes it to grow.  
   There is no JavaScript behind this page. If an item is low, or out of stock, the page has to be manually updated.  
-* A <a href="https://www.raleighhog.com/financial-reports" target="_blank">**Financial Reports**</a> page and a <a href="https://www.raleighhog.com/meeting-minutes" target="_blank">**Meeting Minutes**</a> page were created for the Raleigh HOG chapter. These pages are only viewable by authenticated users.  
+* <a href="https://www.raleighhog.com/financial-reports" target="_blank">**Financial Reports**</a> and <a href="https://www.raleighhog.com/meeting-minutes" target="_blank">**Meeting Minutes**</a> pages were created for the Raleigh HOG chapter. These pages are only viewable by authenticated users.  
 I wasn't able to clone the newsletters page but I did use its format as a starting point in how I wanted these two pages to display. I used a similar color scheme and call the PDF icon for the bullet points.  
 * <a href="https://sjroma.github.io/cmshogscan/pagesralhog/hmoy" target="_blank">**HOG Member of the Year**</a> - an award unique to the Raleigh NC Chapter. It is a list of chapter members who were selected for this honor each year since its inception in 2004. I tried to make the nameplates look plaque-like by giving a light source effect to each one. (Authenticated users see first and last names)  
 * <a href="https://sjroma.github.io/cmshogscan/pagesralhog/memorial" target="_blank">**Memorial Wall**</a> - Remembering chapter members who have passed. Similar to the plaque-like page for the HOG Member of the Year. (Authenticated users see first and last names)  
