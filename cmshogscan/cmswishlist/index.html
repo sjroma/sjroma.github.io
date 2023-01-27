@@ -18,18 +18,13 @@
     <div class="content-wrapper">
       <h3>"Spiders are the only web developers happy to find bugs"</h3>
       <section>
-        <p>In no particular order, these are some fixes and enhancements that webmasters using <i>HOG[SCAN]</i> would like to see incorporated</p>
+        <p>In no particular order, here are defects and enhancements from webmasters using <i>HOG[SCAN]</i>.
+          <span class="newline"><b>Defect</b> - the software isn't working the way it says it will</span>
+          <span class="newline"><b>Enhancement</b> - the software isn't working the way the customer wants</span>
+        </p>
 
-        <h2>Bugs</h2>
+        <h2>Defects</h2>
         <dl>
-          <dt><s>Global token for Chapter Handbook needs to be updated</s></dt>
-          <dd>closed issue 22 Dec 2022. The token has been updated</dd>
-
-          <dt>Global token for member release form needs to be updated</dt>
-          <dd>- The global token <code>[hogscan:member_release_url]</code> needs to be updated to point to the new form, shown on page 60, in the new <a href="https://s3.us-east-1.amazonaws.com/fonteva-customer-media/00Dj0000000HVTSEA4/AXLXrNsr_2022_HOG_Chapter_Handbook_pdf">2022 Chapter Handbook</a>.
-            <span class="newline">This token is used in the <i>Join the Chapter</i> page.</span>
-          </dd>
-
           <dt>Unable to download/view the <i>Chapter Charter</i> or <i>Chapter Handbook</i> when clicking the respective links.</dt>
           <dd>- On the <code>About</code> page, clicking the link to download the <i>Chapter Charter</i> or <i>Chapter Handbook</i> fails. End user's see "This site can't be reached" message. This is because the code repeats the <code>https</code> protocol for each link.
             <span class="newline">Webmasters, until there is an official fix, edit the 'About Us' page. Change the 'Text format' to 'HTML Code' and scroll down to the <i>Chapter Charter &amp; Handbook</i> section. The start of the section looks like this: <code>&lt;strong&gt;Chapter Charter &amp;amp; Handbook&lt;/strong&gt;</code></span>
@@ -42,41 +37,47 @@
           </dd>
 
           <dt>The smartphone app exposes member information to Road Captains</dt>
-          <dd>- The smartphone app should not expose member's HOG ID or ICE information to Road Captains. The app is the only place where member's private info is exposed to the Road Captain role.</dd>
+          <dd>The smartphone app should not expose member's HOG ID or ICE information to Road Captains. The app is the only place where member's private info is exposed to the Road Captain role.</dd>
+
+          <dt>Show member mileage for Ride 365</dt>
+          <dd>Currently on the member's page they only see mileage for years 2018, 2019 and 2020</dd>
+          <dd>Members want to see mileage for 2021 as well as the running total for 2022 (the current year). Members always want to see the current year as well as possibly two or three years back.</dd>
+
+          <dt>Hidden page has an outdated column</dt>
+          <dd>The hidden page, /ride-365, uses outdated information for the column that is used by default for ordering. The column should contain the current year.</dd>
+          <dd>This hidden page can be found at <i>chapter_site</i>/ride-365 (e.g. https://www.raleighhog.com/ride-365). You must be logged in to see the page. There is no link to the page in the nav-bar which is why I say it's hidden. I would like to use this page (add it in the navbar) on my website but only when the column is corrected to use the current year.</dd>
 
           <dt>Fix the GPX mapping feature on the event page</dt>
-          <dd>- Seems to have stopped working around the same time the H-D Ride Planner altered how it gens a GPX file</dd>
+          <dd>Seems to have stopped working around the same time the H-D Ride Planner altered how it gens a GPX file</dd>
+
+          <dt><s>Global token for Chapter Handbook needs to be updated</s></dt>
+          <dd>closed issue as fixed on 22 Dec 2022. National has updated the link on Chapter Resources, the global token points there.</dd>
 
           <dt><s>Mailer link points to an out of date URL</s></dt>
-          <dd>closed issue 26 Dec 2022. The link has been updated</dd>
+          <dd>closed issue as fixed on 26 Dec 2022. National has updated the link on Chapter Resources, the global token points there.</dd>
+
+          <dt><s>Global token for member release form needs to be updated</s></dt>
+          <dd>closed issue as fixed on 27 Jan 2023. National has updated the link on Chapter Resources, the global token points there.</dd>
         </dl>
 
         <h2>Enhancements</h2>
         <dl>
-          <dt>Show member mileage for Ride 365</dt>
-          <dd>- Currently on the member's page one can only see mileage for 2018, 2019 and 2020
-            <span class="newline">Members want to see mileage for 2021 as well as the running total for 2022 (the current year). Members always want to see the current year as well as possibly two or three years back.</span>
-          </dd>
 
           <dt>Upgrade to use a better campaign emailer</dt>
-          <dd>- Webmasters are aware there will be an improvement in <i>HOG[SCAN]</i> V2.0 with an alternative to Elastic Email
-            <span class="newline">On the list because it's something everyone is anticipating</span>
-          </dd>
-
-          <dt>Leave user's on the same page when logging out rather than sending them to the home page each time</dt>
-          <dd>- Currently when a user logs out they are thrown back to the home page rather than leaving them on the page they were currently viewing.
-            <span class="newline">When viewing the calendar and logging out, stay on the calendar page. If viewing newsletters, leave them on the default newsletter page that says "You must be logged in to view our Newsletters." In other words, it should manage state.</span>
-          </dd>
+          <dd>Webmasters are aware there will be an improvement in <i>HOG[SCAN]</i> V2.0 with an alternative to Elastic Email</dd>
+          <dd>On the list because it's something everyone is anticipating</dd>
 
           <dt>Show Ride Mileage on the event page if the field is non-zero</dt>
-          <dd>- Currently the Ride Mileage is not shown in the copy of the event if it's been filled in.
-            <span class="newline">If the Ride Mileage field for an event has been filled in (i.e. it's not the default of zero) then show the mileage in the event copy. Much like an Event Coordinator is shown when that field has been filled in.</span>
-          </dd>
+          <dd>Currently the Ride Mileage is not shown in the copy of the event if it's been filled in.</dd>
+          <dd>If the Ride Mileage field for an event has been filled in (i.e. it's not the default of zero) then show the mileage in the event copy. Much like an Event Coordinator is shown when that field has been filled in.</dd>
 
           <dt>Give webmasters the ability to sync the sandbox environment with the production environment</dt>
-          <dd>- Currently a request has to be made to the Admin in order to have the sandbox environment synced up with the production environment.
-            <span class="newline">It would be nice if webmaster's had a button to click that would run the job to sync the sandbox with production so it could be done on-demand.</span>
-          </dd>
+          <dd>Currently a request has to be made to the Admin in order to have the sandbox environment synced up with the production environment.</dd>
+          <dd>It would be better if webmaster's had a button to click that would run the job to sync the sandbox with production so it could be done on-demand.</dd>
+
+          <dt>Leave user's on the same page when logging out rather than sending them to the home page each time</dt>
+          <dd>Currently when a user logs out they are thrown back to the home page rather than leaving them on the page they were currently viewing.</dd>
+          <dd>When viewing the calendar and logging out, stay on the calendar page. If viewing newsletters, leave them on the default newsletter page that says "You must be logged in to view our Newsletters." In other words, it should manage state.</dd>
         </dl>
 
       </section>
