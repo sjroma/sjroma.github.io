@@ -25,11 +25,11 @@ Note, the role listed is the minimum role a member needs to have to accomplish t
 * How to <a href="https://sjroma.github.io/cmshogscan/hogscanapp/index.html" target="_blank">**Use the HogScan Smartphone Application**</a> - **Road Captain** role  
 
 ### Mailer  
-* **coming soon**  How to Update Templates and send a Campaign  
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/comingSoon.html" target="_blank">**Update Templates &amp; Send a Campaign**</a> 
 
 ### cPanel / Webmail  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEmailAccts.html" target="_blank">**Set-up and Manage Officer Email Accounts**</a> - **Webmaster** role  
-* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEmailForward.html" target="_blank">**Forward Officer Emails to Personal Accounts**</a> - **Primary/Discretionary Officers**
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEmailForward.html" target="_blank">**Forward Officer Emails to Personal Accounts**</a> - **Primary/Discretionary Officer** roles
 
 ## Defects / Enhancements  
 <a href="https://sjroma.github.io/cmshogscan/cmswishlist" target="_blank">**_HOG\[SCAN\]_ Wishlist**</a> - Here you can see reported defects and enhancements  
