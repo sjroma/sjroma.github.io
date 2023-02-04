@@ -14,6 +14,7 @@ Additionally, you will find other useful set up notes.
 The following tutorials were created to help ease the transition for someone moving into a new role. They are step-by-step how-to guides that can be used by a first timer as well as provide a reference for those with more experience. Although certain steps may be specific to the Raleigh NC Chapter website, the overall steps should be generic enough that other chapters using HOG\[SCAN\] can follow along with slight modifications.  
 Note, the role listed is the minimum role a member needs to have to accomplish the task.  
 ### Website 
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsParticipateReportIndiv.html" target="_blank">**Generate a Points Report**</a> - **Membership Officer** role
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsAddTeamMember.html" target="_blank">**Add a Team Member**</a> - **Editor** role  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsNewslettersUpdate.html" target="_blank">**Place a Newsletter on the Website**</a> - **Editor** role  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsFinancialReport.html" target="_blank">**Place a Financial Report on the Website**</a> - **Editor** role (page created by/for Raleigh NC Chapter)  
