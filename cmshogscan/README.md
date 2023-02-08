@@ -30,7 +30,7 @@ Note, the role listed is the minimum role a member needs to have to accomplish t
 
 ### cPanel / Webmail  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEmailAccts.html" target="_blank">**Set-up and Manage Officer Email Accounts**</a> - **Webmaster** role  
-* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEmailForward.html" target="_blank">**Forward Officer Emails to Personal Accounts**</a> - **Primary/Discretionary Officer** roles
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEmailForward.html" target="_blank">**Forward Officer Emails to Personal Email Accounts**</a> - **Primary/Discretionary Officer** roles
 
 ## Defects / Enhancements  
 <a href="https://sjroma.github.io/cmshogscan/cmswishlist" target="_blank">**_HOG\[SCAN\]_ Wishlist**</a> - Here you can see reported defects and enhancements  
