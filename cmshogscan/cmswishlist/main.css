@@ -1,42 +1,46 @@
 * {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  background-color: #000;
-  color: #f9f9f9;
-  font-family: Raleway, sans-serif;
-  background-image: url(images/barShieldLogo.jpg);
+  background-attachment: fixed;
+  background-color: #333;
+  background-image: url(images/logoHOG.jpg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: contain;
+  font-family: Raleway, sans-serif;
 }
 
 .page-container {
-  background: rgba(001, 001, 001, 0.75);
+  background: rgba(249, 249, 249, 0.88);
   border-radius: .25em;
-  margin: auto;
+  margin: 0.625em auto;
+  max-width: 85%;
   padding: 1.25em;
-  max-width: 97%;
 }
 
 .content-wrapper {
   padding-bottom: 2.5rem;
 }
 
+.defect, .enhancement {
+  padding-top: 0.5em;
+}
+
 h1, h3 {
   text-align: center;
 }
 
-h1, h2 {
-  color: #B0C4DE;
+p {
+  margin: 0.5em auto;
 }
 
 dt {
-  font-weight: 700;
-  margin-top: 1.3em;
+  font-weight: bold;
+  margin-top: 1em;
 }
 
 dd {
@@ -57,7 +61,6 @@ code {
 }
 
 a {
-  color: #ff8c00;
   text-decoration: none;
 }
 
