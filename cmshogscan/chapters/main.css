@@ -5,20 +5,20 @@
 }
 
 body {
+  background-attachment: fixed;
   background-color: #333;
-  color: #f9f9f9;
-  font-family: Raleway, sans-serif;
-  background-image: url(images/hogEagle.png);
+  background-image: url(images/logoHOG.jpg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: contain;
+  font-family: Raleway, sans-serif;
 }
 
 .container {
-  background: rgba(001, 001, 001, 0.75);
+  background: rgba(249, 249, 249, 0.88);
   border-radius: .25em;
-  margin: auto;
+  margin: 0.625em auto;
+  max-width: 85%;
   padding: 1.25em;
 }
 
@@ -31,13 +31,7 @@ h3 {
   padding: 1em 0 0 1em;
 }
 
-h1, h3 {
-  color: #b0c4de;
-}
-
 .country {
-  color: #f9f9f9;
-  color: #b0c4de;
   margin-top: 1em;
   text-align: center;
 }
@@ -47,10 +41,14 @@ li {
   padding: 0.5em 0 0 2em;
 }
 
-a { 
-  color: #ff8c00;
+a {
+  color: #00f;
   display: inline-block;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 li a {
@@ -58,16 +56,16 @@ li a {
 }
 
 .defunct {
-  color: #f77;
+  /*  color: #f77;*/
 }
 
 footer {
   background-color: #444;
   border-radius: 0.5em;
   color: #f9f9f9;
-  margin: 1em 3em; 
+  margin: 1em 3em;
   padding: 1em 0.5em 0.5em 0.5em;
-} 
+}
 
 footer a {
   color: #ff8c00;
