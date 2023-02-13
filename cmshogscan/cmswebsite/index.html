@@ -7,6 +7,7 @@
   <title>Setup Notes | HOG[SCAN] Notes</title>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Permanent+Marker&display=swap" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
@@ -93,7 +94,7 @@
     </section>
 
     <section>
-      <h2>Production vs Sandbox</h2>
+      <h2 id="environment">Production vs Sandbox</h2>
       <p>Remember that there are two environments that you, the webmaster, and any Chapter Officer that has an <a class=anchor-link href="#assign">assignable role</a> can work in.
         <span class="newline"><b>Production</b> - the website that all members see</span>
         <span class="newline"><b>Sandbox</b> - where you can try things out to see how they work without having an impact on what members see. It is easier to correct errors in this environment than in Production.</span>
@@ -130,7 +131,7 @@
 
     <section>
       <h2>Creating a Basic Page</h2>
-      <p>Know that when creating a basic page, by default, non-authenticated users can view the page</p>
+      <p>Know that when creating a basic page, by default, non-authenticated users can view the page.</p>
       <p>If the page you are creating should only been seen by authenticated users, a best-practice is to give the page a Title, provide a menu link and then Save the page. You can then go to the page and click the 'Access control' tab to configure the access control settings for the page. Submit the settings to save them prior to editing the page and filling in the content.</p>
     </section>
 
@@ -152,6 +153,51 @@
           Note: Only the Webmaster role can see/edit this field.
         </span>
       </p>
+    </section>
+    
+    <section>
+      <h2>Change That Font</h2>
+      <p>Not a fan of the <i>Permanent Marker</i> font used on the Home page and in the Footer? Would you like to change it to a sans-serif font? Then follow the steps below.</p>
+      <p>It is best if you first try this in your <a class=anchor-link href="#environment">Sandbox environment</a>.</p>
+      <dl>
+        <dt class="weight">Login to your Sandbox environment, then</dt>
+        <dd>In the administrator navbar at the top, click <b>Appearance</b></dd>
+        <dd>In the window that opens click the <b>Settings</b> link in the Jollyness (default theme)</dd>
+        <dd>In the window that opens, click <b>Fonts</b> from the nav links on the left side</dd>
+        <dd>In the window that opens, scroll down to <b>Custom font #1</b>dd>
+        <dd>Change <b>Permanent Marker</b> to a sans-serif font such as <b>Open Sans</b> or <b>Ubuntu</b></dd>
+        <dd>Scroll down and click the <b>Save configuration</b> button to save your change.</dd>
+      </dl>
+      
+      <p>Here is an example of the default <i>Permanent Marker</i> font and below it the same text using the <i>Open Sans</i> font.</p>
+      
+      <div class="font-row">
+        <p class="font1">Rides &amp; Events</p>
+        <p class="font1">Photo Gallery</p>
+        <p class="font1">Chapter Newsletter</p>
+        <p class="font1">Become a Member</p>
+      </div>
+      
+      <div class="font-row">
+        <p class="font2">Rides &amp; Events</p>
+        <p class="font2">Photo Gallery</p>
+        <p class="font2">Chapter Newsletter</p>
+        <p class="font2">Become a Member</p>
+      </div>
+      
+      <div class="font-row">
+        <p class="font1">Regular Meetings</p>
+        <p class="font1">Our Mailing Address</p>
+        <p class="font1">Our Sponsor</p>
+        <p class="font1">Follow Us</p>
+      </div>
+    
+      <div class="font-row">
+        <p class="font2">Regular Meetings</p>
+        <p class="font2">Our Mailing Address</p>
+        <p class="font2">Our Sponsor</p>
+        <p class="font2">Follow Us</p>
+      </div>
     </section>
 
     <footer>
