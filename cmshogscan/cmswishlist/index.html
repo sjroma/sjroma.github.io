@@ -7,6 +7,7 @@
   <title>Wishlist | HOG[SCAN] Notes</title>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
@@ -14,79 +15,82 @@
 
   <div class="page-container">
     <h1><i>HOG[SCAN]</i> Wishlist</h1>
-    <div class="content-wrapper">
-      <h3>"Spiders are the only web developers happy to find bugs"</h3>
-      <p>In no particular order, here are defects and enhancements from webmasters using <i>HOG[SCAN]</i>
-        <span class="newline"><b>Defect</b> - the software isn't working the way it says it will</span>
-        <span class="newline"><b>Enhancement</b> - the software isn't working the way the customer wants</span>
-      </p>
+    <h3>"Spiders are the only web developers happy to find bugs"</h3>
+    <p>In no particular order, here are defects and enhancements from webmasters using <i>HOG[SCAN]</i>
+      <span class="newline"><b>Defect</b> - the software isn't working the way it says it will</span>
+      <span class="newline"><b>Enhancement</b> - the software isn't working the way the customer wants</span>
+    </p>
 
-      <article class="defect">
-        <h2>Defects</h2>
-        <dl>
-          <dt>Unable to download/view the <i>Chapter Charter</i> or <i>Chapter Handbook</i> when clicking the respective links.</dt>
-          <dd>- On the <code>About</code> page, clicking the link to download the <i>Chapter Charter</i> or <i>Chapter Handbook</i> fails. End user's see "This site can't be reached" message. This is because the code repeats the <code>https</code> protocol for each link.
-            <span class="newline">Webmasters, until there is an official fix, edit the 'About Us' page. Change the 'Text format' to 'HTML Code' and scroll down to the <i>Chapter Charter &amp; Handbook</i> section. The start of the section looks like this: <code>&lt;strong&gt;Chapter Charter &amp;amp; Handbook&lt;/strong&gt;</code></span>
-            <span class="newline">Within that section change the following line</span>
-            <span class="newline"><code>&lt;a href="https://[hogscan:charter-url]" rel="nofollow" target="_blank"&gt;</code></span>
-            <span class="newline">to</span>
-            <span class="newline"><code>&lt;a href="[hogscan:charter-url]" rel="nofollow" target="_blank"&gt;</code></span>
-            <span class="newline">Do the same with the link to the <i>Chapter Handbook</i>. That is, delete <code>https://</code></span>
-            <span class="newline">Be sure to scroll down and Save your changes</span>
-          </dd>
+    <section class="defect">
+      <h2>Defects</h2>
+      <dl>
+        <dt>Unable to download/view the <i>Chapter Charter</i> or <i>Chapter Handbook</i> when clicking the respective links.</dt>
+        <dd>- On the <code>About</code> page, clicking the link to download the <i>Chapter Charter</i> or <i>Chapter Handbook</i> fails. End user's see "This site can't be reached" message. This is because the code repeats the <code>https</code> protocol for each link.
+          <span class="newline">Webmasters, until there is an official fix, edit the 'About Us' page. Change the 'Text format' to 'HTML Code' and scroll down to the <i>Chapter Charter &amp; Handbook</i> section. The start of the section looks like this: <code>&lt;strong&gt;Chapter Charter &amp;amp; Handbook&lt;/strong&gt;</code></span>
+          <span class="newline">Within that section change the following line</span>
+          <span class="newline"><code>&lt;a href="https://[hogscan:charter-url]" rel="nofollow" target="_blank"&gt;</code></span>
+          <span class="newline">to</span>
+          <span class="newline"><code>&lt;a href="[hogscan:charter-url]" rel="nofollow" target="_blank"&gt;</code></span>
+          <span class="newline">Do the same with the link to the <i>Chapter Handbook</i>. That is, delete <code>https://</code></span>
+          <span class="newline">Be sure to scroll down and Save your changes</span>
+        </dd>
 
-          <dt>The smartphone app exposes member information to Road Captains</dt>
-          <dd>The smartphone app should not expose member's HOG ID or ICE information to Road Captains. The app is the only place where member's private info is exposed to the Road Captain role.</dd>
+        <dt>The smartphone app exposes member information to Road Captains</dt>
+        <dd>The smartphone app should not expose member's HOG ID or ICE information to Road Captains. The app is the only place where member's private info is exposed to the Road Captain role.</dd>
 
-          <dt>Fix the GPX mapping feature on the event page</dt>
-          <dd>Seems to have stopped working around the same time the H-D Ride Planner altered how it gens a GPX file</dd>
+        <dt>Fix the GPX mapping feature on the event page</dt>
+        <dd>Seems to have stopped working around the same time the H-D Ride Planner altered how it gens a GPX file</dd>
 
-          <dt><s>Global token for Chapter Handbook needs to be updated</s></dt>
-          <dd>closed issue as fixed on 22 Dec 2022. National has updated the link on Chapter Resources, the global token points there.</dd>
+        <dt><s>Global token for Chapter Handbook needs to be updated</s></dt>
+        <dd>closed issue as fixed on 22 Dec 2022. National has updated the link on Chapter Resources, the global token points there.</dd>
 
-          <dt><s>Mailer link points to an out of date URL</s></dt>
-          <dd>closed issue as fixed on 26 Dec 2022. National has updated the link on Chapter Resources, the global token points there.</dd>
+        <dt><s>Mailer link points to an out of date URL</s></dt>
+        <dd>closed issue as fixed on 26 Dec 2022. National has updated the link on Chapter Resources, the global token points there.</dd>
 
-          <dt><s>Global token for member release form needs to be updated</s></dt>
-          <dd>closed issue as fixed on 27 Jan 2023. The link has updated and the user is brought to the HogScan Mailer.</dd>
+        <dt><s>Global token for member release form needs to be updated</s></dt>
+        <dd>closed issue as fixed on 27 Jan 2023. The link has updated and the user is brought to the HogScan Mailer.</dd>
 
-          <dt><s>Hidden page has an outdated column</s></dt>
-          <dd>closed issue on 31 Jan 2023. I figured out how to configure the column to show the current year.</dd>
+        <dt><s>Hidden page has an outdated column</s></dt>
+        <dd>closed issue as will not fix on 31 Jan 2023. I figured out how to configure the column to show the current year.</dd>
 
-          <dt><s>Show member mileage for Ride 365</s></dt>
-          <dd>closed issue as fixed on 2 Feb 2023. Members can see Ride 365 milage, including running total for the current year, by clicking 'My account' in the navbar</dd>
-        </dl>
-      </article>
+        <dt><s>Show member mileage for Ride 365</s></dt>
+        <dd>closed issue as fixed on 2 Feb 2023. Members can see Ride 365 mileage, including running total for the current year, by clicking 'My account' in the navbar</dd>
+      </dl>
+    </section>
 
-      <article class="enhancement">
-        <h2>Enhancements</h2>
-        <dl>
-          <dt>Upgrade to use a better campaign emailer</dt>
-          <dd>Webmasters are aware there will be an improvement in <i>HOG[SCAN]</i> V2.0 with an alternative to Elastic Email</dd>
-          <dd>On the list because it's something everyone is anticipating</dd>
+    <section class="enhancement">
+      <h2>Enhancements</h2>
+      <dl>
+        <dt>Upgrade to use a better campaign emailer</dt>
+        <dd>Webmasters are aware there will be an improvement in <i>HOG[SCAN]</i> V2.0 with an alternative to Elastic Email</dd>
+        <dd>On the list because it's something everyone is anticipating</dd>
 
-          <dt>Show Ride Mileage on the event page if the field is non-zero</dt>
-          <dd>Currently the Ride Mileage is not shown in the copy of the event if it's been filled in.</dd>
-          <dd>If the Ride Mileage field for an event has been filled in (i.e. it's not the default of zero) then show the mileage in the event copy. Much like an Event Coordinator is shown when that field has been filled in.</dd>
+        <dt>Show Ride Mileage on the event page if the field is non-zero</dt>
+        <dd>Currently the Ride Mileage is not shown in the copy of the event if it's been filled in.</dd>
+        <dd>If the Ride Mileage field for an event has been filled in (i.e. it's not the default of zero) then show the mileage in the event copy. Much like an Event Coordinator is shown when that field has been filled in.</dd>
 
-          <dt>Give webmasters the ability to sync the sandbox environment with the production environment</dt>
-          <dd>Currently a request has to be made to the Admin in order to have the sandbox environment synced up with the production environment.</dd>
-          <dd>It would be better if webmaster's had a button to click that would run the job to sync the sandbox with production so it could be done on-demand.</dd>
+        <dt>Give webmasters the ability to sync the sandbox environment with the production environment</dt>
+        <dd>Currently a request has to be made to the Admin in order to have the sandbox environment synced up with the production environment.</dd>
+        <dd>It would be better if webmaster's had a button to click that would run the job to sync the sandbox with production so it could be done on-demand.</dd>
 
-          <dt>Leave user's on the same page when logging out rather than sending them to the home page each time</dt>
-          <dd>Currently when a user logs out they are thrown back to the home page rather than leaving them on the page they were currently viewing.</dd>
-          <dd>When viewing the calendar and logging out, stay on the calendar page. If viewing newsletters, leave them on the default newsletter page that says "You must be logged in to view our Newsletters." In other words, it should manage state.</dd>
-        </dl>
-      </article>
-    </div>
+        <dt>Leave user's on the same page when logging out rather than sending them to the home page each time</dt>
+        <dd>Currently when a user logs out they are thrown back to the home page rather than leaving them on the page they were currently viewing.</dd>
+        <dd>When viewing the calendar and logging out, stay on the calendar page. If viewing newsletters, leave them on the default newsletter page that says "You must be logged in to view our Newsletters." In other words, it should manage state.</dd>
+      </dl>
+    </section>
 
-    <footer class="foot">
+    <section class="report">
+      <h2>Report a Defect / Add an Enhancement</h2>
       <p>Webmasters, is there something you would like to see included in this list? <a href="mailto:webmaster@raleighhog.com">Send me an email</a> and I'll place it here.</p>
       <p>Please, be descriptive.
         <span class="newline">Are you reporting a defect or an enhancement?</span>
         <span class="newline">For a defect, what do you see versus what should you see?</span>
         <span class="newline">For an enhancement, what you would like to see that is currently not available?</span>
       </p>
+    </section>
+
+    <footer>
+      <p class="github-link"><a class="profile-link" href="https://sjroma.github.io/cmshogscan/" target="_blank"><i class="fa fa-github text-center" aria-hidden="true"></i> Roma GitHub</a></p>
     </footer>
   </div>
 
