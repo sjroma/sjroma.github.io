@@ -1,6 +1,6 @@
 <!--
-  steps for using HOGScan Mailer previously called Elastic Email
-  no role as this is separate from HOGScan, usually done by the Activities Director
+  steps for editing templates and sending campaigns with HOGScan Mailer aka Elastic Email
+  no role as this is separate from the HOGScan website, usually done by the Activities Director
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -8,7 +8,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mailer | HOG[SCAN] Notes</title>
+  <title>HogScan Mailer | HOG[SCAN] Notes</title>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 
@@ -55,6 +55,12 @@
       max-width: 95%;
     }
 
+    span.li {
+      display: list-item;
+      list-style-type: circle;
+      margin-left: 1.5em;
+    }
+
     a {
       color: #00f;
       text-decoration: none;
@@ -77,6 +83,10 @@
       max-width: 90%;
     }
 
+    .number-reuse {
+      color: #f77;
+    }
+
   </style>
 </head>
 
@@ -85,12 +95,19 @@
 
   <article class="notes">
     <h2>General notes, terminology and policies</h2>
+    <p>Raleigh HOG uses the mailer to periodically send campaigns to our members. Generally the campaigns we send are;
+      <span class="li">Newsletter announce - sent once a month when the newsletter is published</span>
+      <span class="li">Monthly meeting reminder - sent once a month on the Monday before the Thursday meeting</span>
+      <span class="li">LoH Monthly meeting reminder - sent once a month on the Monday before the Thursday meeting</span>
+      <span class="li">Weekly ride reminder, aka Upcoming events - sent each Wednesday for the upcoming weekend ride(s) and/or events</span>
+    </p>
     <ul>
       <li>This environment is different than the website. There is only one, shared, account that is used for logging in. Do NOT change the Email or the Password.</li>
-      <li>There are only two sections in which you will work. They will show as separate sections within this tutorial. The two sections are;
+      <li>There are a few separate sections to this tutorial. You can click the respective link to jump to a specific section;
         <ul>
           <li><a href="#template">Update a Template</a></li>
           <li><a href="#campaign">Send a Campaign</a></li>
+          <li><a href="#template-copy">Copy an Existing Template</a></li>
         </ul>
       </li>
       <li>For the purposes of this tutorial, a campaign is what was previously called an 'email blast'.</li>
@@ -108,14 +125,15 @@
         <ul>
           <li><b>Current Members</b> - all current members of Raleigh HOG. It includes those in the other groups. This group is used to send a campaign to all members. E.g., Monthly Meeting announcement, Newsletter announcement, weekly Upcoming Events
             <ul>
-              <li>Note - Current Members contains the LoH, Road Captains and Chapter Officers groups. It is all encompassing.</li>
+              <li>Note - <b>Current Members</b> contains the LoH, Road Captains and Chapter Officers groups. It is all encompassing.</li>
             </ul>
           </li>
-          <li><b>LoH</b> - current members of Ladies of Harley. This group is used to send a campaign that is only meant for the Ladies of Harley. E.g., LoH Monthly Meeting announcement, LoH party or activity such as their Christmas party of Myrtle Beach weekend</li>
+          <li><b>LoH</b> - current members of Ladies of Harley. This group is used to send a campaign that is only meant for the Ladies of Harley. E.g., LoH Monthly Meeting announcement, LoH party or activity such as their Christmas party or Myrtle Beach weekend</li>
           <li><b>Road Captains</b> - current Road Captains. This group is used to send a campaign that is meant only for Road Captains. E.g. A pre-ride that is on the Road Captain's calendar if we ever take advantage of it.</li>
           <li><b>Chapter Officers</b> - the six (6) elected chapter officers. This group is used to send a campaign that is meant only for the elected officers.</li>
         </ul>
       </li>
+      <li>Please note, although certain steps may be specific to the Raleigh NC Chapter website, the overall steps should be generic enough that other chapters using <i>HOG[SCAN]</i> can follow along with only slight modifications.</li>
     </ul>
   </article>
 
@@ -123,27 +141,20 @@
     <h2>Update a Template</h2>
     <ol>
       <li><a href="https://mailer.hogscan.com/#/login" target="_blank">Login to the shared account for HOG[SCAN] Mailer</a>. As this is shared do NOT change the Email or Password. See image below <img class="screenshot" src="../images/HOGScanMailer1.jpg" alt="screenshot of login screen"></li>
-      <li>After a successful login you will see a navbar list on the left listing all that can be done with the HOG[SCAN] Mailer. This document is only concerned with <b>Campaigns</b> and <b>Templates</b>. Everything else is out of scope for this document.
+      <li>After a successful login you will see a navbar list on the left listing all that can be done with the HOG[SCAN] Mailer. This tutorial is only concerned with <b>Campaigns</b> and <b>Templates</b>. Everything else is out of scope for this tutorial.
         <span class="newline">Click <b>Campaigns</b> in the navbar to expand the dropdown to choose either <b>All Campaigns</b> or <b>Email Templates</b>.</span>
-        <span class="newline">As shown in the screenshot, you can also click the quick link for either <b>Create template</b> or <b>Send campaign</b>.</span>
-        <ol>
-          <li>Notice at the bottom of the navbar the blue circle with the <b>S</b> and partial address of <b>secretary@ralei...</b> Click it, and in the pop-up click <b>Log out</b> to logout when you have finished.</li>
-        </ol>
         See image below<img class="screenshot" src="../images/HOGScanMailer2.jpg" alt="screenshot of the hogscan mailer landing page">
       </li>
       <li>Prior to sending a campaign it is necessary to prepare the template we want to send.<span class="newline">Click <b>Campaigns</b> from the navbar to expand the dropdown, then click <b>Email Templates</b>.</span><span class="newline"> The following screen appears. Note on the page that the '<b>My templates</b>' tab is selected as shown by it being underlined.</span>
-        <ol>
-          <li>Notice at the bottom of the navbar the blue circle with the <b>S</b> and partial address of <b>secretary@ralei...</b> Click it, and in the pop-up click <b>Log out</b> to logout when you have finished.</li>
-        </ol>
         See image below<img class="screenshot" src="../images/HOGScanMailer3.jpg" alt="screenshot of hogscan mailer template page">
       </li>
       <li>Note, the templates may not display in the same order as shown in the previous image.
         <span class="newline">We mainly use only four (4) of the templates. The ones used most are;</span>
         <ol>
-          <li><b>Upcoming Chapter Events</b> - Sent out once a week, on Wednesday's, to inform members of upcoming rides for the weekend.</li>
+          <li><b>Upcoming Chapter Events</b> - Sent out once a week, on Wednesday's, to remind/inform members of upcoming rides for the weekend.</li>
           <li><b>Monthly Newsletter</b> - Sent once a month to inform members that the monthly newsletter has been posted to the website.</li>
           <li><b>Monthly Chapter Meeting</b> - Sent once a month, on Monday's, to remind/inform members of the upcoming monthly chapter meeting.</li>
-          <li><b>Upcoming LoH Events</b> - Sent once a month, on Wednesday's, to remind/inform LoH members of their monthly meeting.
+          <li><b>Upcoming LoH Events</b> - Sent once a month, on Monday's, to remind/inform LoH members of their upcoming monthly meeting.
             <ol>
               <li>This same template is used for any special meetings or parties that are unique to, and for, LoH.</li>
             </ol>
@@ -167,25 +178,25 @@
           <li>The section outlined in red is the only part of the template that will be changed</li>
           <li>Please, do not edit the top section. This has been set up to duplicate/mimic the website's navbar area
           <li>Please, do not edit the "Powered by..." button or add anything to this section</li>
-          <li>Please, do not edit the bottom section that contains the "unsubscribe" link and our chapter's mailing address.</li>
+          <li>Do not edit, or remove, the bottom section that contains the "unsubscribe" link. This link must be provided as a way for members to opt-out of receiving emails.</li>
         </ol>
         see image below <img class="screenshot" src="../images/HOGScanMailer7.jpg" alt="">
       </li>
-      <li>The template has been saved and you are ready to send the campaign. Follow the instructions in the next section, <a href="#campaign">Send a Campaign</a>.</li>
+      <li>The template has been saved and you are ready to send the campaign. Follow the instructions in the next section to <a href="#campaign"><b>Send a Campaign</b></a>.</li>
     </ol>
   </article>
 
   <article id="campaign" class="campaigns">
     <h2>Send a Campaign</h2>
     <ol>
-      <li>This document assumes that you have logged in and modified a template and are now ready to send a campaign.
+      <li>This section assumes that you have logged in and modified a template and are now ready to send a campaign.
         <ol>
-          <li>If you have not logged in and modified a template, <a href="#template">follow the instructions in the Update a Template section</a> above.</li>
+          <li>If you have not logged in and modified a template, <a href="#template">follow the instructions in the <b>Update a Template</b> section</a> above.</li>
         </ol>
       </li>
       <li>After updating a template, click the <b>All Campaigns</b> link in the navbar to prepare for sending the campaign. See image below <img class="screenshot" src="../images/HOGScanMailer5.jpg" alt="screenshot of the campaigns landing page"></li>
-      <li>The following steps will go through the steps to prepare sending an Upcoming Chapter Events campaign to all chapter members.
-        <span class="newline">Steps to mail a different campaign, such as LoH Upcoming Events, will be similar. The exceptions being the mail group in step 3.2 and the template selected in step 3.5 will each be different.</span>
+      <li>The following steps will go through the steps to prepare sending an <i>Upcoming Chapter Events</i> campaign to all chapter members.
+        <span class="newline">Steps to mail a different campaign, such as <i>LoH Upcoming Events</i>, will be similar. The exceptions being the mail group in step <b class="number-reuse">3.2</b> and the template selected in step <b class="number-reuse">3.5</b> will each be different.</span>
         <ol>
           <li>Click the <b>Create campaign</b> button found in the upper right corner of the page. see image below<img class="screenshot" src="../images/HOGScanMailCampaign1.jpg" alt="screenshot showing location of create campaign button"></li>
           <li>In the <b>1 SEND TO:</b> section of the page that opens, click the down carat to expand the list of mail groups. see image below <img class="screenshot" src="../images/HOGScanMailCampaign2.jpg" alt="screenshot showing location of carat to show mail list groups">
@@ -204,7 +215,6 @@
               <li>In the page that opens, hover over the <b>Upcoming Chapter Events</b> template and click the <b>select</b> icon. see image below <img class="screenshot" src="../images/HOGScanMailCampaign5.jpg" alt="screenshot showing upcoming chapter events hovered over and select button"></li>
               <li>You are brought back to the Campaign Creator page. Notice that the <b>Subject</b>, <b>From (Name)</b> and <b>From (Email)</b> boxes have been filled in for you and a thumbnail image of the template is shown.
                 <span class="newline">Do not change/alter any of the filled-in fields. Doing so may result in the campaign being misdirected to members in-boxes.</span>
-                <span class="newline">Optionally, you can click the <b>Send test</b> button to send the campaign to yourself</span>
                 see image below <img class="screenshot" src="../images/HOGScanMailCampaign6.jpg" alt="screenshot showing subject / content section auto-filled">
               </li>
             </ol>
@@ -222,11 +232,30 @@
           <li>You will see the following screen indicating success. <img class="screenshot" src="../images/HOGScanMailCampaign10.jpg" alt=" "></li>
         </ol>
       </li>
+      <li>The title of the event is centered and set to 18px.</li>
+      <li>The body of the event is a brief synopsis copy/pasted from the calendar and is left justified and set to 16px.</li>
+      <li>IMPORTANT!: Ensure that all changes have been saved before leaving.</li>
       <li>Click the <b>S</b> in the blue circle
         <ol>
           <li>In the pop-up, click <b>Log out</b></li>
         </ol>
       </li>
+    </ol>
+  </article>
+
+  <article id="template-copy" class="templates">
+    <h2>Copy an Existing Template</h2>
+    <ol>
+      <li>This section assumes you are currently logged into the HogScan Mailer</li>
+      <li>From the <b>Campaigns</b> dropdown in the navbar click <b>Email Templates</b> to select it</li>
+      <li>Click the ellipsis (<b>...</b>) to the right of the title of the template you want to copy
+        <ol>
+          <li>In the ensuing pop-up click <b>Copy template</b></li>
+          <li>In the ensuing pop-up, give the template a new name in the <b>Template name</b> box</li>
+          <li>Click the <b>Confirm</b> button to complete</li>
+        </ol>
+      </li>
+      <li>The copied template opens for you to edit it as needed</li>
     </ol>
   </article>
 
