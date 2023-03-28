@@ -11,7 +11,7 @@ _HOG\[SCAN\]_ webmasters, if you have something you would like to see added here
 Additionally, you will find other useful set up notes.  
 
 ## How-to Guides / Tutorials  
-The following tutorials were created to help ease the transition for someone moving into a new role. They are step-by-step how-to guides that can be used by a first timer as well as provide a reference for those with more experience. Although certain steps may be specific to the Raleigh NC Chapter website, the overall steps should be generic enough that other chapters using HOG\[SCAN\] can follow along with slight modifications.  
+The following tutorials were created to help ease the transition for someone moving into a new role. They are step-by-step how-to guides that can be used by a first timer as well as provide a reference for those with more experience. Although certain steps may be specific to the Raleigh NC Chapter website, the overall steps should be generic enough that other chapters using _HOG\[SCAN\]_ can follow along with only slight modifications.  
 Note, the role listed is the minimum role a member needs to have to accomplish the task.  
 ### Website 
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsParticipateReportIndiv.html" target="_blank">**Generate a Points Report**</a> - **Membership Officer** role
@@ -26,7 +26,7 @@ Note, the role listed is the minimum role a member needs to have to accomplish t
 * How to <a href="https://sjroma.github.io/cmshogscan/hogscanapp/index.html" target="_blank">**Use the HogScan Smartphone Application**</a> - **Road Captain** role  
 
 ### Mailer  
-* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/comingSoon.html" target="_blank">**Update Templates &amp; Send a Campaign**</a> 
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsHogscanMailer.html" target="_blank">**Update Templates &amp; Send a Campaign**</a> 
 
 ### cPanel / Webmail  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEmailAccts.html" target="_blank">**Set-up and Manage Officer Email Accounts**</a> - **Webmaster** role  
