@@ -1,6 +1,6 @@
 <!--
   steps to upload Road Captain documents to the server
-  edit access for this page given to Head Road Cap'n
+  edit access for this page given to Head Road Cap'n by username, no role
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -11,85 +11,7 @@
   <title>Upload Road Capt'n Docs | HOG[SCAN] Notes</title>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-
-  <style>
-    body {
-      background-color: #f0f0f0;
-      font-family: Raleway, sans-serif;
-    }
-
-    h1, h2, h3 {
-      text-align: center;
-    }
-
-    h3 {
-      color: #f00;
-    }
-
-    a {
-      color: #00f;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .notes, .subdir-add, .website-steps, .update-link {
-      border: solid 1px #333;
-      border-radius: 5px;
-      margin: auto;
-      max-width: 90%;
-      margin-bottom: 0.3em;
-    }
-
-    p {
-      text-align: left;
-      margin: 1em 3em;
-    }
-
-    ul {
-      list-style-type: circle;
-    }
-
-    ol {
-      counter-reset: section;
-      list-style-type: none;
-    }
-
-    ol>li::before {
-      counter-increment: section;
-      content: counters(section, ".") " ";
-      font-weight: bold;
-      color: #f77;
-    }
-
-    li {
-      max-width: 95%;
-    }
-
-    .number-reuse {
-      color: #f77;
-    }
-
-    .newline {
-      display: block;
-      padding-left: 0.5em;
-    }
-
-    code {
-      font-size: 1.3em;
-    }
-
-    .screenshot {
-      border-radius: 5px;
-      display: block;
-      margin: 0.3em auto;
-      margin-left: 1.5em;
-      max-width: 90%;
-    }
-
-  </style>
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
 <body>
@@ -113,19 +35,26 @@
       <li>Please use caution when in the directories. You have the ability to delete files. This should <b>never</b> be done.</li>
       <li>Files being uploaded should include a datestamp. This is how we distinguish the latest file to be used.
         <ul>
-          <li>For instance, <code>titleOfYourFile_YYYYMMDD.pdf</code> where <code>YYYY</code> is the four digit year, <code>MM</code> is the two digit month and <code>DD</code> is the two digit day. This is a good filename as it allows the files to easily be ordered by name and date.</li>
+          <li>For instance, <code class="code-font">titleOfYourFile_YYYYMMDD.pdf</code> where <code class="code-font">YYYY</code> is the four digit year, <code class="code-font">MM</code> is the two digit month and <code class="code-font">DD</code> is the two digit day. This is a good filename as it allows the files to easily be ordered by name and date.</li>
         </ul>
       </li>
-      <li>Note that there is a directory under <code>root</code> &rarr; <code>users</code>. The directory name starts with a '<code>u</code>'. This is a directory that only you can see. You can upload files here but they cannot be shared with others. This directory will not be addressed in this document. Additional information about it can be found by talking with your local webmaster.
+      <li>Note that there is a directory under <code class="code-font">root</code> &rarr; <code class="code-font">users</code>. The directory name starts with a '<code class="code-font">u</code>'. This is a directory that only you can see. You can upload files here but they cannot be shared with others. This directory will not be addressed in this document. Additional information about it can be found by talking with your local webmaster.
         <ul>
           <li>By default, this is the directory selected when you first log in. Be sure and follow the instructions below to upload into the correct, working directory.</li>
+        </ul>
+      </li>
+      <li>This tutorial covers creating a new subdirectory, uploading a document and updating the road capt'n forms, docs and procedure links. You can click the respective link to jump to a specific section;
+        <ul>
+          <li><a href="#subdir">Create a New Subdirectory</a></li>
+          <li><a href="#upload">Upload a Document</a></li>
+          <li><a href="#update">Update Road Captain Forms, Documents &amp; Procedure Links</a></li>
         </ul>
       </li>
     </ul>
   </article>
 
-  <article class="subdir-add">
-    <h2>Create a new Subdirectory</h2>
+  <article id="subdir" class="subdir-add">
+    <h2>Create a New Subdirectory</h2>
     <h3>Steps in this section only need to be done at the start of the calendar year</h3>
     <p>Once the subdirectory for the current year has been created, files will be added by following the steps in the <a href="#upload">Upload a Document</a> section.</p>
     <ol>
@@ -147,8 +76,8 @@
     </ol>
   </article>
 
-  <article class="website-steps">
-    <h2 id="upload">Upload a Document</h2>
+  <article id="upload" class="website-steps">
+    <h2>Upload a Document</h2>
     <ol>
       <li><a href="https://www.raleighhog.com/user" target="_blank">Login to your account on raleighhog.com</a></li>
       <li>Click on the <b>My account</b> link in the navbar. see image below <img class="screenshot" src="../images/rcMyAcct.jpg" alt="screenshot of my account link"></li>
@@ -162,7 +91,7 @@
       <li>You will see the file you just uploaded in the list of files. If you need to upload another file continue by repeating the steps from step <b class="number-reuse">8</b>.</li>
       <li>When you are done uploading your file(s), click the <b>x</b> in the pop-up window to close it. see image below <img class="screenshot" src="../images/rcDirectories7.jpg" alt="screenshot showing how to close pop-up"></li>
       <li>Logout when you have finished.</li>
-      <li>Our website has pointers to files in this directory. If you've uploaded new files then continue to the next section, <a href=#update-page>Update Road Captain Forms, Documents &amp; Procedure Links</a>.
+      <li>Our website has pointers to files in this directory. If you've uploaded new files then continue to the next section, <a href=#update>Update Road Captain Forms, Documents &amp; Procedure Links</a>.
         <ol>
           <li>If you need help or have any quesions please contact your webmaster.</li>
         </ol>
@@ -170,8 +99,8 @@
     </ol>
   </article>
 
-  <article class="update-link">
-    <h2 id="update-page">Update Road Captain Forms, Documents &amp; Procedures Links</h2>
+  <article id="update" class="update-link">
+    <h2>Update Road Captain Forms, Documents &amp; Procedures Links</h2>
     <ol>
       <li>This section assumes you are currently logged in and have just completed upload one or more Road Captain documents.
         <ol>
