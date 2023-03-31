@@ -11,77 +11,7 @@
   <title>Update Event Calendar | HOG[SCAN] Notes</title>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-
-  <style>
-    body {
-      background-color: #f0f0f0;
-      font-family: Raleway, sans-serif;
-    }
-
-    h1, h2 {
-      text-align: center;
-    }
-
-    a {
-      color: #00f;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .notes, .create, .directory {
-      border: solid 1px #333;
-      border-radius: 5px;
-      margin: auto;
-      margin-bottom: 0.3em;
-      max-width: 90%;
-    }
-
-    p {
-      text-align: left;
-      margin: 1em 3em;
-    }
-
-    ul {
-      list-style-type: circle;
-    }
-
-    ol {
-      counter-reset: section;
-      list-style-type: none;
-    }
-
-    ol>li::before {
-      counter-increment: section;
-      content: counters(section, ".") " ";
-      font-weight: bold;
-      color: #f77;
-    }
-
-    li {
-      max-width: 95%;
-    }
-
-    .newline {
-      display: block;
-      padding-left: 0.5em;
-    }
-
-    .screenshot {
-      border-radius: 5px;
-      display: block;
-      margin: 0.3em auto;
-      margin-left: 1.5em;
-      max-width: 90%;
-    }
-
-    .code-font {
-      font-size: 1.3em;
-    }
-
-  </style>
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
 <body>
@@ -118,9 +48,10 @@
         </ul>
       </li>
       <li>A best practice is to not delete an event
-      <ul>
-        <li>If an event is cancelled or postponed due to inclimate weather, or some other reason, put **CANCELLED** or **POSTPONED** in front of the title and add a short message in the body of the event to keep members informed.</li>
-      </ul></li>
+        <ul>
+          <li>If an event is cancelled or postponed due to inclimate weather, or some other reason, put **CANCELLED** or **POSTPONED** in front of the title and add a short message in the body of the event to keep members informed.</li>
+        </ul>
+      </li>
       <li>Consistancy is key. Do not use different terminology for the same event. For example, throughout the website and in email campaigns our monthly meeting is referred to as "Monthly Chapter Meeting". It should be referred to as such in the Event Calendar so the naming convention is consistant throughout and transparent to end users.
         <ul>
           <li>It also helps when running year end reports. All "Monthly Chapter Meeting" can be grouped. For our Mar - Oct dinner rides a naming convention of "Dinner ride - xxx" (where xxx is the name of the restaurant) makes running year end reports easier.</li>
@@ -136,7 +67,7 @@
         </ul>
       </li>
       <li>From the HOG Chapter Handbook, "Harley-Davidson discourages H.O.G.<sup>&reg;</sup> chapters from publishing any photographs of minor children, even with permission from a parent or guardian". We will adhere to this policy.</li>
-      <li>There are two sections in this tutorial;
+      <li>This tutorial covers creating an event and adding and image to a directory. You can click the respective link to jump to a specific section;
         <ul>
           <li><a href="#event">Create an Event</a></li>
           <li><a href="#image">Add an Image to a Directory</a></li>
@@ -177,7 +108,7 @@
           </li>
         </ol>
       </li>
-      <li><b>Ride Mileage</b> - we do not use this field, it can be left blank</li>
+      <li><b>Ride Mileage</b> - this field is not used, it can be left blank. Fill it in if you know it as it may be incorporated in the future.</li>
       <li><b>Points</b> - used only to identify newer members, leave at the default of 10</li>
       <li><b>Event Coordinator</b> - select from the dropdown. If the name isn't in the list leave it blank
         <ol>
@@ -276,7 +207,7 @@
       </li>
       <li>You will see the image filename has been added to the existing images and a preview of the image at the bottom since it is selected.
         <ol>
-          <li>If you have another image to add, click the <b>Choose File</b> button and repeat the instructions from step <b style="color: #f77;">4</b> above.</li>
+          <li>If you have another image to add, click the <b>Choose File</b> button and repeat the instructions from step <b class="number-reuse">4</b> above.</li>
           <li>Click the <b>x</b> in the pop-up to close it. see image below <img class="screenshot" src="../images/activityDirUpload6.jpg" alt="screenshot showing successful image upload"></li>
         </ol>
       </li>
