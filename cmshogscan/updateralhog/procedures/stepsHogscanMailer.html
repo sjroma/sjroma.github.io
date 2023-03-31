@@ -1,6 +1,6 @@
 <!--
   steps for editing templates and sending campaigns with HOGScan Mailer aka Elastic Email
-  no role as this is separate from the HOGScan website, usually done by the Activities Director
+  no role as this is separate from the HOGScan website, usually done by the Activities Officer
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -11,83 +11,7 @@
   <title>HogScan Mailer | HOG[SCAN] Notes</title>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-
-  <style>
-    body {
-      background-color: #f0f0f0;
-      font-family: Raleway, sans-serif;
-    }
-
-    h1, h2 {
-      text-align: center;
-    }
-
-    .notes, .templates, .campaigns {
-      border: solid 1px #333;
-      border-radius: 5px;
-      margin: auto;
-      max-width: 90%;
-      margin-bottom: 0.3em;
-    }
-
-    p {
-      text-align: left;
-      margin: 1em 3em;
-    }
-
-    ul {
-      list-style-type: circle;
-    }
-
-    ol {
-      counter-reset: section;
-      list-style-type: none;
-    }
-
-    ol>li::before {
-      counter-increment: section;
-      content: counters(section, ".") " ";
-      font-weight: bold;
-      color: #f77;
-    }
-
-    li {
-      max-width: 95%;
-    }
-
-    span.li {
-      display: list-item;
-      list-style-type: circle;
-      margin-left: 1.5em;
-    }
-
-    a {
-      color: #00f;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .newline {
-      display: block;
-      padding-left: 0.5em;
-    }
-
-    .screenshot {
-      border-radius: 5px;
-      display: block;
-      margin: 0.3em auto;
-      margin-left: 1.5em;
-      max-width: 90%;
-    }
-
-    .number-reuse {
-      color: #f77;
-    }
-
-  </style>
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
 <body>
@@ -103,13 +27,6 @@
     </p>
     <ul>
       <li>This environment is different than the website. There is only one, shared, account that is used for logging in. Do NOT change the Email or the Password.</li>
-      <li>There are a few separate sections to this tutorial. You can click the respective link to jump to a specific section;
-        <ul>
-          <li><a href="#template">Update a Template</a></li>
-          <li><a href="#campaign">Send a Campaign</a></li>
-          <li><a href="#template-copy">Copy an Existing Template</a></li>
-        </ul>
-      </li>
       <li>For the purposes of this tutorial, a campaign is what was previously called an 'email blast'.</li>
       <li>In this tutorial the Navagational Bar is referred to as the navbar.
         <ul>
@@ -118,22 +35,29 @@
       </li>
       <li>The <i>Monthly Chapter Meeting</i> template contains sensitive information, the link to join the Zoom meeting as well as the Meeting ID and Passcode
         <ul>
-          <li>This information should never be posted in the Event Calendar where it can be accessed by anyone in the world. It is only shared with current chapter members through the campaign.</li>
+          <li>This information should never be posted in the event calendar where it can be accessed by anyone in the world. It is only shared with current chapter members through the campaign.</li>
         </ul>
       </li>
       <li>There are currently four (4) groups that you can send a campaign to. They are;
         <ul>
-          <li><b>Current Members</b> - all current members of Raleigh HOG. It includes those in the other groups. This group is used to send a campaign to all members. E.g., Monthly Meeting announcement, Newsletter announcement, weekly Upcoming Events
+          <li><b>Current Members</b> - all current members of Raleigh HOG. It includes those in the other groups. This group is used to send a campaign to all members. E.g., monthly meeting announcement, newsletter announcement, weekly upcoming events
             <ul>
-              <li>Note - <b>Current Members</b> contains the LoH, Road Captains and Chapter Officers groups. It is all encompassing.</li>
+              <li>Note - Current Members contains the LoH, Road Captains and Chapter Officers groups. It is all encompassing.</li>
             </ul>
           </li>
-          <li><b>LoH</b> - current members of Ladies of Harley. This group is used to send a campaign that is only meant for the Ladies of Harley. E.g., LoH Monthly Meeting announcement, LoH party or activity such as their Christmas party or Myrtle Beach weekend</li>
+          <li><b>LoH</b> - current members of Ladies of Harley. This group is used to send a campaign that is only meant for the Ladies of Harley. E.g., LoH monthly meeting announcement, LoH party or activity such as their Christmas party or Myrtle Beach weekend</li>
           <li><b>Road Captains</b> - current Road Captains. This group is used to send a campaign that is meant only for Road Captains. E.g. A pre-ride that is on the Road Captain's calendar if we ever take advantage of it.</li>
           <li><b>Chapter Officers</b> - the six (6) elected chapter officers. This group is used to send a campaign that is meant only for the elected officers.</li>
         </ul>
       </li>
       <li>Please note, although certain steps may be specific to the Raleigh NC Chapter website, the overall steps should be generic enough that other chapters using <i>HOG[SCAN]</i> can follow along with only slight modifications.</li>
+      <li>This tutorial covers updating a template, sending a campaign and copying an existing template. You can click the respective link to jump to a specific section;
+        <ul>
+          <li><a href="#template">Update a Template</a></li>
+          <li><a href="#campaign">Send a Campaign</a></li>
+          <li><a href="#template-copy">Copy an Existing Template</a></li>
+        </ul>
+      </li>
     </ul>
   </article>
 
