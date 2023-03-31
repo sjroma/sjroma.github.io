@@ -11,73 +11,7 @@
   <title>cPanel Email Accounts | HOG[SCAN] Notes</title>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-
-  <style>
-    body {
-      background-color: #f0f0f0;
-      font-family: Raleway, sans-serif;
-    }
-
-    h1, h2 {
-      text-align: center;
-    }
-
-    .notes, .accounts, .password {
-      border: solid 1px #333;
-      border-radius: 5px;
-      margin: auto;
-      max-width: 90%;
-      margin-bottom: 0.3em;
-    }
-
-    p {
-      text-align: left;
-      margin: 1em 3em;
-    }
-
-    ul {
-      list-style-type: circle;
-    }
-
-    ol {
-      counter-reset: section;
-      list-style-type: none;
-    }
-
-    ol>li::before {
-      counter-increment: section;
-      content: counters(section, ".") " ";
-      font-weight: bold;
-      color: #f77;
-    }
-
-    li {
-      max-width: 95%;
-    }
-
-    a {
-      color: #00f;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .newline {
-      display: block;
-      padding-left: 0.5em;
-    }
-
-    .screenshot {
-      border-radius: 5px;
-      display: block;
-      margin: 0.3em auto;
-      margin-left: 1.5em;
-      max-width: 90%;
-    }
-
-  </style>
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
 <body>
@@ -87,7 +21,7 @@
     <h2>General notes, terminology and policies</h2>
     <ul>
       <li>This environment is different than the website. There is only one, shared, account that is used for logging in. Do NOT change the Username or the Password.</li>
-      <li>This tutorial currently covers creating an email account and changing an existing account's password. They will show as separate sections within this document;
+      <li>This tutorial covers creating an email account and changing an existing account's password. You can click the respective link to jump to a specific section;
         <ul>
           <li><a href="#account">Creating Email Accounts</a></li>
           <li><a href="#pwd">Change an Account Password</a></li>
@@ -122,13 +56,14 @@
       <li><a href="https://cpanel.raleighhog.com/#/login" target="_blank">Login to the shared account for cPanel</a>. As this is shared do NOT change the Username or Password. see image below <img class="screenshot" src="../images/cpanelManage1.jpg" alt="screenshot of login screen"></li>
       <li>After logging in, click <i>Email Accounts</i> in the Email section. see image below <img class="screenshot" src="../images/cpanelManage2.jpg" alt="screenshot of the tools page showing email and preferences section"></li>
       <li>The page opens showing all created email accounts. Click the <b>Manage</b> button for the account whose password is to be reset.
-      <span class="newline">The Activies Officer account (activities@raleighhog.com) is shown as an example for this tutorial. see image below</span> <img class="screenshot" src="../images/cpanelManagePwd1.jpg" alt=" "></li>
+        <span class="newline">The Activies Officer account (activities@raleighhog.com) is shown as an example for this tutorial. see image below</span> <img class="screenshot" src="../images/cpanelManagePwd1.jpg" alt=" ">
+      </li>
       <li>In the page that opens, enter in the <b>New Password</b>.
         <span class="newline">Optionally, you can click on the <b>Generate</b> button to have the system gen a new password for you.</span>
-        <span class="newline">When clicked, the eye with the line through it will let you see the password that you are entering.</span>see image below <img class="screenshot" src="../images/cpanelManagePwd2.jpg" alt=" ">
+        <span class="newline">When clicked, the eye with the line through it will let you see the password that you are entering. see image below</span> <img class="screenshot" src="../images/cpanelManagePwd2.jpg" alt=" ">
       </li>
       <li>After entering the new password, scroll down and click the <b>Update Email Settings</b> button to save it. see image below <img class="screenshot" src="../images/cpanelManagePwd3.jpg" alt=" "></li>
-      <li>Inform the user of their new password.</li>
+      <li>Inform the user of their new password. (Also let them know they should change their password)</li>
     </ol>
   </article>
 
