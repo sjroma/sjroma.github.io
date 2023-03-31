@@ -12,72 +12,7 @@
   <title>Upload Meeting Minutes | HOG[SCAN] Notes</title>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-
-  <style>
-    body {
-      background-color: #f0f0f0;
-      font-family: Raleway, sans-serif;
-    }
-
-    h1, h2 {
-      text-align: center;
-    }
-
-    .notes, .website-steps {
-      border: solid 1px #333;
-      border-radius: 5px;
-      margin: auto;
-      max-width: 90%;
-      margin-bottom: 0.3em;
-    }
-
-    ul {
-      list-style-type: circle;
-    }
-    
-    a {
-      color: #00f;
-      text-decoration: none;
-    }
-    
-    a:hover {
-      text-decoration: underline;
-    }
-
-    ol {
-      counter-reset: section;
-      list-style-type: none;
-    }
-
-    ol>li::before {
-      counter-increment: section;
-      content: counters(section, ".") " ";
-      font-weight: bold;
-      color: #f77;
-    }
-
-    li {
-      max-width: 95%;
-    }
-
-    .newline {
-      display: block;
-      padding-left: 0.5em;
-    }
-
-    code {
-      font-size: 1.3em;
-    }
-
-    .screenshot {
-      border-radius: 5px;
-      display: block;
-      margin: 0.3em auto;
-      margin-left: 1.5em;
-      max-width: 90%;
-    }
-
-  </style>
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
 <body>
@@ -101,10 +36,10 @@
       <li>Please use caution when in the directories. You have the ability to delete files. This should <b>never</b> be done.</li>
       <li>Files being uploaded should include a datestamp. This is how we distinguish the latest file to be used.
         <ul>
-          <li>For instance, <code>YYYYMMDD.pdf</code> where <code>YYYY</code> is the four digit year, <code>MM</code> is the two digit month and <code>DD</code> is the two digit day. This is a good filename as it allows the files to easily be ordered.</li>
+          <li>For instance, <code class="code-font">YYYYMMDD.pdf</code> where <code class="code-font">YYYY</code> is the four digit year, <code class="code-font">MM</code> is the two digit month and <code class="code-font">DD</code> is the two digit day. This is a good filename as it allows the files to easily be ordered.</li>
         </ul>
       </li>
-      <li>Note that there is a directory under <code>root --> users</code>. The directory name starts with a '<code>u</code>'. This is a directory that only you can see. You can upload files here but they cannot be shared with others. This directory will not be addressed in this document. Additional information about it can be found by talking with your local webmaster.
+      <li>Note that there is a directory under <code class="code-font">root --> users</code>. The directory name starts with a '<code class="code-font">u</code>'. This is a directory that only you can see. You can upload files here but they cannot be shared with others. This directory will not be addressed in this document. Additional information about it can be found by talking with your local webmaster.
         <ul>
           <li>By default, this is the directory selected when you first log in. Be sure and follow the instructions below to upload into the correct, working directory.</li>
         </ul>
