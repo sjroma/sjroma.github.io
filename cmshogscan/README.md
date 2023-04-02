@@ -12,7 +12,10 @@ Additionally, you will find other useful set up notes.
 
 ## How-to Guides / Tutorials  
 The following tutorials were created to help ease the transition for someone moving into a new role. They are step-by-step how-to guides that can be used by a first timer as well as provide a reference for those with more experience. Although certain steps may be specific to the Raleigh NC Chapter website, the overall steps should be generic enough that other chapters using _HOG\[SCAN\]_ can follow along with only slight modifications.  
-Note, the role listed is the minimum role a member needs to have to accomplish the task.  
+Webmasters, feel free to share any one of these tutorials with a member who is stepping into a new role.  
+Note that the role listed is the minimum role a member needs to have to accomplish the task.  
+
+I realize some of these may seem verbose but not knowing skill levels I tried to cover as many contingencies as possible while still making them clear, informative and easy to follow.  
 ### Website 
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsParticipateReportIndiv.html" target="_blank">**Generate a Points Report**</a> - **Membership Officer** role
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsAddTeamMember.html" target="_blank">**Add a Team Member**</a> - **Editor** role  
@@ -22,17 +25,20 @@ Note, the role listed is the minimum role a member needs to have to accomplish t
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsBlogCreate.html" target="_blank">**Create a Blog entry**</a> - **Activities Officer** role  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsGalleriesAdd.html" target="_blank">**Upload Images to the Galleries page**</a> - **Photographer** role  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsMtgMinutesUpload.html" target="_blank">**Add Monthly Meeting Minutes**</a> - Access granted to username (page created by/for Raleigh NC Chapter)  
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsCreateDirectory.html" target="_blank">**Create Subdirectories**</a> - **Every** role  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsRoadCaptUploads.html" target="_blank">**Upload Road Captain Documents**</a> - **Road Captain** role  
 * How to <a href="https://sjroma.github.io/cmshogscan/hogscanapp/index.html" target="_blank">**Use the HogScan Smartphone Application**</a> - **Road Captain** role  
-
-### Mailer  
-* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsHogscanMailer.html" target="_blank">**Update Templates &amp; Send a Campaign**</a> 
 
 ### cPanel / Webmail  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEmailAccts.html" target="_blank">**Set-up and Manage Officer Email Accounts**</a> - **Webmaster** role  
 
+### Mailer  
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsHogscanMailer.html" target="_blank">**Update Templates &amp; Send a Campaign**</a> 
+
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/comingSoon.html" target="_blank">**Monitor Campaign Progress &amp; Restore an Unsubscribed Member**</a>  
+
 ## Defects / Enhancements  
-<a href="https://sjroma.github.io/cmshogscan/cmswishlist" target="_blank">**_HOG\[SCAN\]_ Wishlist**</a> - Here you can see reported defects and enhancements  
+<a href="https://sjroma.github.io/cmshogscan/cmswishlist" target="_blank">**_HOG\[SCAN\]_ Wishlist**</a> - Here you can see reported defects and asked for enhancements  
 Defect - the software isn't working the way it says it will  
 Enhancement - the software isn't working the way the customer wants  
 
