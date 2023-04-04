@@ -34,7 +34,8 @@ I realize some of these may seem verbose but not knowing skill levels I tried to
 
 ### Mailer  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsHogscanMailer.html" target="_blank">**Update Templates &amp; Send a Campaign**</a>  
-* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/comingSoon.html" target="_blank">**Monitor Campaign Progress &amp; Restore an Unsubscribed Member**</a>  
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsMailerRestoreUnsub.html" target="_blank">**Restore a Member Who Unsubscribed**</a>  
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/comingSoon.html" target="_blank">**Monitor Campaign Progress**</a>  
 
 ## Defects / Enhancements  
 <a href="https://sjroma.github.io/cmshogscan/cmswishlist" target="_blank">**_HOG\[SCAN\]_ Wishlist**</a> - Here you can see reported defects and asked for enhancements  
