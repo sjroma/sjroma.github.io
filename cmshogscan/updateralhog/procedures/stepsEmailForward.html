@@ -10,79 +10,13 @@
   <title>cPanel Email Forwarding | HOG[SCAN] Notes</title>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-
-  <style>
-    body {
-      background-color: #f0f0f0;
-      font-family: Raleway, sans-serif;
-    }
-
-    h1, h2, h3 {
-      text-align: center;
-    }
-
-    .notes, .forward, .footnote {
-      border: solid 1px #333;
-      border-radius: 5px;
-      margin: auto;
-      max-width: 90%;
-      margin-bottom: 0.3em;
-    }
-
-    p {
-      text-align: left;
-      margin: 1em 3em;
-    }
-
-    ul {
-      list-style-type: circle;
-    }
-
-    ol {
-      counter-reset: section;
-      list-style-type: none;
-    }
-
-    ol>li::before {
-      counter-increment: section;
-      content: counters(section, ".") " ";
-      font-weight: bold;
-      color: #f77;
-    }
-
-    li {
-      max-width: 95%;
-    }
-
-    a {
-      color: #00f;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .newline {
-      display: block;
-      padding-left: 0.5em;
-    }
-
-    .screenshot {
-      border-radius: 5px;
-      display: block;
-      margin: 0.3em auto;
-      margin-left: 1.5em;
-      max-width: 90%;
-    }
-
-  </style>
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
 <body>
   <h1>Webmail - Forward Email to Your Personal Account</h1>
 
-  <article class="notes">
+  <article class="article-style">
     <h2>General notes, terminology and policies</h2>
     <ul>
       <li>This environment is different than the website. To login to your email;
@@ -108,7 +42,7 @@
     </ul>
   </article>
 
-  <article class="forward">
+  <article class="article-style">
     <h2>Forward Emails</h2>
     <ol>
       <li>Enter the <b>Email Address</b> and <b>Password</b> that were provided to you, then click the <b>Log in</b> button to login. see image below <img class="screenshot" src="../images/webmailForward1.jpg" alt="screenshot of webmail login window"></li>
@@ -134,7 +68,7 @@
     </ol>
   </article>
   
-  <article class="footnote">
+  <article class="article-style">
        <h2>Remove / Stop Forwarding</h2>
         <p>When the preceeding steps are followed, it is easy to remove forwarding, if desired, by following the steps below.</p>
         <ol>
