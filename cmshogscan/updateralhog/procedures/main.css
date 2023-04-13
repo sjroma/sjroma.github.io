@@ -11,23 +11,7 @@ h3 {
   color: #f00;
 }
 
-.article-style,
-.accounts,
-.campaigns,
-.collect, 
-.contacts,
-.create,
-.directory,
-.monitors,
-.no-role,
-.notes,
-.password,
-.restoring,
-.subdir-add,
-.templates,
-.update-link,
-.website-steps,
-.yearly {
+.article-style {
   border: solid 1px #333;
   border-radius: 5px;
   margin: auto;
