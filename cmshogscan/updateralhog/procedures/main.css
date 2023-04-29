@@ -79,3 +79,8 @@ span.li {
 .number-reuse {
   color: #f77;
 }
+
+hr {
+  border: solid 0.1em #333;
+  width: 80%;
+}
