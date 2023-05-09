@@ -7,26 +7,25 @@ _HOG\[SCAN\]_ webmasters, if you have something you would like to see added here
 
 ---    
 ## Set up  
-<a href="https://sjroma.github.io/cmshogscan/cmswebsite/" target="_blank">**_HOG\[SCAN\]_ Set up Notes**</a> - _HOG\[SCAN\]_ uses role based permissions to restrict network access based on a members role. This contains a description of the various roles and the access granted to each one.  
-Additionally, you will find other useful set up notes.  
+<a href="https://sjroma.github.io/cmshogscan/cmswebsite/" target="_blank">**_HOG\[SCAN\]_ Set up Notes**</a> - _HOG\[SCAN\]_ uses role based permissions to restrict network access based on a members role. This page contains a description of the various roles and the access granted to each one. as well as other useful set up notes.  
 
 ## How-to Guides / Tutorials  
 The following tutorials were created to help ease the transition for someone moving into a new role. They are step-by-step how-to guides that can be used by a first timer as well as provide a reference for those with more experience. Although certain steps may be specific to the Raleigh NC Chapter website, the overall steps should be generic enough that other chapters using _HOG\[SCAN\]_ can follow along with only slight modifications.  
-Webmasters, feel free to share any one of these tutorials with a member who is stepping into a new role.  
-Note that the role listed is the minimum role a member needs to have to accomplish the task.  
+Webmasters, feel free to share any one of these tutorials with a member who is stepping into a new role.     
 
 I realize some of these may seem verbose but not knowing skill levels I tried to cover as many contingencies as possible while still making them clear, informative and easy to follow.  
 ### Website 
-* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsParticipateReportIndiv.html" target="_blank">**Generate a Points Report**</a> - **Membership Officer** role
-* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsAddTeamMember.html" target="_blank">**Add a Team Member**</a> - **Editor** role  
-* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsNewslettersUpdate.html" target="_blank">**Place a Newsletter on the Website**</a> - **Editor** role  
-* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsFinancialReport.html" target="_blank">**Place a Financial Report on the Website**</a> - **Editor** role (page created by/for Raleigh NC Chapter)  
-* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEventCalUpdate.html" target="_blank">**Update the Event Calendar**</a> - **Activities Officer** role  
-* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsBlogCreate.html" target="_blank">**Create a Blog entry**</a> - **Activities Officer** role  
-* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsGalleriesAdd.html" target="_blank">**Upload Images to the Galleries page**</a> - **Photographer** role  
-* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsMtgMinutesUpload.html" target="_blank">**Add Monthly Meeting Minutes**</a> - Access granted to username (page created by/for Raleigh NC Chapter)  
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsParticipateReportIndiv.html" target="_blank">**Generate a Points Report**</a> - **Membership Officer** & **Primary Officer** roles  
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsAddTeamMember.html" target="_blank">**Add a Team Member**</a> - **Editor** & **Primary Officer** roles   
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsNewslettersUpdate.html" target="_blank">**Place a Newsletter on the Website**</a> - **Editor** & **Primary Officer** roles    
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsFinancialReport.html" target="_blank">**Place a Financial Report on the Website**</a> - **Editor** & **Primary Officer** roles (page created by/for Raleigh NC Chapter)  
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEventCalUpdate.html" target="_blank">**Update the Event Calendar**</a> - **Activities Officer** & **Primary Officer** roles    
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsBlogCreate.html" target="_blank">**Create a Blog entry**</a> - **Activities Officer**, **Editor**, **Membership Officer** & **Primary Officer** roles    
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsGalleriesAdd.html" target="_blank">**Upload Images to the Galleries page**</a> - **Photographer**, **Activities Officer**, **Editor**, **Membership Officer** & **Primary Officer** roles  
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsMtgMinutesUpload.html" target="_blank">**Add Monthly Meeting Minutes**</a> - Edit access granted to username (page created by/for Raleigh NC Chapter)  
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsBasicPageCreate.html" target="_blank">**Create a Basic Page**</a> - **Editor** & **Primary Officer** roles  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsCreateDirectory.html" target="_blank">**Create Subdirectories**</a> - **Every** role  
-* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsRoadCaptUploads.html" target="_blank">**Upload Road Captain Documents**</a> - **Road Captain** role  
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsRoadCaptUploads.html" target="_blank">**Upload Road Captain Documents**</a> - **Editor** & **Primary Officer** (edit access granted to Head Road Captain by username) 
 * How to <a href="https://sjroma.github.io/cmshogscan/hogscanapp/index.html" target="_blank">**Use the HogScan Smartphone Application**</a> - **Road Captain** role  
 
 ### cPanel / Webmail  
