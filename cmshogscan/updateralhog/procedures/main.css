@@ -7,7 +7,7 @@ h1, h2, h3 {
   text-align: center;
 }
 
-h3 {
+h3, h5 {
   color: #f00;
 }
 
@@ -61,7 +61,7 @@ span.li {
 
 .newline {
   display: block;
-  padding-left: 0.5em;
+  padding-left: 1.5em;
 }
 
 .code-font {
