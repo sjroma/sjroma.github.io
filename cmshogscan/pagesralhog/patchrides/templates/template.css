@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Raleway, sans-serif;
+}
+
+.rules {
+  margin: 0 5em;
+}
+
+.rules ul li {
+  font-size: 1.1em;
+}
+
+.rules ol li {
+  font-size: 1em;
+}
+
+.row {
+  display: flex;
+  margin: 0 -0.3125em;
+}
+
+.column {
+  flex: 50%;
+}
+
+.counties {
+  font-size: 0.8em;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+.rev-war {
+  margin-left: 2.5em;
+  text-align: left;
+}
+
+.pagebreak {
+  page-break-before: always;
+}
+
+.table {
+  border-collapse: collapse;
+  display: table;
+  margin: auto;
+  width: 90%;
+}
+
+.table-chdda-nc {
+  margin-top: 0.5em;
+  width: 60%;
+}
+
+.table-chdda-sc {
+  margin-top: 0.5em;
+  width: 55%;
+}
+
+.table-chdda-ga, .table-chdda-va {
+  margin-top: 0.5em;
+  width: 40%;
+}
+
+.table-burger {
+  width: 75%;
+}
+
+.table-memorials {
+  width: 85%;
+}
+
+.table-chowhound, .table-eathog {
+  width: 95%;
+}
+
+.table-counties {
+  font-size: 0.8em;
+  width: 95%;
+}
+
+.table-ride-wild {
+  width: 95%;
+}
+
+.table-icecream {
+  width: 100%;
+}
+
+.refcivilwar {
+  margin-top: 3em;
+}
+
+.table-caption {
+  display: table-caption;
+}
+
+.chdda-caption {
+  background: #333;
+  border-radius: 2em;
+  color: #f9f9f9;
+  padding: 0.4em 0;
+  text-align: center;
+}
+
+.table-header {
+  background-color: #333;
+  color: #f9f9f9;
+  display: table-header-group;
+}
+
+.table-header-cell {
+  border: 1px solid lightgrey;
+  display: table-cell;
+  padding: 0.3em;
+  text-align: center;
+}
+
+.table-body {
+  display: table-row-group;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.table-body .table-row:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+.table-body-cell {
+  border: 1px solid lightgrey;
+  display: table-cell;
+  padding: 0.2em 0.5em;
+  vertical-align: middle;
+}
+
+.reftable, .chddatable {
+  border: none;
+}
+
+a:link, a:visited {
+  color: #0000ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin: 0.5em 2.5em;
+}
+
+.newline {
+  display: block;
+  padding: 0.05em 0;
+}
+
+.empty-space {
+  visibility: hidden;
+}
+
+.rider-info {
+  margin-top: 1.5em;
+}
+
+footer {
+  margin-top: 1em;
+  text-align: center;
+}
