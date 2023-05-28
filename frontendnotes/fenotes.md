@@ -22,8 +22,8 @@ An element in HTML represents some kind of structure or semantics and generally 
 `<p>This is the content of the paragraph element.</p>`
 
 #### HTML attributes
-An attribute defines a property for an element. It consists of an attribute/value pair and appears within the element’s start tag. An element’s start tag may contain any number of space separated attribute/value pairs.
-The most popular misuse of the term “tag” is referring to `alt` attributes as “alt tags”. There is no such thing in HTML. `alt` is an attribute, not a tag.   
+An attribute defines a property for an element. It consists of an attribute/value pair and appears within the element's start tag. An element's start tag may contain any number of space separated attribute/value pairs.
+The most popular misuse of the term "tag" is referring to `alt` attributes as "alt tags". There is no such thing in HTML. `alt` is an attribute, not a tag.   
 `<img src="foobar.gif" alt="A foo can be balanced on a bar by placing its fubar on the bar's foobar.">` 
 
 ### Flexbox & CSS Grid  
@@ -32,7 +32,7 @@ The most popular misuse of the term “tag” is referring to `alt` attributes a
   
   * Flexbox note: `justify-content` versus `align-items`  
   justify is X axis, align is Y axis...sort of;  
-  XY axis depends on the “orientation” of the flex. For `flex-direction: row;`, justify is horizontal (X) and align is vertical (Y). For `flex-direction: column;` they’re inverted, with justify being vertical and align horizontal.  
+  XY axis depends on the “orientation” of the flex. For `flex-direction: row;`, justify is horizontal (X) and align is vertical (Y). For `flex-direction: column;` they're inverted, with justify being vertical and align horizontal.  
   
 <a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">A Complete Guide to CSS Grid</a> - a good comprehensive overview  
   * <a href="https://cssgridgarden.com/" target="_blank">Grid Garden</a> - A game for learning CSS Grid  
@@ -44,12 +44,12 @@ Review this for an understanding of the <a href="https://medium.com/better-progr
 
 Get familiar with the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model" target="_blank">box methodology</a>. Once you realize everything you see on a webpage is just a box you need to move around and resize, things will start to click.  
 
-Don’t be afraid to be descriptive with `class` and `id` names. It will be more semantic for yourself, and others who read your code. For example, if you have several two letter `id`'s that make sense to you now, they may not a year later and probably will never mean anything to other people. 
+Don't be afraid to be descriptive with `class` and `id` names. It will be more semantic for yourself, and others who read your code. For example, if you have several two letter `id`'s that make sense to you now, they may not a year later and probably will never mean anything to other people. 
 
 In general, an `id` is typically used when you want to target HTML elements with JavaScript. A `class` is used to style the page. You can use an `id` to style the page if you want but know that it has more weight than a `class` does and an `id` will override a `class` targeting the same element.  
 In your own personal projects that you create outside of freeCodeCamp some people recommend only using a `class` to style the page and an `id` if using JavaScript in your project. However, JavaScript can target a `class` too, so you may not need `id`'s that much in your personal projects.  
 
-Elements in CSS layout are normally either block-level or inline (with exceptions for elements within flex, table and grid elements). So it’s the basis for all of CSS layout: it treats all elements like boxes or text.  `display:block` makes them act like a block element regardless of what they were before (images are inline for example).  
+Elements in CSS layout are normally either block-level or inline (with exceptions for elements within flex, table and grid elements). So it's the basis for all of CSS layout: it treats all elements like boxes or text.  `display:block` makes them act like a block element regardless of what they were before (images are inline for example).  
 `display:inline` makes them act like an inline element.  
 `display:inline-block` makes it act like a block that is laid out inline.  
 See <a href="https://medium.com/@DaphneWatson/css-display-properties-block-inline-and-inline-block-how-to-tell-the-difference-7d3a1e6e3051" target="_blank">CSS display properties: block, inline, and inline-block — & how to tell the difference</a>  
