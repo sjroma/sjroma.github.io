@@ -52,7 +52,7 @@ In your own personal projects that you create outside of freeCodeCamp some peopl
 Elements in CSS layout are normally either block-level or inline (with exceptions for elements within flex, table and grid elements). So it's the basis for all of CSS layout: it treats all elements like boxes or text.  `display:block` makes them act like a block element regardless of what they were before (images are inline for example).  
 `display:inline` makes them act like an inline element.  
 `display:inline-block` makes it act like a block that is laid out inline.  
-See <a href="https://medium.com/@DaphneWatson/css-display-properties-block-inline-and-inline-block-how-to-tell-the-difference-7d3a1e6e3051" target="_blank">CSS display properties: block, inline, and inline-block — &amp; how to tell the difference</a>  
+See <a href="https://medium.com/@DaphneWatson/css-display-properties-block-inline-and-inline-block-how-to-tell-the-difference-7d3a1e6e3051" target="_blank">CSS display properties: block, inline, and inline-block - &amp; how to tell the difference</a>  
   
 ### Google Fonts notes
 
