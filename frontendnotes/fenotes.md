@@ -4,9 +4,9 @@
 
 If you have a dark-mode extension installed on your browser, disable it.  
 
-<a href="https://validator.w3.org/#validate_by_input" target="_blank">HTML Validator</a> - Used to <a href="https://validator.w3.org/docs/help.html#validation_basics" target="_blank">check the validity</a> of your HTML document. It's easiest to cut & paste your code into the 'Validate by Direct Input' tab.  
+<a href="https://validator.w3.org/#validate_by_input" target="_blank">HTML Validator</a> - Used to <a href="https://validator.w3.org/docs/help.html#validation_basics" target="_blank">check the validity</a> of your HTML document. It's easiest to cut &amp; paste your code into the 'Validate by Direct Input' tab.  
 
-<a href="https://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank">CSS Validator</a> - Similar to link above, validate your CSS code. Cut & paste your code into the 'By direct input' tab.  
+<a href="https://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank">CSS Validator</a> - Similar to link above, validate your CSS code. Cut &amp; paste your code into the 'By direct input' tab.  
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">HTML Entities</a> - MDN docs is always a good resource  
 <a href="https://www.w3schools.com/html/html_elements.asp" target="_blank">HTML Entities</a> - W<sup>3</sup> Schools is a good resource and there's usually a little editor where you can try things out  
@@ -26,13 +26,13 @@ An attribute defines a property for an element. It consists of an attribute/valu
 The most popular misuse of the term "tag" is referring to `alt` attributes as "alt tags". There is no such thing in HTML. `alt` is an attribute, not a tag.   
 `<img src="foobar.gif" alt="A foo can be balanced on a bar by placing its fubar on the bar's foobar.">` 
 
-### Flexbox & CSS Grid  
+### Flexbox &amp; CSS Grid  
 <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">A Complete Guide to Flexbox</a> - a good comprehensive overview   
   * <a href="https://flexboxfroggy.com/" target="_blank">Flexbox Froggy</a> - A game for learning CSS Flexbox  
   
   * Flexbox note: `justify-content` versus `align-items`  
   justify is X axis, align is Y axis...sort of;  
-  XY axis depends on the “orientation” of the flex. For `flex-direction: row;`, justify is horizontal (X) and align is vertical (Y). For `flex-direction: column;` they're inverted, with justify being vertical and align horizontal.  
+  XY axis depends on the "orientation" of the flex. For `flex-direction: row;`, justify is horizontal (X) and align is vertical (Y). For `flex-direction: column;` they're inverted, with justify being vertical and align horizontal.  
   
 <a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">A Complete Guide to CSS Grid</a> - a good comprehensive overview  
   * <a href="https://cssgridgarden.com/" target="_blank">Grid Garden</a> - A game for learning CSS Grid  
@@ -52,7 +52,7 @@ In your own personal projects that you create outside of freeCodeCamp some peopl
 Elements in CSS layout are normally either block-level or inline (with exceptions for elements within flex, table and grid elements). So it's the basis for all of CSS layout: it treats all elements like boxes or text.  `display:block` makes them act like a block element regardless of what they were before (images are inline for example).  
 `display:inline` makes them act like an inline element.  
 `display:inline-block` makes it act like a block that is laid out inline.  
-See <a href="https://medium.com/@DaphneWatson/css-display-properties-block-inline-and-inline-block-how-to-tell-the-difference-7d3a1e6e3051" target="_blank">CSS display properties: block, inline, and inline-block — & how to tell the difference</a>  
+See <a href="https://medium.com/@DaphneWatson/css-display-properties-block-inline-and-inline-block-how-to-tell-the-difference-7d3a1e6e3051" target="_blank">CSS display properties: block, inline, and inline-block — &amp; how to tell the difference</a>  
   
 ### Google Fonts notes
 
@@ -69,7 +69,7 @@ When using Google fonts, should I use the **link** or **import**?
   - Ubuntu (sans-serif)  
   - Helvetica (sans-serif)  
   - Verdana (sans-serif)  
-  - PT Sans & PT Serif   
+  - PT Sans &amp; PT Serif   
   - Georgia (serif)  
   - Rooney (serif)  
 
