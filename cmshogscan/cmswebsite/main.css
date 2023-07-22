@@ -48,6 +48,12 @@ dd {
   margin-inline-start: 0.938em;
 }
 
+hr {
+  border: solid 0.1em #333;
+  margin: 1em auto 0 auto;
+  width: 80%;
+}
+
 .anchor-link {
   color: #00f;
   text-decoration: none;
@@ -73,6 +79,7 @@ code {
 .weight {
   font-weight: 400;
 }
+
 .font-row {
   display: flex;
   justify-content: space-between;
