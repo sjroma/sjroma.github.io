@@ -35,13 +35,17 @@ p {
   margin-bottom: 0.5em;
 }
 
+dl {
+  margin-inline-start: 1em;
+}
+
 dt {
   font-weight: bold;
   margin-top: 1em;
 }
 
 dd {
-  margin-inline-start: 15px;
+  margin-inline-start: 0.938em;
 }
 
 .anchor-link {
