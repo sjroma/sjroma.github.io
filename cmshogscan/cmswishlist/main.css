@@ -23,7 +23,7 @@ body {
   padding: 1.25em;
 }
 
-h1, h3 {
+h1, h2, h3 {
   text-align: center;
 }
 
@@ -55,6 +55,12 @@ dd {
 
 code {
   font-size: 1.3em;
+}
+
+hr {
+  border: solid 0.1em #a9a9a9;
+  margin: 1em auto 0 auto;
+  width: 80%;
 }
 
 a {
