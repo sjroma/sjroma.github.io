@@ -131,6 +131,10 @@ li {
   max-width: 95%;
 }
 
+.number-reuse {
+  color: #f77;
+}
+
 .screenshot {
   border-radius: 5px;
   display: block;
