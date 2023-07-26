@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+/*  padding: 0;*/
+}
+
+body {
+  background-attachment: fixed;
+  background-color: #333;
+  background-image: url(images/logoHOG.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: Inter, sans-serif;
+}
+
+.container {
+  background: #f9f9f9;
+  background: rgba(249, 249, 249, 0.88);
+  border-radius: .25em;
+  margin: 0.625em auto;
+  max-width: 85%;
+  padding: 1.25em;
+  min-height: 100vh;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h2 {
+  margin: 0.5em 0;
+}
+
+p {
+  margin-bottom: 0.5em;
+}
+
+hr {
+  border: solid 0.1em #a9a9a9;
+  margin: 1em auto 0 auto;
+  width: 80%;
+}
+
+.anchor-link {
+  color: #00f;
+  text-decoration: none;
+}
+
+.anchor-link:hover {
+  text-decoration: underline;
+}
+
+.newline {
+  display: block;
+/*  padding-left: 0.8em;*/
+}
+
+.mini-paragraph {
+  padding: 0.4em 0 0 0.8em;
+}
+
+code {
+  font-size: 1.3em;
+}
+
+.weight {
+  font-weight: 400;
+}
+
+.table {
+  border-collapse: collapse;
+  display: table;
+  margin: auto;
+  width: 90%;
+}
+
+.table-header {
+  background-color: #333;
+  color: #f9f9f9;
+  display: table-header-group;
+}
+
+.table-header-cell {
+  border: 1px solid lightgrey;
+  display: table-cell;
+  padding: 0.3em;
+  text-align: center;
+}
+
+.table-body {
+  display: table-row-group;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.table-body .table-row:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+.table-body-cell {
+  border: 1px solid lightgrey;
+  display: table-cell;
+  padding: 0.2em 0.8em;
+  vertical-align: middle;
+}
+
+.article-style {
+  border: solid 1px #333;
+  border-radius: 5px;
+  margin: auto;
+  max-width: 90%;
+  margin-bottom: 0.3em;
+}
+
+ol {
+  counter-reset: section;
+  list-style-type: none;
+}
+
+ol > li::before {
+  counter-increment: section;
+  content: counters(section, ".") " ";
+  font-weight: bold;
+  color: #f77;
+}
+
+li {
+  max-width: 95%;
+}
+
+.screenshot {
+  border-radius: 5px;
+  display: block;
+  margin: 0.3em auto;
+  margin-left: 1.5em;
+  max-width: 90%;
+}
+
+footer {
+  background-color: #444;
+  border-radius: 0.5em;
+  color: #f9f9f9;
+  margin: 1em 3em 0 3em;
+  padding: 1em 0.5em 0.5em 0.5em;
+}
+
+footer a, p a {
+  color: #ff8c00;
+  text-decoration: none;
+}
+
+.profile-link:hover {
+  text-decoration: underline;
+}
+
+.github-link {
+  text-align: center;
+}
