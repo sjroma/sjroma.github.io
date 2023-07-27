@@ -6,152 +6,155 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Personalization Notes</title>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Permanent+Marker&display=swap" rel="stylesheet">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="personalize.css">
 </head>
 
 <body>
 
-  <div class="container">
-    <h1>Personalize Your Chapter's Website</h1>
-    <p>This page will show some of the common tokens and how to use them on your page(s). It will also show how to personalize the chapter rocker on the About Us page as well as how to fix the broken links to the Chapter Charter and Chapter Handbook.</p>
+  <h1>Personalize Your Chapter's Website</h1>
 
-    <hr>
+  <article class="article-style">
+    <h2>Purpose of this Tutorial</h2>
+    <ul>
+      <li>This page will show;
+        <ul>
+          <li>some of the common tokens and how to use them on your page(s)</li>
+          <li>how to personalize the chapter rocker on the <i>About Us</i> page</li>
+          <li>how to fix the broken links to the <i>Chapter Charter</i> and <i>Chapter Handbook</i></li>
+        </ul>
+      </li>
+    </ul>
+  </article>
 
-    <section>
-      <h2 id="assign">Using Tokens</h2>
-      <p>Use tokens to minimize the amount to redundant typing you have to do and minimize the risk of typos.</p>
-      <p>The following table shows the token you type in on the page you are editing and the result that is displayed after you <code>Save</code> the page.
-        <span class="newline">Note; the display will show your unique chapter information. Raleigh's info is shown for display purposes only.</span>
-        <span class="newline">Note<sub>2</sub>; if you want the octothorpe (number, hash, pound sign) to show in front of your chapter number you need to include it right before the token as shown.</span>
-      </p>
+  <article class="article-style">
+    <h2 id="assign">Using Tokens</h2>
+    <p>Use tokens to minimize redundant typing and the risk of typos.</p>
+    <p>The following table shows the token you type in on the page you are editing and the result that is displayed after you <code>Save</code> the page.
+      <span class="newline">Note; the display will show your unique chapter information. Raleigh's info is shown for display purposes only.</span>
+      <span class="newline">Note<sub>2</sub>; if you want the octothorpe (number, hash, pound sign) to show in front of your chapter number you need to include it right before the token as shown.</span>
+    </p>
 
-      <div class="table">
+    <div class="table">
 
-        <div class="table-header">
-          <div class="table-header-cell">Token</div>
-          <div class="table-header-cell">Displays</div>
-          <div class="table-header-cell">For example...</div>
-        </div>
-
-        <div class="table-body">
-
-          <div class="table-row">
-            <div class="table-body-cell">[hogscan:chapter_name]</div>
-            <div class="table-body-cell">Chapter name</div>
-            <div class="table-body-cell">Raleigh NC Chapter</div>
-          </div>
-
-          <div class="table-row">
-            <div class="table-body-cell">#[hogscan:chapter_number]</div>
-            <div class="table-body-cell">Chapter number</div>
-            <div class="table-body-cell">#4356</div>
-          </div>
-
-          <div class="table-row">
-            <div class="table-body-cell">[hogscan:chapter_city]</div>
-            <div class="table-body-cell">Chapter city</div>
-            <div class="table-body-cell">Raleigh</div>
-          </div>
-
-          <div class="table-row">
-            <div class="table-body-cell">[hogscan:chapter_state]</div>
-            <div class="table-body-cell">Chapter state</div>
-            <div class="table-body-cell">NC</div>
-          </div>
-
-          <div class="table-row">
-            <div class="table-body-cell">[hogscan:dealer_name]</div>
-            <div class="table-body-cell">Dealer name</div>
-            <div class="table-body-cell">Tobacco Road Harley-Davidson</div>
-          </div>
-
-          <div class="table-row">
-            <div class="table-body-cell">[hogscan:dealer_website]</div>
-            <div class="table-body-cell">Dealer website</div>
-            <div class="table-body-cell">https://tobaccoroadhd.com</div>
-          </div>
-
-          <div class="table-row">
-            <div class="table-body-cell">[hogscan:dealer_phone]</div>
-            <div class="table-body-cell">Dealer phone</div>
-            <div class="table-body-cell">(919) 832-2261</div>
-          </div>
-
-          <div class="table-row">
-            <div class="table-body-cell">[hogscan:dealer_address]</div>
-            <div class="table-body-cell">Dealer address</div>
-            <div class="table-body-cell">
-              <span class="newline">1126 S Saunders St</span>
-              <span class="newline">Raleigh, NC 27603 US</span>
-            </div>
-          </div>
-
-          <div class="table-row">
-            <div class="table-body-cell">[hogscan:charter_url]</div>
-            <div class="table-body-cell">Link to Chapter Charter</div>
-            <div class="table-body-cell"></div>
-          </div>
-
-          <div class="table-row">
-            <div class="table-body-cell">[hogscan:handbook_url]</div>
-            <div class="table-body-cell">Link to Chapter Handbook</div>
-            <div class="table-body-cell"></div>
-          </div>
-
-        </div>
+      <div class="table-header">
+        <div class="table-header-cell">Token</div>
+        <div class="table-header-cell">Displays</div>
+        <div class="table-header-cell">For example...</div>
       </div>
-    </section>
 
-    <hr>
+      <div class="table-body">
 
-    <section>
-      <h2><i>About Us</i> page - Personalize the Chapter Rocker</h2>
-      <p>By default, your <i>About Us</i> page shows a patch with a generic rocker. To make the rocker display your chapter information you will need to edit the page. The following steps will guide you.</p>
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:chapter_name]</div>
+          <div class="table-body-cell">Chapter name</div>
+          <div class="table-body-cell">Raleigh NC Chapter</div>
+        </div>
 
-      <ol>
-        <li>Login to your website</li>
-        <li>Referencing the following screenshot you can see by default the rocker shows generic information. To change it to reflect your chapter, click the <b>Edit</b> tab. <img class="screenshot" src="images/about1a.jpg" alt=" ">
-          <ol>
-            <li>Referencing the screenshot below, click the down caret to expand the selection and click <b>HTML code</b> to select it. <img class="screenshot" src="images/about1b.jpg" alt=" "></li>
-            <li>Referencing the screenshot below, locate the <b>9999</b> in the image (img) tag. Changing <i>only</i> the <b>9999</b> to your four digit chapter number.
-              <span class="newline">For most, it will be a four digit number. There are a few that will use a six digit number.</span> <img class="screenshot" src="images/about1c.jpg" alt=" ">
-            </li>
-            <li>The screenshot below shows how I edited the line to use my chapter number <img class="screenshot" src="images/about1d.jpg" alt=" "></li>
-            <li>Scroll to the bottom of the page and click the <b>Save</b> button.</li>
-          </ol>
-        </li>
-        <li>Your completed page displays showing the message "Basic page <i>About Us</i> has been updated" and the rocker shows your chapter. <img class="screenshot" src="images/about1e.jpg" alt=" "></li>
-      </ol>
-    </section>
+        <div class="table-row">
+          <div class="table-body-cell">#[hogscan:chapter_number]</div>
+          <div class="table-body-cell">Chapter number</div>
+          <div class="table-body-cell">#4356</div>
+        </div>
 
-    <hr>
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:chapter_city]</div>
+          <div class="table-body-cell">Chapter city</div>
+          <div class="table-body-cell">Raleigh</div>
+        </div>
 
-    <section id="fix-links">
-      <h2><i>About Us</i> page - Fix the Broken Links</h2>
-      <ol>
-        <li>Login to your website</li>
-        <li>This section will show how to fix the broken <b>Download the Chapter Charter</b> and <b>Download the Chapter Handbook</b> links. Reference the image below to see where they are on your unedited page. Click each one and if you get a "This site can't be reached" page, continue with the following instructions. <img class="screenshot" src="images/about2a.jpg" alt=" ">
-          <ol>
-            <li>Referencing the screenshot in step <b class="number-reuse">2</b> in the previous section, click the <b>Edit</b> tab.</li>
-            <li>Referencing the screenshot in step <b class="number-reuse">2.1</b> in the previous section, click the down caret to expand the selection and click <b>HTML code</b> to select it.</li>
-            <li>Referencing the screenshot below, you will change what is between the quotes (be sure and leave the quotes). 
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:chapter_state]</div>
+          <div class="table-body-cell">Chapter state</div>
+          <div class="table-body-cell">NC</div>
+        </div>
+
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:dealer_name]</div>
+          <div class="table-body-cell">Dealer name</div>
+          <div class="table-body-cell">Tobacco Road Harley-Davidson</div>
+        </div>
+
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:dealer_website]</div>
+          <div class="table-body-cell">Dealer website</div>
+          <div class="table-body-cell">https://tobaccoroadhd.com</div>
+        </div>
+
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:dealer_phone]</div>
+          <div class="table-body-cell">Dealer phone</div>
+          <div class="table-body-cell">(919) 832-2261</div>
+        </div>
+
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:dealer_address]</div>
+          <div class="table-body-cell">Dealer address</div>
+          <div class="table-body-cell">
+            <span class="newline">1126 S Saunders St</span>
+            <span class="newline">Raleigh, NC 27603 US</span>
+          </div>
+        </div>
+
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:charter_url]</div>
+          <div class="table-body-cell">Link to Chapter Charter</div>
+          <div class="table-body-cell"></div>
+        </div>
+
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:handbook_url]</div>
+          <div class="table-body-cell">Link to Chapter Handbook</div>
+          <div class="table-body-cell"></div>
+        </div>
+
+      </div>
+    </div>
+  </article>
+
+  <article class="article-style">
+    <h2><i>About Us</i> page - Personalize the Chapter Rocker</h2>
+    <p>By default, the <i>About Us</i> page shows a patch with a generic rocker. To make the rocker display your chapter information you will need to edit the page. The following steps will guide you.</p>
+
+    <ol>
+      <li>Login to your website</li>
+      <li>Reference the screenshot to see the default rocker showing generic information. To change it to reflect your chapter, click the <b>Edit</b> tab. <img class="screenshot" src="images/about1a.jpg" alt=" ">
+        <ol>
+          <li>Referencing the screenshot below, click the down caret to expand the selection and click <b>HTML code</b> to select it. <img class="screenshot" src="images/about1b.jpg" alt=" "></li>
+          <li>Referencing the screenshot below, locate the <b>9999</b> in the <code>img</code> (image) tag. Changing <i>only</i> the <b>9999</b> to your four digit chapter number.
+            <span class="newline">For most, it will be a four digit number. There are a few that will use a six digit number.</span> <img class="screenshot" src="images/about1c.jpg" alt=" ">
+          </li>
+          <li>The screenshot below shows how I edited the line to use my chapter number <img class="screenshot" src="images/about1d.jpg" alt=" "></li>
+          <li>Scroll to the bottom of the page and click the <b>Save</b> button.</li>
+        </ol>
+      </li>
+      <li>Your completed page displays showing the message "Basic page <i>About Us</i> has been updated" and the rocker shows your chapter. <img class="screenshot" src="images/about1e.jpg" alt=" "></li>
+    </ol>
+  </article>
+
+  <article class="article-style" id="fix-links">
+    <h2><i>About Us</i> page - Fix the Broken Links</h2>
+    <ol>
+      <li>Login to your website</li>
+      <li>This section will show how to fix the broken <b>Download the Chapter Charter</b> and <b>Download the Chapter Handbook</b> links. Reference the image below to see where they are on your unedited page. Click each one and if you get a "This site can't be reached" page, continue with the following instructions. <img class="screenshot" src="images/about2a.jpg" alt=" ">
+        <ol>
+          <li>Referencing the screenshot in step <b class="number-reuse">2</b> in the previous section, click the <b>Edit</b> tab.</li>
+          <li>Referencing the screenshot in step <b class="number-reuse">2.1</b> in the previous section, click the down caret to expand the selection and click <b>HTML code</b> to select it.</li>
+          <li>Referencing the screenshot below, you will change what is between the quotes (be sure and leave the quotes).
             <span class="newline">Replace <code>https://https://bit.ly/2FJx5eA</code> with <code>[hogscan:charter_url]</code></span>
-            <span class="newline">Replace <code>https://https://h-d.com/hogchapterhandbook</code> with <code>[hogscan:handbook_url]</code></span><img class="screenshot" src="images/about2b.jpg" alt=" "></li>
-            <li>Reference the screenshot below to see the tokens in their proper location. Your edit should look the same. <img class="screenshot" src="images/about2c.jpg" alt=" "></li>
-            <li>Click the <b>Save</b> button to finish.</li>
-          </ol>
-        </li>
-        <li>Test each link to verify that they now bring up the Chapter Charter and Chapter Handbook.</li>
-      </ol>
-    </section>
+            <span class="newline">Replace <code>https://https://h-d.com/hogchapterhandbook</code> with <code>[hogscan:handbook_url]</code></span><img class="screenshot" src="images/about2b.jpg" alt=" ">
+          </li>
+          <li>Reference the screenshot below to see the tokens in their proper location. Your edit should look the same. <img class="screenshot" src="images/about2c.jpg" alt=" "></li>
+          <li>Click the <b>Save</b> button to finish.</li>
+        </ol>
+      </li>
+      <li>Test each link to verify that they now bring up the <i>Chapter Charter</i> and <i>Chapter Handbook</i>.</li>
+    </ol>
+  </article>
 
-    <footer>
-      <p class="github-link"><a class="profile-link" href="https://sjroma.github.io/cmshogscan/" target="_blank"><i class="fa fa-github text-center" aria-hidden="true"></i> Roma GitHub</a></p>
-    </footer>
-  </div>
+  <footer>
+    <p class="github-link"><a class="profile-link" href="https://sjroma.github.io/cmshogscan/" target="_blank"><i class="fa fa-github text-center" aria-hidden="true"></i> Roma GitHub</a></p>
+  </footer>
 
 </body>
 
