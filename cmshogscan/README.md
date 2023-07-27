@@ -9,7 +9,7 @@ _HOG\[SCAN\]_ webmasters, if you have something you would like to see added here
 ## Set up  
 <a href="https://sjroma.github.io/cmshogscan/cmswebsite/" target="_blank">**_HOG\[SCAN\]_ Set up Notes**</a> - _HOG\[SCAN\]_ uses role based permissions to restrict network access based on a members role. This page contains a description of the various roles and the access granted to each one. as well as other useful set up notes.  
 
-<a href="https://sjroma.github.io/cmshogscan/cmswebsite/personalize.html" target="_blank">**Personalize the _About Us_ page**</a> - This page will introduce webmasters to _HOG\[SCAN\]_ tokens and show you how to edit the page so the rocker reflects your chapter's rocker.
+<a href="https://sjroma.github.io/cmshogscan/cmswebsite/personalize.html" target="_blank">**Personalize the _About Us_ page**</a> - This page introduces _HOG\[SCAN\]_ tokens and shows how to edit the page so the rocker reflects your Chapter's rocker. Additionally, it shows how to fix the broken Chapter Charter &amp; Chapter Handbook links.
 
 ## How-to Guides / Tutorials  
 The following tutorials were created to help ease the transition for someone moving into a new role. They are step-by-step how-to guides that can be used by a first timer as well as provide a reference for those with more experience. Although certain steps may be specific to the Raleigh NC Chapter website, the overall steps should be generic enough that other chapters using _HOG\[SCAN\]_ can follow along with only slight modifications.  
