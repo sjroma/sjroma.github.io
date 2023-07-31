@@ -17,6 +17,7 @@ Webmasters, feel free to share any one of these tutorials with a member who is s
 
 I realize some of these may seem verbose but not knowing skill levels I tried to cover as many contingencies as possible while still making them clear, informative and easy to follow.  
 ### Website 
+* Using the <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsWysiwygEditor.html" target="_blank">**_HOG\[SCAN\]_ WYSIWYG Editor**</a> - **Activities Officer**, **Editor**, **Membership Officer** & **Primary Officer** roles
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsParticipateReportIndiv.html" target="_blank">**Generate a Points Report**</a> - **Membership Officer** & **Primary Officer** roles  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsAddTeamMember.html" target="_blank">**Add a Team Member**</a> - **Editor** & **Primary Officer** roles   
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsNewslettersUpdate.html" target="_blank">**Place a Newsletter on the Website**</a> - **Editor** & **Primary Officer** roles    
