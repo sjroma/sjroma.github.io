@@ -17,6 +17,7 @@ h1, h2 {
 
 ul {
   list-style-type: circle;
+  margin-inline-start: 2em;
 }
 
 p {
@@ -24,12 +25,12 @@ p {
   margin: 1em 3em;
 }
 
-.anchor-link {
+a {
   color: #00f;
   text-decoration: none;
 }
 
-.anchor-link:hover {
+a:hover {
   text-decoration: underline;
 }
 
