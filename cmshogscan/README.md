@@ -11,6 +11,8 @@ _HOG\[SCAN\]_ webmasters, if you have something you would like to see added here
 
 <a href="https://sjroma.github.io/cmshogscan/cmswebsite/personalize.html" target="_blank">**Personalize the _About Us_ page**</a> - This page introduces _HOG\[SCAN\]_ tokens and shows how to edit the page so the rocker reflects your Chapter's rocker. Additionally, it shows how to fix the broken Chapter Charter &amp; Chapter Handbook links.
 
+<a href="https://sjroma.github.io/cmshogscan/cmswebsite/phonesubscribe.html" target="_blank">**Subscribe to the Event Calendar**</a> - Tutorial to subscribe to the chapter Event Calender with Android and Apple smartphones. 
+
 ## How-to Guides / Tutorials  
 The following tutorials were created to help ease the transition for someone moving into a new role. They are step-by-step how-to guides that can be used by a first timer as well as provide a reference for those with more experience. Although certain steps may be specific to the Raleigh NC Chapter website, the overall steps should be generic enough that other chapters using _HOG\[SCAN\]_ can follow along with only slight modifications.  
 Webmasters, feel free to share any one of these tutorials with a member who is stepping into a new role.     
