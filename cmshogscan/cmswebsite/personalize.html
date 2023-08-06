@@ -31,6 +31,7 @@
       <span class="newline">Note; the display will show your unique chapter information. Raleigh's info is shown for display purposes only.</span>
       <span class="newline">Note<sub>2</sub>; if you want the octothorpe (number, hash, pound sign) to show in front of your chapter number you need to include it right before the token as shown.</span>
     </p>
+    <p>It should be noted that any token used in the calender <b>Body</b> will not be translated when viewing the calendar with the HOG[SCAN] smartphone app.</p>
 
     <div class="table">
 
@@ -96,19 +97,43 @@
         <div class="table-row">
           <div class="table-body-cell">[hogscan:charter_url]</div>
           <div class="table-body-cell">Link to Chapter Charter</div>
-          <div class="table-body-cell"></div>
+          <div class="table-body-cell">&#42; see below</div>
         </div>
 
         <div class="table-row">
           <div class="table-body-cell">[hogscan:handbook_url]</div>
           <div class="table-body-cell">Link to Chapter Handbook</div>
-          <div class="table-body-cell"></div>
+          <div class="table-body-cell">&#42; see below</div>
+        </div>
+
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:member_release_url]</div>
+          <div class="table-body-cell">Link to Chapter Membership Enrollment Form &amp; Release</div>
+          <div class="table-body-cell">&#42; see below</div>
+        </div>
+
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:event_release_url]</div>
+          <div class="table-body-cell">Link to Event Release for Adults</div>
+          <div class="table-body-cell">&#42; see below</div>
+        </div>
+
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:minors_release_url]</div>
+          <div class="table-body-cell">Link to Event Release for Minors</div>
+          <div class="table-body-cell">&#42; see below</div>
+        </div>
+
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:minors_risk_url]</div>
+          <div class="table-body-cell">Link to Minors Assumption of Risk</div>
+          <div class="table-body-cell">&#42; see below</div>
         </div>
 
       </div>
     </div>
 
-    <p>It should be noted that any token used in the calender <b>Body</b> will not be translated when viewing the calendar with the HOG[SCAN] smartphone app.</p>
+    <p>* The tokens for the Chapter Charter, Chapter Handbook and the four release forms are URL links to HOG national. When national updates or revises them they will be picked up on your webpage automatically so you will always have the current version.</p>
   </article>
 
   <article class="article-style">
@@ -136,16 +161,17 @@
     <ol>
       <li>Login to your website</li>
       <li>This section will show how to fix the broken <b>Download the Chapter Charter</b> and <b>Download the Chapter Handbook</b> links. Reference the image below to see where they are on your unedited page. Click each one and if you get a "This site can't be reached" page, continue with the following instructions.
-       <span class="newline">Note that this bug has been fixed for newly set up websites. It is only an issue with legacy websites.</span> <img class="screenshot" src="images/about2a.jpg" alt="screenshot of about us page showing charter and handbook links">
+        <span class="newline">Note that this bug has been fixed for newly set up websites. It is only an issue with legacy websites.</span> <img class="screenshot" src="images/about2a.jpg" alt="screenshot of about us page showing charter and handbook links">
         <ol>
           <li>Referencing the screenshot in step <b class="number-reuse">2</b> in the previous section, click the <b>Edit</b> tab.</li>
           <li>Referencing the screenshot in step <b class="number-reuse">2.1</b> in the previous section, click the down caret to expand the selection and click <b>HTML code</b> to select it.</li>
           <li>Referencing the screenshot below, you will change what is between the quotes (be sure and leave the quotes).
-            <span class="newline">Replace <code>https://https://bit.ly/2FJx5eA</code> with <code>[hogscan:charter_url]</code></span>
-            <span class="newline">Replace <code>https://https://h-d.com/hogchapterhandbook</code> with <code>[hogscan:handbook_url]</code></span><img class="screenshot" src="images/about2b.jpg" alt=" screenshot showing the broken charter and handbook links">
+            <span class="newline">Replace <code>https://[hogscan:charter_url]</code> with <code>[hogscan:charter_url]</code></span>
+            <span class="newline">Replace <code>https://https://[hogscan:handbook_url]</code> with <code>[hogscan:handbook_url]</code></span><img class="screenshot" src="images/about2b.jpg" alt=" screenshot showing the broken charter and handbook links">
           </li>
           <li>Reference the screenshot below to see the tokens in their proper location. Your edit should look the same.
-          <span class="newline">Note that the token contains the https protocol. Do NOT enter it before the token. You edit should look that same as in the screenshot below.</span> <img class="screenshot" src="images/about2c.jpg" alt="screenshot showing the tokens after editing"></li>
+            <span class="newline">Note that the token contains the https protocol. Do NOT enter it before the token. You edit should look that same as in the screenshot below.</span> <img class="screenshot" src="images/about2c.jpg" alt="screenshot showing the tokens after editing">
+          </li>
           <li>Click the <b>Save</b> button to finish.</li>
         </ol>
       </li>
