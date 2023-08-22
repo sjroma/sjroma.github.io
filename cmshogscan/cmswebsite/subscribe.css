@@ -7,15 +7,6 @@ h1, h2 {
   text-align: center;
 }
 
-a {
-  color: #00f;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
 .article-style {
   border: solid 1px #333;
   border-radius: 5px;
@@ -39,7 +30,7 @@ p {
   text-decoration: none;
 }
 
-.anchor-link:hover {
+.anchor-link:hover, .anchor-link:focus {
   text-decoration: underline;
 }
 
@@ -131,7 +122,7 @@ footer a, p a {
   text-decoration: none;
 }
 
-.profile-link:hover {
+.profile-link:hover, .profile-link:focus {
   text-decoration: underline;
 }
 
