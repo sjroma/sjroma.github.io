@@ -59,7 +59,7 @@ hr {
   text-decoration: none;
 }
 
-.anchor-link:hover {
+.anchor-link:hover, .anchor-link:focus {
   text-decoration: underline;
 }
 
