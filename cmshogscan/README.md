@@ -9,9 +9,9 @@ _HOG\[SCAN\]_ webmasters, if you have something you would like to see added here
 ## Set up  
 <a href="https://sjroma.github.io/cmshogscan/cmswebsite/" target="_blank">**_HOG\[SCAN\]_ Set up Notes**</a> - _HOG\[SCAN\]_ uses role based permissions to restrict network access based on a members role. This page contains a description of the various roles, the access granted to each one and other useful set up notes.  
 
-<a href="https://sjroma.github.io/cmshogscan/cmswebsite/personalize.html" target="_blank">**Personalize the _About Us_ page**</a> - This page introduces _HOG\[SCAN\]_ tokens and shows how to edit the page so the rocker reflects your Chapter's rocker. Additionally, it shows how to fix the broken Chapter Charter &amp; Chapter Handbook links.
+<a href="https://sjroma.github.io/cmshogscan/cmswebsite/personalize.html" target="_blank">**Personalize the _About Us_ page**</a> - This page introduces _HOG\[SCAN\]_ tokens, shows how to edit the page so the rocker reflects your Chapter's rocker and shows how to fix the broken links to the _Chapter Charter_ &amp; _Chapter Handbook_.
 
-<a href="https://sjroma.github.io/cmshogscan/cmswebsite/phonesubscribe.html" target="_blank">**Subscribe to the Event Calendar**</a> - Tutorial to subscribe to the chapter Event Calender with Android and Apple smartphones. 
+<a href="https://sjroma.github.io/cmshogscan/cmswebsite/phonesubscribe.html" target="_blank">**Subscribe to the Event Calendar**</a> - Tutorial to subscribe to the chapter Event Calender with Android&trade; and Apple&reg; smartphones. 
 
 ## How-to Guides / Tutorials  
 The following tutorials were created to help ease the transition for someone moving into a new role as a primary or discretionary officer. They are step-by-step how-to guides that can be used by a first timer as well as provide a reference for those with more experience. Although certain steps may be specific to the Raleigh NC Chapter website, the overall steps should be generic enough that other chapters using _HOG\[SCAN\]_ can follow along with only slight modifications.  
@@ -31,6 +31,8 @@ I realize some of these may seem verbose but not knowing skill levels I tried to
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsBasicPageCreate.html" target="_blank">**Create a Basic Page**</a> - **Editor** & **Primary Officer** roles  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsCreateDirectory.html" target="_blank">**Create Subdirectories**</a> - **Every** role (directory access is determined by role)
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsRoadCaptUploads.html" target="_blank">**Upload Road Captain Documents**</a> - **Editor** & **Primary Officer** (edit access granted to Head Road Captain by username) 
+
+### Smartphone App
 * How to <a href="https://sjroma.github.io/cmshogscan/hogscanapp/index.html" target="_blank">**Use the HogScan Smartphone Application**</a> - **Road Captain** role  
 
 ### cPanel / Webmail  
