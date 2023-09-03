@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tokens | HOG[SCAN] Notes</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="token.css">
+</head>
+
+<body>
+
+  <h1><i>HOG[SCAN]</i> Tokens</h1>
+
+  <article class="article-style">
+    <h2>Purpose of this Tutorial</h2>
+    <p>This first section of this page will introduce you to the different <i>HOG[SCAN]</i> tokens. The next two sections will show how to use inline tokens and URL link tokens respectively. Click the appropriate link to jump to a specific section.</p>
+    <ul>
+      <li><a class="anchor-link" href="#tokens">Introduction to Tokens</a></li>
+      <li><a class="anchor-link" href="#inline-sample">Using Inline Tokens</a></li>
+      <li><a class="anchor-link" href="#link-sample">Using URL Link Tokens</a></li>
+    </ul>
+  </article>
+
+  <article class="article-style">
+    <h2 id="tokens">Introduction to Tokens</h2>
+    <p>Use tokens to minimize redundant typing and the risk of typos.</p>
+    <p>The Inline Tokens table shows the token you type on the page you are editing and the result that is displayed after you <code>Save</code> the page.
+      <span class="newline">Note; the display will show your unique chapter information. Raleigh's info is shown for display purposes only.</span>
+      <span class="newline">Note<sub>2</sub>; if you want the octothorpe (number, hash, pound sign) to show in front of your chapter number you need to include it right before the token as shown.</span>
+    </p>
+
+    <div class="table">
+      <div class="table-caption">Inline Tokens</div>
+      <div class="table-header">
+        <div class="table-header-cell">Token</div>
+        <div class="table-header-cell">Displays</div>
+        <div class="table-header-cell">For example...</div>
+      </div>
+
+      <div class="table-body">
+
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:chapter_name]</div>
+          <div class="table-body-cell">Your chapter name</div>
+          <div class="table-body-cell">Raleigh NC Chapter</div>
+        </div>
+
+        <div class="table-row">
+          <div class="table-body-cell">#[hogscan:chapter_number]</div>
+          <div class="table-body-cell">Your chapter number</div>
+          <div class="table-body-cell">#4356</div>
+        </div>
+
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:chapter_city]</div>
+          <div class="table-body-cell">Your chapter city</div>
+          <div class="table-body-cell">Raleigh</div>
+        </div>
+
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:chapter_state]</div>
+          <div class="table-body-cell">Your chapter state</div>
+          <div class="table-body-cell">NC</div>
+        </div>
+
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:dealer_name]</div>
+          <div class="table-body-cell">Your dealership name</div>
+          <div class="table-body-cell">Tobacco Road Harley-Davidson</div>
+        </div>
+
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:dealer_website]</div>
+          <div class="table-body-cell">Your dealership website</div>
+          <div class="table-body-cell">https://tobaccoroadhd.com</div>
+        </div>
+
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:dealer_phone]</div>
+          <div class="table-body-cell">Your dealership phone number</div>
+          <div class="table-body-cell">(919) 832-2261</div>
+        </div>
+
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:dealer_address]</div>
+          <div class="table-body-cell">Your dealership address</div>
+          <div class="table-body-cell">
+            <span class="newline">1126 S Saunders St</span>
+            <span class="newline">Raleigh, NC 27603 US</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    
+    <p>Each URL Link Token, with the exception of <code class="font-text">[hogscan:dealer_website]</code>, is a pointer to the document or form on national's website. By using the tokens as links you will avoid typo's and your webpage(s) will always point the current versions of the documents and forms. That is, there is no need to save copies locally.</p>
+    <p>As shown in the Displays column, you do not want to use the URL Link Token as an inline token. It's not clear to the end user what the link means whereas the words in italics clearly indicate where the link will take them.</p>
+
+    <div class="table">
+      <div class="table-caption">URL Link Tokens</div>
+      <div class="table-header">
+        <div class="table-header-cell">Token</div>
+        <div class="table-header-cell">Provides</div>
+        <div class="table-header-cell">Displays</div>
+      </div>
+
+      <div class="table-body">
+        
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:dealer_website]</div>
+          <div class="table-body-cell">A link to <i>https://tobaccoroadhd.com</i></div>
+          <div class="table-body-cell">https://tobaccoroadhd.com</div>
+        </div>
+
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:charter_url]</div>
+          <div class="table-body-cell">A link to the <i>Chapter Charter</i></div>
+          <div class="table-body-cell">https://bit.ly/2FJx5eA</div>
+        </div>
+
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:handbook_url]</div>
+          <div class="table-body-cell">A link to the <i>Chapter Handbook</i></div>
+          <div class="table-body-cell">https://h-d.com/hogchapterhandbook</div>
+        </div>
+
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:member_release_url]</div>
+          <div class="table-body-cell">A link to the <i>Chapter Membership Enrollment Form &amp; Release</i></div>
+          <div class="table-body-cell">https://h-d.com/hogchaptermefr</div>
+        </div>
+
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:event_release_url]</div>
+          <div class="table-body-cell">A link to the <i>Event Release for Adults</i></div>
+          <div class="table-body-cell">https://bit.ly/2OFM7G1</div>
+        </div>
+
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:minors_release_url]</div>
+          <div class="table-body-cell">A link to the <i>Event Release for Minors</i></div>
+          <div class="table-body-cell">https://bit.ly/2YG62cQ</div>
+        </div>
+
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:minors_risk_url]</div>
+          <div class="table-body-cell">A link to the <i>Minors Assumption of Risk</i></div>
+          <div class="table-body-cell">https://bit.ly/2uCy1Mr</div>
+        </div>
+
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:insurance_injury_url]</div>
+          <div class="table-body-cell">A link to the <i>Incident Report</i></div>
+          <div class="table-body-cell">https://h-d.com/hogchapterir</div>
+        </div>
+
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:insurance_open_url]</div>
+          <div class="table-body-cell">A link to the <i>Insurance Application for Non-Approved or Open Activities</i></div>
+          <div class="table-body-cell">https://h-d.com/hogchapteranaoa</div>
+        </div>
+
+        <div class="table-row">
+          <div class="table-body-cell">[hogscan:insurance_parade_url]</div>
+          <div class="table-body-cell">A link to the <i>Insurance Application for Parades</i></div>
+          <div class="table-body-cell">https://h-d.com/hogchapterap</div>
+        </div>
+
+      </div>
+    </div>
+    
+    <p>The <b>About Us</b> on your website is a good example of using Inline Tokens and the <b>Forms and Documents</b> page on your website is a good example of using URL Link Tokens.</p>
+    <p>It should be noted that any token used in the calendar <b>Body</b> will not be translated when viewing the calendar with the HOG[SCAN] smartphone app.</p>
+  </article>
+
+  <article class="article-style">
+    <h2 id="inline-sample">Using Inline Tokens</h2>
+    <ol>
+      <li>An inline token is one that, when translated, flows with the sentence in which it is used. The following two sub-step screenshots show the <i>About Us</i> page. The first in edit mode, the second after the page is saved. Each inline token is underlined to show how it appears when being typed in and then how it displays to the end user.
+        <span class="newline">An inline token can also be made to be a link. An example of how to do this is shown in step <b class="number-reuse">2</b>.</span>
+        <ol>
+          <li>Reference the image below which shows the <i>About Us</i> page in 'Edit' mode. <img class="screenshot" src="images/tokens1a.jpg" alt="screenshot of the about us page in edit mode"></li>
+          <li>Reference the image below which shows the <i>About Us</i> page as it appears to the end user. <img class="screenshot" src="images/tokens1b.jpg" alt="screenshot of the about us page as displayed to an end user"></li>
+        </ol>
+      </li>
+      <li>The token, <code class="font-size">[hogscan:dealer_name]</code>, is a special token. Not only does it display your dealerships website when used inline, it can also be used as a clickable link to take the end user to that website. 
+       <span class="newline">Unless you, or a previous webmaster, made a change an example of this token being used both ways can be seen in the <b>Our Sponsor</b> block in the footer of each of your website pages.</span>
+       <span class="newline">The following sub-steps will walk through how to use it both ways.</span>
+        <ol>
+          <li> <img class="screenshot" src="images/" alt=" "></li>
+        </ol>
+      </li>
+    </ol>
+
+  </article>
+
+  <article class="article-style" id="fix-links">
+    <h2 id="link-sample">Using URL Link Tokens</h2>
+    <p>The <b>Forms and Documents</b> page shows good examples of accessibility and use of the </p>
+
+  </article>
+
+  <footer>
+    <p class="github-link"><a class="profile-link" href="https://sjroma.github.io/cmshogscan/" target="_blank"><i class="fa fa-github text-center" aria-hidden="true"></i> Roma GitHub</a></p>
+  </footer>
+
+</body>
+
+</html>
