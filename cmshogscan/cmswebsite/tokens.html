@@ -16,7 +16,8 @@
 
   <article class="article-style">
     <h2>Purpose of this Tutorial</h2>
-    <p>This first section of this page will introduce you to the different <i>HOG[SCAN]</i> tokens. The next two sections will show how to use inline tokens and URL link tokens respectively. Click the appropriate link to jump to a specific section.</p>
+    <p>This first section of this page will introduce you to the different <i>HOG[SCAN]</i> tokens. The next two sections will show how to use the inline tokens and the URL link tokens respectively.</p>
+    <p>The examples used for the tokens are from existing pages on your website. I used them to break down how the tokens are used. You can use them as guidelines for any pages you may create in the future. Click the appropriate link to jump to a specific section.</p>
     <ul>
       <li><a class="anchor-link" href="#tokens">Introduction to Tokens</a></li>
       <li><a class="anchor-link" href="#inline-sample">Using Inline Tokens</a></li>
@@ -27,10 +28,11 @@
   <article class="article-style">
     <h2 id="tokens">Introduction to Tokens</h2>
     <p>Use tokens to minimize redundant typing and the risk of typos.</p>
-    <p>The Inline Tokens table shows the token you type on the page you are editing and the result that is displayed after you <code>Save</code> the page.
+    <p>The Inline Tokens table shows the token you type on the page you are editing and the result that is displayed after you <b>Save</b> the page.
       <span class="newline">Note; the display will show your unique chapter information. Raleigh's info is shown for display purposes only.</span>
       <span class="newline">Note<sub>2</sub>; if you want the octothorpe (number, hash, pound sign) to show in front of your chapter number you need to include it right before the token as shown.</span>
     </p>
+    <p>The <b>About Us</b> page on your website is a good example of using Inline Tokens.</p>
 
     <div class="table">
       <div class="table-caption">Inline Tokens</div>
@@ -95,9 +97,12 @@
 
       </div>
     </div>
-    
-    <p>Each URL Link Token, with the exception of <code class="font-text">[hogscan:dealer_website]</code>, is a pointer to the document or form on national's website. By using the tokens as links you will avoid typo's and your webpage(s) will always point the current versions of the documents and forms. That is, there is no need to save copies locally.</p>
-    <p>As shown in the Displays column, you do not want to use the URL Link Token as an inline token. It's not clear to the end user what the link means whereas the words in italics clearly indicate where the link will take them.</p>
+
+    <hr>
+
+    <p>Each URL Link Token, with the exception of <code class="code-font">[hogscan:dealer_website]</code>, is a pointer to the document or form on national's website. By using the tokens as links you will avoid typo's and your webpage(s) will always point to the current versions of the documents and forms. That is, there is no need to save copies locally.</p>
+    <p>As shown in the Displays column, you do not want to use the URL Link Token as an inline token. It's not clear to the end user what the link means whereas the words in italics in the Provides column clearly indicate where the link will take them.</p>
+    <p>The <b>Forms and Documents</b> page on your website is a good example of using URL Link Tokens.</p>
 
     <div class="table">
       <div class="table-caption">URL Link Tokens</div>
@@ -108,7 +113,7 @@
       </div>
 
       <div class="table-body">
-        
+
         <div class="table-row">
           <div class="table-body-cell">[hogscan:dealer_website]</div>
           <div class="table-body-cell">A link to <i>https://tobaccoroadhd.com</i></div>
@@ -171,8 +176,9 @@
 
       </div>
     </div>
-    
-    <p>The <b>About Us</b> on your website is a good example of using Inline Tokens and the <b>Forms and Documents</b> page on your website is a good example of using URL Link Tokens.</p>
+
+    <hr>
+
     <p>It should be noted that any token used in the calendar <b>Body</b> will not be translated when viewing the calendar with the HOG[SCAN] smartphone app.</p>
   </article>
 
@@ -186,20 +192,40 @@
           <li>Reference the image below which shows the <i>About Us</i> page as it appears to the end user. <img class="screenshot" src="images/tokens1b.jpg" alt="screenshot of the about us page as displayed to an end user"></li>
         </ol>
       </li>
-      <li>The token, <code class="font-size">[hogscan:dealer_name]</code>, is a special token. Not only does it display your dealerships website when used inline, it can also be used as a clickable link to take the end user to that website. 
-       <span class="newline">Unless you, or a previous webmaster, made a change an example of this token being used both ways can be seen in the <b>Our Sponsor</b> block in the footer of each of your website pages.</span>
-       <span class="newline">The following sub-steps will walk through how to use it both ways.</span>
+      <li>The token, <code class="code-font">[hogscan:dealer_name]</code>, is a special token. Not only does it display your dealerships website when used inline, it can also be used as a clickable link to take the end user to that website.
+        <span class="newline">Unless you, or a previous webmaster, made a change an example of this token being used both ways can be seen in the <b>Our Sponsor</b> block in the footer of each of your website pages.</span>
+        <span class="newline">The following sub-steps will walk through how to use it both ways.</span>
         <ol>
-          <li> <img class="screenshot" src="images/" alt=" "></li>
+          <li>Login to your website and scroll down to the footer. (Referencing the image below, notice the URL link to your dealerships website in the "Our Sponsor" block.)
+            <span class="newline">Hover over the block and you will see a cog icon. Click on it and then click "Configure block" when it expands.</span> <img class="screenshot" src="images/token_dual1a.jpg" alt="screenshot of the pages footer showing the location of the our sponsor block">
+          </li>
+          <li>Referencing the image below, the block opens in Edit mode and shows four inline tokens. The following sub-steps will show how make the <code class="code-font">[hogscan:dealer_website]</code> token a link. <img class="screenshot" src="images/token_dual1b.jpg" alt="screenshot of the sponsor block in edit mode"></li>
+          <li>Referencing the image below, highlight the token by rapidly clicking three times with your mouse button. (Make sure to include the opening and closing square brackets.)
+            <span class="newline">When the token is highlighted, click the "Link" icon in the editor ribbon.</span> <img class="screenshot" src="images/token_dual1c.jpg" alt="screenshot of the sponsor block in edit mode showing token highlighted and location of the link icon">
+          </li>
+          <li>Referencing the image below, after clicking the Link icon the Link pop-up appears.
+            <span class="newline">The Link Type is URL</span>
+            <span class="newline">The protocol is set to <code class="code-font">&lt;other&gt;</code> (If you were initially setting up a new link it defaults to <code class="code-font">http://</code>. It is changed here and set to <code class="code-font">&lt;other&gt;</code> because URL Link Tokens already include the <code class="code-font">https://</code> protocol.)</span> <img class="screenshot" src="images/token_dual1d.jpg" alt="screenshot showing the link pop-up">
+          </li>
+          <li>Referencing the image below, when an end user clicks on the dealership link we want it to open in a new window. Here's how to accomplish that.
+            <span class="new-line">Click the <b>Target</b> tab and reference the next sub-step.</span> <img class="screenshot" src="images/token_dual1e.jpg" alt="screenshot showing the Link pop up and location of the target tab">
+          </li>
+          <li>Referencing the image below, after clicking the <b>Target</b> tab there is a 'Target' dropdown.
+            <span class="newline">If this were the first time setting this up it would default to <code class="code-font">&lt;not set&gt;</code>. You would click the down carat to expand it and select <code class="code-font">New Window(_blank)</code></span>
+            <span class="newline">For this tutorial, click the <b>Cancel</b> button to exit without making any changes. (If this was for a new page you would instead click the <b>OK</b> button.)</span> <img class="screenshot" src="images/token_dual1f.jpg" alt=" ">
+          </li>
+          <li>Click your browser's back button to leave Edit mode.
+            <span class="newline">If this were a new page you would scroll to the bottom of the page and click the <b>Save</b> button to save the changes for your new page.</span>
+          </li>
         </ol>
       </li>
     </ol>
 
   </article>
 
-  <article class="article-style" id="fix-links">
+  <article class="article-style">
     <h2 id="link-sample">Using URL Link Tokens</h2>
-    <p>The <b>Forms and Documents</b> page shows good examples of accessibility and use of the </p>
+    <p>The <b>Forms and Documents</b> page shows good examples of accessibility and use of the URL Link Tokens.</p>
 
   </article>
 
