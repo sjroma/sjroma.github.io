@@ -38,8 +38,14 @@ p {
   display: block;
 }
 
-code {
+.code-font {
   font-size: 1.3em;
+}
+
+hr {
+  border: solid 0.1em #a9a9a9;
+  margin: 1em auto 0 auto;
+  width: 80%;
 }
 
 .table {
