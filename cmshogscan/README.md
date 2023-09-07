@@ -9,7 +9,9 @@ _HOG\[SCAN\]_ webmasters, if you have something you would like to see added here
 ## Set up  
 <a href="https://sjroma.github.io/cmshogscan/cmswebsite/" target="_blank">**_HOG\[SCAN\]_ Set up Notes**</a> - _HOG\[SCAN\]_ uses role based permissions to restrict network access based on a members role. This page contains a description of the various roles, the access granted to each one and other useful set up notes.  
 
-<a href="https://sjroma.github.io/cmshogscan/cmswebsite/personalize.html" target="_blank">**Personalize the _About Us_ page**</a> - This page introduces _HOG\[SCAN\]_ tokens, shows how to edit the page so the rocker reflects your Chapter's rocker and shows how to fix the broken links to the _Chapter Charter_ &amp; _Chapter Handbook_.
+<a href="https://sjroma.github.io/cmshogscan/cmswebsite/personalize.html" target="_blank">**Personalize the _About Us_ page**</a> - This tutorial shows how to edit the page so the rocker reflects your Chapter's rocker and shows how to fix the broken links to the _Chapter Charter_ &amp; _Chapter Handbook_.  
+
+<a href="https://sjroma.github.io/cmshogscan/cmswebsite/tokens.html" target="_blank">**_HOG\[SCAN\]_ Tokens**</a> - An overview on using the _HOG\[SCAN\]_ Inline and URL Link Tokens.
 
 <a href="https://sjroma.github.io/cmshogscan/cmswebsite/phonesubscribe.html" target="_blank">**Subscribe to the Event Calendar**</a> - Tutorial to subscribe to the chapter Event Calender with Android&trade; and Apple&reg; smartphones. 
 
