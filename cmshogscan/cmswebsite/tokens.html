@@ -225,12 +225,24 @@
 
   <article class="article-style">
     <h2 id="link-sample">Using URL Link Tokens</h2>
-    <p>The <i>Forms and Documents</i> page shows good examples of accessibility and use of the URL Link Tokens.  You can <a class="anchor-link" href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsWysiwygEditor.html#tips" target="_blank">read more about accessibility</a> in the <i>HOG[SCAN] WYSIWYG Editor</i> tutorial.
-    <span class="newline">Briefly, it is clear to the end user where they will go, or what they will see, when they click any of the links.</span></p>
-    
+    <p>The <i>Forms and Documents</i> page shows good examples of accessibility and use of the URL Link Tokens. You can <a class="anchor-link" href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsWysiwygEditor.html#tips" target="_blank">read more about accessibility</a> in the <i>HOG[SCAN] WYSIWYG Editor</i> tutorial.
+      <span class="newline">Briefly, it is clear to the end user where they will go, or what they will see, when they click any of the links.</span>
+    </p>
+
     <ol>
       <li>The image below shows the <i>Forms and Documents</i> page. <img class="screenshot" src="images/tokensURL1a.jpg" alt="screenshot of the forms and documents page"></li>
-      <li>Reference the image below to see the links when the Edit tab is clicked. <img class="screenshot" src="images/tokensURL1b.jpg" alt="screenshot of the forms and documents page in edit mode"></li>
+      <li>Reference the image below to see the links when the Edit tab is clicked.
+      <span class="newline">(The next two sub-steps walk through how this page was edited/setup.)</span> <img class="screenshot" src="images/tokensURL1b.jpg" alt="screenshot of the forms and documents page in edit mode">
+        <ol>
+          <li>Referencing the image below, click three times in rapid succession to access the Link pop-up.
+            <span class="newline">This is currently set but if this were a new page and you were creating a link for the 'Chapter Charter' you would expand the Protocol dropdown by clicking the down carat and then selecting <code class="code-font">&lt;other&gt;</code>. This is because the URL Link Token already has the <code class="code-font">https://</code> protocol.</span>
+            <span class="newline">In the URL box, fill in the appropriate URL Link Token. Refer to the URL Link Tokens table in the first section for a list of available tokens.</span>
+            <span class="newline">Click the 'Target' tab</span> <img class="screenshot" src="images/tokensURL1c.jpg" alt="screenshot of link pop up showing location of protocol, url and target tab">
+          </li>
+          <li>The Target dropdown is expanded and <code class="code-font">New Window(_blank)</code> is selected. This option is chosen so that when an end user clicks the link it will open in a new browser tab. 
+          <span class="newline">Since we are not changing anything on this page, click the <b>Cancel</b> button to leave. (If this were a new link you were creating on a new page you would click the <b>OK</b> button.)</span> <img class="screenshot" src="images/tokensURL1d.jpg" alt="screenshot of link pop up showing location of target and new window selection"></li>
+        </ol>
+      </li>
     </ol>
 
   </article>
