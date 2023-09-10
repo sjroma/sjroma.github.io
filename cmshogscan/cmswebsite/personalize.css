@@ -42,45 +42,6 @@ code {
   font-size: 1.3em;
 }
 
-.table {
-  border-collapse: collapse;
-  display: table;
-  margin: 0 auto 0.5em auto;
-  width: 90%;
-}
-
-.table-header {
-  background-color: #333;
-  color: #f9f9f9;
-  display: table-header-group;
-}
-
-.table-header-cell {
-  border: 1px solid lightgrey;
-  display: table-cell;
-  padding: 0.3em;
-  text-align: center;
-}
-
-.table-body {
-  display: table-row-group;
-}
-
-.table-row {
-  display: table-row;
-}
-
-.table-body .table-row:nth-child(even) {
-  background-color: #e2e2e2;
-}
-
-.table-body-cell {
-  border: 1px solid lightgrey;
-  display: table-cell;
-  padding: 0.2em 0.8em;
-  vertical-align: middle;
-}
-
 ol {
   counter-reset: section;
   list-style-type: none;
