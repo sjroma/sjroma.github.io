@@ -1,0 +1,88 @@
+<!--
+  steps to grant view/update access to a non-role
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grant Access | HOG[SCAN] Notes</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+  <h1>Grant View / Update Access</h1>
+
+  <article class="article-style">
+    <p>Not every Primary or Discretionary Officer needs, or wants, a HOGScan role that allows them to edit pages or allows them to make changes to the website that could potentially damage the webite. Or, you may have a member that does not have a HOGScan role but needs to be able to view and/or update a page that is only viewed by someone with a role or, can only be updated by someone with a role. For instance;
+      <span class="newline"> - Primary Officers that do not have a HOGScan role assigned may have a need to see and/or update the Chapter Officers <i>Forms &amp; Documents</i> page. View and/or Update access can be granted on an individual basis without assigning a role.</span>
+      <span class="newline"> - The Head Road Captain (HRC) needs to update a Road Captains <i>Forms, Documents &amp; Procedures</i> page that is only viewable by Road Captains. Update access can be granted on an individual basis without assigning a role.</span>
+      <span class="newline"> - The chapter scribe needs to update a <i>Meeting Minutes</i> page or the Treasurer needs to update a <i>Financial Reports</i> page. Update access can be granted on an individual basis without assigning a role.</span>
+    </p>
+
+    <p>This tutorial is divided into two sections. The HRC, Scribe and Treasurer can already see the pages they need to update. For them, you only need follow the steps in the Grant Update Access section. For the Primary Officers that do not have a HOGScan role you will need to follow the steps in both sections, Grant Update Access and Grant View Access. Click the respective link to jump to a specific section.
+      <span class="newline"><a href="#update">Grant Update Access</a></span>
+      <span class="newline"><a href="#view">Grant View Access</a></span>
+    </p>
+
+  </article>
+
+  <article id="edit" class="article-style">
+    <h2>Grant Update Access</h2>
+
+    <p>To grant access, you need to use the members Username. By default, the Username field is set to the members HOG ID. It is a best practice to have the member edit their profile and change this field putting in their name as you will not remember what HOG ID matches which member in six months.
+      <span class="newline">Members can use the Username to log in. It can be firstname, firstnamelastname, firstinitiallastname, etc. The system already knows and remembers the members email address so Username should not be the members email address.</span>
+    </p>
+
+    <p>For this section in the tutorial, our recording secretary needs to add the meeting minutes to the Meeting Minutes page. This basic page was created by and for Raleigh HOG. When created it was set so that only authenticated (logged in) users can see the page. By default, the minimum role needed to update the page is the Editor role. As this is the only page the recording sec'y needs to update, assigning the Editor role would be overkill. All that is required is update access.</p>
+
+    <ol>
+      <li>Referencing the image below, after logging into your website and navigating to the page for which you want to grant Update access, click the <b>Access control</b> tab. <img class="screenshot" src="../images/accessUpdate1.jpg" alt="screenshot showing access control tab"></li>
+      <li>Referencing the image below, the <b>ROLE BASED ACCESS CONTROL SETTINGS</b> section shows that any authenticated (logged in) user can view this page. (We want the page viewed only by chapter members.) <img class="screenshot" src="../images/accessUpdate2a.jpg" alt="">
+        <ol>
+          <li>Reference the image below showing the <b>USER ACCESS CONTROL LISTS</b> section.
+        <span class="newline">(I closed the 'Role Based Access Control Settings' section to make it easier to see the 'User Access Control Lists' section in the screenshot.)</span> <img class="screenshots" src="../images/accessUpdate2b.jpg" alt="screenshot showing user access control lists section"></li>
+        </ol>
+      </li>
+      <li>Referencing the image below, there are three Grant Access lists to expand. For this section of the tutorial, expand the <b>Grant Update Access</b> section by single clicking anywhere on the words. <img class="screenshot" src="../images/accessUpdate3.jpg" alt="screenshot showing grant edit access section expanded">
+        <ol>
+          <li>Referencing the image below, in the <b>Add user</b> box enter the members username.
+            <span class="newline">As you type in the member's username a dropdown of matching names will appear. Select the appropriate one and it will appear in the box.</span> <img class="screenshot" src="../images/accessUpdate4.jpg" alt="screenshot showing username field">
+          </li>
+          <li>Referencing the image below, click the <b>Add User</b> button and the members username will show in <b>Current users</b>.
+            <span class="newline">If needed, additional usernames may be added by repeating steps <b class="number-reuse">3.1</b> and <b class="number-reuse">3.2</b>.</span>
+            <img class="screenshot" src="../images/accessUpdate5.jpg" alt="screenshot showing username added">
+          </li>
+          <li>Referencing the image below, click the <b>Submit</b> button when all usernames have been added. <img class="screenshot" src="../images/accessUpdate6.jpg" alt="screenshot showing location of submit button"></li>
+          <li>Referencing the image below, you will see a message that changes have been saved. <img class="screenshot" src="../images/accessUpdate7.jpg" alt="screenshot showing success message">
+            <ol>
+              <li>I have not had to click the "rebuild permissions" link. Your mileage may vary. If you do click the link you will see the following screen. Either click the <b>Rebuild permissions</b> button and wait until it finishes or click "Cancel" to leave the page. <img class="screenshot" src="../images/accessUpdate8.jpg" alt="screenshot of rebuild permissions page"></li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+      <li>Be sure to share the appropriate tutorial with the member so they can do updates properly. Let them know about the sandbox environment so they can try out the steps in the tutorial and see if they have any questions.</li>
+    </ol>
+  </article>
+
+  <article id="view" class="article-style">
+    <h2>Grant View Access</h2>
+
+    <p>To grant access, you need to use the members Username. By default, the Username field is set to the members HOG ID. It is a best practice to have the member edit their profile and change this field putting in their name as you will not remember what HOG ID matches which member in six months.
+      <span class="newline">Members can use the Username to log in. It can be firstname, firstnamelastname, firstinitiallastname, etc. The system already knows and remembers the members email address so Username should not be the members email address.</span>
+    </p>
+
+    <p></p>
+
+    <ol>
+      <li></li>
+      <li></li>
+    </ol>
+  </article>
+
+</body>
+
+</html>
