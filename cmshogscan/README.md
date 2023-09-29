@@ -25,15 +25,16 @@ I realize some of these may seem verbose but not knowing skill levels I tried to
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsGrantAccess.html" target="_blank">**Grant Update / View Access to basic pages**</a> to members without a role - **Webmaster** role  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsParticipateReportIndiv.html" target="_blank">**Generate a Points Report**</a> - **Membership Officer** & **Primary Officer** roles  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsAddTeamMember.html" target="_blank">**Add a Team Member**</a> - **Editor** & **Primary Officer** roles   
-* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsNewslettersUpdate.html" target="_blank">**Place a Newsletter on the Website**</a> - **Editor** & **Primary Officer** roles    
-* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsFinancialReport.html" target="_blank">**Place a Financial Report on the Website**</a> - **Editor** & **Primary Officer** roles (page created by/for Raleigh NC Chapter)  
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsNewslettersUpdate.html" target="_blank">**Place a Newsletter on the Website**</a> - **Editor** & **Primary Officer** roles     
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEventCalUpdate.html" target="_blank">**Update the Event Calendar**</a> - **Activities Officer**, **Editor** & **Primary Officer** roles    
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsBlogCreate.html" target="_blank">**Create a Blog entry**</a> - **Activities Officer**, **Editor**, **Membership Officer** & **Primary Officer** roles    
-* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsGalleriesAdd.html" target="_blank">**Upload Gallery Images**</a> - **Photographer**, **Activities Officer**, **Editor**, **Membership Officer** & **Primary Officer** roles  
-* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsMtgMinutesUpload.html" target="_blank">**Add Monthly Meeting Minutes**</a> - Edit access granted to username (page created by/for Raleigh NC Chapter)  
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsGalleriesAdd.html" target="_blank">**Upload Gallery Images**</a> - **Photographer**, **Activities Officer**, **Editor**, **Membership Officer** & **Primary Officer** roles   
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsBasicPageCreate.html" target="_blank">**Create a Basic Page**</a> - **Editor** & **Primary Officer** roles  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsCreateDirectory.html" target="_blank">**Create Subdirectories**</a> - **Every** role (directory access is determined by role)
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsRoadCaptUploads.html" target="_blank">**Upload Road Captain Documents**</a> - **Editor** & **Primary Officer** (edit access granted to Head Road Captain by username) 
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEventCheckin.html" target="_blank">**Check-In Members Using the Website**</a> - **Activities Officer**, **Membership Officer** & **Primary Officer** roles  
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsFinancialReport.html" target="_blank">**Place a Financial Report on the Website**</a> - **Editor** & **Primary Officer** roles (page created by/for Raleigh NC Chapter)  
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsMtgMinutesUpload.html" target="_blank">**Add Monthly Meeting Minutes**</a> - Edit access granted to username (page created by/for Raleigh NC Chapter)  
 
 ### Smartphone App
 * How to <a href="https://sjroma.github.io/cmshogscan/hogscanapp/index.html" target="_blank">**Use the HogScan Smartphone Application**</a> - **Road Captain** role  
@@ -56,7 +57,7 @@ Enhancement - the software isn't working the way the customer wants
 <a href="https://sjroma.github.io/cmshogscan/chapters/" target="_blank">**HOG Chapters Powered by _HOG\[SCAN\]_**</a> - Alphabetized by state and then city, this page has the HOG chapters using _HOG\[SCAN\]_ and provides a link to each one.  
 
 ## Added pages
-The following pages were created for the raleighhog.com website. I have a background writing code with HTML and CSS so it's easier for me to create a page off-line and then copy/paste it to the CMS site.  
+The following pages were created for the <a href="https://www.raleighhog.com/" target="_blank">Raleigh HOG website</a>. I have a background writing code with HTML and CSS so it's easier for me to create a page off-line and then copy/paste it to the CMS site.  
 The pages here are shown as examples of what you can do to personalize your website.  
 These pages are open source, meaning you should feel free to use them if you want. If you need help using them on your website, or would like me to help you create a basic page for your website, [feel free to contact me](mailto:webmaster@raleighhog.com).  
 * <a href="https://www.raleighhog.com/frequently-asked-questions" target="_blank">**FAQ**</a> and <a href="https://www.raleighhog.com/ladies-harley" target="_blank">**Ladies of Harley**</a> - both pages are simplistic in that there is not much coding that I did when creating them. However, the FAQ page uses the HTML description list rather than an unordered or ordered list only because I think it works better for the page and doesn't require me to put additional tags around the question in order to make the text bold.  
