@@ -25,6 +25,10 @@ ul {
   list-style-type: circle;
 }
 
+.columns {
+  column-count: 4;
+}
+
 a {
   color: #00f;
   text-decoration: none;
