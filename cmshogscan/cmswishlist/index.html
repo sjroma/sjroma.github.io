@@ -20,25 +20,31 @@
       <span class="newline"><b>Defect</b> - the software isn't working the way it says it will</span>
       <span class="newline"><b>Enhancement</b> - the software isn't working the way the customer wants</span>
     </p>
-    
+
     <hr>
 
     <section class="defect">
       <h2>Defects</h2>
       <dl>
         <dt>Unable to download/view the <i>Chapter Charter</i> or <i>Chapter Handbook</i> when clicking the respective links.</dt>
-        <dd>This issue was fixed on 27 Jul 2023 though some older websites may still have the problem.</dd>
+        <dd>This issue was fixed on 27 Jul 2023 though older websites still have the problem since the fix is not retroactive.</dd>
         <dd><a href="https://sjroma.github.io/cmshogscan/cmswebsite/personalize.html#fix-links" target="_blank">Click this link</a> to see if it's an issue with your website and if so, instructions on how to fix the broken links.</dd>
-        
+
         <dt>Navbar dropdown links do not have a hover color for websites using Dark Theme</dt>
         <dd>When hovering over any of the links in the 'About Us' dropdown the links do not change to the hover color of orange (<code>#e67e22</code>). This is because in the stylesheet "style-darko...rwk59v" line 7944 <code>{color: #D3D3D3 !important;}</code> overrides line 7933 <code>{color: #e67e22 !important}</code> from the same stylesheet.</dd>
-        
+
         <dt>Editor role cannot control access to a Basic page</dt>
         <dd>The editor role is able to create a basic page. By default, a basic page can be seen by everyone. If the page should only be seen by authenticated users the editor cannot make the change, they do not see the Access Control tab.</dd>
         <dd>Since the editor role is able to create a basic page they should have the ability to control access to that page.</dd>
 
         <dt>The smartphone app exposes member information to Road Captains</dt>
         <dd>The smartphone app should not expose member's HOG ID or ICE information to Road Captains. The app is the only place where member's private info is exposed to the Road Captain role.</dd>
+
+        <dt>HogScan in-line address token needs an update</dt>
+        <dd>The HOG[SCAN] inline token for the dealer address, [hogscan:dealer_address] has two issues that need to be addressed. The first one is most important and should be corrected as soon as possible.
+          The second one needs to be looked at and should be addressed.</dd>
+        <dd>1. When the [hogscan:dealer_address] token is used in another country the dealer's address has US appended as the country. Currently there is only one out of country chapter using HOGScan. That chapter is in Canada and Canada is not in the United States, however, the country says US instead of Canada.</dd>
+        <dd>2. When addressing mail to the States from another country it should be appended with our country name USA, not US. The token should be updated to correctly reflect our country's abbreviation.</dd>
 
         <dt>Fix the GPX mapping feature on the event page</dt>
         <dd>Seems to have stopped working around the same time the H-D Ride Planner altered how it gens a GPX file</dd>
@@ -59,7 +65,7 @@
         <dd>closed issue as fixed on 2 Feb 2023. Members can see Ride 365 mileage, including running total for the current year, by clicking 'My account' in the navbar</dd>
       </dl>
     </section>
-    
+
     <hr>
 
     <section class="enhancement">
@@ -82,7 +88,7 @@
         <dd>When viewing the calendar and logging out, stay on the calendar page. If viewing newsletters, leave them on the default newsletter page that says "You must be logged in to view our Newsletters." In other words, it should manage state.</dd>
       </dl>
     </section>
-    
+
     <hr>
 
     <section class="report">
