@@ -1,0 +1,75 @@
+<!--
+  tips and tricks for web page design
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web Page Design | HOG[SCAN] Notes</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+  <h1>Web Page Design - Tips &amp; Tricks</h1>
+
+  <article class="article-style">
+    <h2>General notes, terminology and policies</h2>
+    <ul>
+      <li>There are two environments in which you can work;
+        <ul>
+          <li>The <i>sandbox environment</i> is where you can test and try things out to familiarize yourself with the steps you will be going through. The sandbox environment starts with <i>dev</i>. Our sandbox environment is https://dev.raleighhog.com</li>
+          <li>The <i>production environment</i> is the site that all members see. This is where you make the changes that chapter members see. Our production environment is https://www.raleighhog.com</li>
+        </ul>
+      </li>
+      <li>Please note that prior to doing anything in the production environment you can, and should, test in the sandbox environment first. This environment is used for testing and is not seen by members. If something gets corrupted in the sandbox environment it is easier to correct than in production.
+        <ul>
+          <li>Your login credentials are the same for both environments</li>
+          <li>Your webmaster will help with any questions you may have</li>
+        </ul>
+      </li>
+    </ul>
+  </article>
+
+  <article id="tips" class="article-style">
+    <h2>Web Page Design - Tips &amp; Tricks</h2>
+
+    <p>Web page design is a career unto itself. It is not something that can be taught in a short tutorial but don't let that hinder you. Anyone can create a pleasing page. These tips are things you "see" daily as you go to different websites. You just don't realize you're seeing them.</p>
+    <p>Here are some things to keep in mind as you create a basic page or make event calendar entries.</p>
+    <ol>
+      <li><b>Accessibility</b> - Make your links accessible. While accessibility is a topic unto itself the shortened version is you want to avoid uninformative link phrases. Links are more useful when they make sense out of context. Authors should shy away from non-informative link phrases such as;
+        <ul class="columns">
+          <li>click here</li>
+          <li>here</li>
+          <li>more</li>
+          <li>read more</li>
+          <li>link to ...</li>
+          <li>info</li>
+        </ul>
+        As an example, the following three links go to the same location but only one is a best practice;
+        <ul>
+          <li><i>To see June's event calendar click <a href="https://www.raleighhog.com/calendar?month=2023-06" target="_blank"> here</a></i> - Makes your page look like it's from the 1990's and out of context, the word 'here' means nothing to the end-user.</li>
+          <li><i><a href="https://www.raleighhog.com/calendar?month=2023-06" target="_blank">https://www.raleighhog.com/calendar?month=2023-06</a></i> - A URL is neither human readable or screen-reader friendly</li>
+          <li><i><a href="https://www.raleighhog.com/calendar?month=2023-06" target="_blank"> June's event calendar</a></i> - Clear to the reader where the link will take them and what they will see</li>
+        </ul>
+      </li>
+      <li><b>Links</b> - It's best if a link to another website opens in a different tab. This way the user does not leave your website to get lost in a rabbit hole of another website.</li>
+      <li><b>Images</b> - Keep images on your page at a reasonable size. No one likes to scroll left and right and up and down in order to see an image. Not everyone will be using a desktop computer to view your website, some use an Apple&reg; or Android&trade; tablet.
+        <span class="newline">This is especially important when placing images in event calendar entries. A lot of members use a smartphone and the HOGScan smartphone app to view the calendar and a large image means a lot of scrolling just to see the text of the event.</span>
+      </li>
+      <li><b>Text emphasis</b> - Occasionally there may be something in your text that you want to emphasize. Use caution when doing so. While making a word or phrase bold is okay, you want to avoid underlining and/or making the font color the same color as a link as it will cause confusion for anyone reading the page.</li>
+      <li><b>Tokens</b> - The <a href="https://sjroma.github.io/cmshogscan/cmswebsite/tokens.html" target="_blank">HOGScan tokens</a> are fine to use in basic pages. They help eliminate typo's, keep information consistant and in some instances allow you to have the most current documentation from National. However, do not use tokens in event calendar entries. They translate when viewing the calendar with a computer or tablet but not when viewing the calendar with the HOGScan smartphone app.</li>
+      <li><b><code class="code-font">Enter</code> versus <code class="code-font">Shift + Enter</code></b> - This is easier seen rather than explained.
+        <span class="newline">Hitting the <code class="code-font">Enter</code> key will move the cursor down and begin a new paragraph.</span>
+        <span class="newline">Hitting the <code class="code-font">Shift + Enter</code> keys causes a line break. The text continues on a new line, not a new paragraph.</span> Reference the image below for a visual demonstration. <img class="screenshot" src="../images/wysiwyg2.jpg" alt="screenshot showing differences between using enter and shift+enter in body copy">
+      </li>
+      <li><b>Sandbox</b> - Use your development environment to practice building/creating a new basic page.</li>
+    </ol>
+  </article>
+
+</body>
+
+</html>
