@@ -87,6 +87,10 @@ span.li {
   max-width: 90%;
 }
 
+.figure {
+  max-width: 30%;
+}
+
 .number-reuse {
   color: #f77;
 }
