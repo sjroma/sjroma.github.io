@@ -18,7 +18,7 @@ The following pages show some of the initial steps you'll need to familiarize yo
 <a href="https://sjroma.github.io/cmshogscan/cmswebsite/phonesubscribe.html" target="_blank">**Subscribe to the Event Calendar**</a> - Tutorial to subscribe to the chapter Event Calender with Android&trade; and Apple&reg; smartphones.  
 
 ### cPanel / Webmail  
-* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEmailAccts.html" target="_blank">**Set-up and Manage Officer Email Accounts**</a> - **Webmaster** role  
+<a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEmailAccts.html" target="_blank">**Set-up and Manage Officer Email Accounts**</a>  
 
 ## How-to Guides / Tutorials  
 The following tutorials were created to help ease the transition for someone moving into a new role as a primary or discretionary officer. They are step-by-step how-to guides that can be used by a first timer as well as provide a reference for those with more experience. Although certain steps may be specific to the Raleigh NC Chapter website, the overall steps should be generic enough that other chapters using _HOG\[SCAN\]_ can follow along with only slight modifications.  
