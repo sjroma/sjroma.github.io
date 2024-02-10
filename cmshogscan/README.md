@@ -45,6 +45,9 @@ I realize some of these may seem verbose but not knowing skill levels I tried to
 ### Smartphone App
 * How to <a href="https://sjroma.github.io/cmshogscan/hogscanapp/index.html" target="_blank">**Use the HogScan Smartphone Application**</a> - **Road Captain** role  
 
+### csv Files
+* How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsCombine.html" target="_blank">**Combine Multiple Exported csv Files**</a>  
+
 ### Mailer  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsMailerCreateTemplate.html" target="_blank">**Create/Edit an Initial Template &amp; Copy a Template**</a>  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsHogscanMailer.html" target="_blank">**Update Templates &amp; Send a Campaign**</a>  
