@@ -1,0 +1,67 @@
+<!--
+  steps to combine two .csv files
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Combine .csv | HOG[SCAN] Notes</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+  <h1>Combine <code class="code-font">csv</code> Files</h1>
+
+  <article class="article-style">
+    <h2>Introduction</h2>
+    <p>There may be instances where two or more downloaded <code class="code-font">csv</code> files have information that you need. For instance, at the start of the calendar year we have members that are current with their national and local chapter dues, however, they have not signed a current <i>Chapter Membership Enrollment Form and Release</i>. HOGScan shows these members as Expired.</p>
+    <p>We at Raleigh HOG do not want to keep these members from receiving campaigns such as Monthly Meeting announcements, Upcoming Rides et cetera so it is necessary to combine the exported Current Members and Expired Members lists for use in the Mailer.</p>
+    <p>There are a few ways to combine multiple files into one file;</p>
+    <ul>
+      <li><b>Merge <code class="code-font">CSVs</code> at the command line</b> (which this tutorial will show)</li>
+      <li><b>Merge <code class="code-font">CSVs</code> with a <a href="https://serp.co/tools/combine-csv-files/" target="_blank">csv merge tool</a></b></li>
+      <li><b>Merge <code class="code-font">CSVs</code> with python</b></li>
+      <li>Merge <code class="code-font">CSVs</code> by smashing them together with hulk hands (not a real method)</li>
+    </ul>
+  </article>
+
+  <article id="subdir" class="article-style">
+    <h2>MacOS</h2>
+    <ol>
+      <li> Use the <code class="code-font">mkdir</code> command to create a new folder and place the exported <code class="code-font">csv</code> files into it (mine is in the <code class="code-font">Downloads</code> directory and I called it "combine")
+        <span class="newline"><b>Caution:</b> Everything in this folder will be combined so ensure it only contains the current files you need</span>
+      </li>
+      <li>Open a Terminal window (aka "the command line" or "the shell")
+        <span class="newline">If you haven't already set a shell up, the program "Terminal" is located in your "Applications" folder under "Utilities" (Applications > Utilities > Terminal)</span>
+        <span class="newline">Double click to open it</span>
+      </li>
+      <li>Print Working Directory
+        <span class="newline">Run the <code class="code-font">pwd</code> command to show the directory you are currently working in</span>
+      </li>
+      <li>Choose the folder you created
+        <span class="newline">Use the <code class="code-font">cd</code> command to switch to the directory you placed the <code class="code-font">csv</code> files in (for me they are in <code class="code-font">Downloads/combine</code>)</span>
+      </li>
+      <li>Merge the files by running the following command;
+        <span class="newline"><code class="code-font">cat *.csv &gt;combined.csv</code></span>
+      </li>
+      <li>Check the folder. There will be a file called <code class="code-font">combined.csv</code> which contains the <code class="code-font">csv</code> files combined together.
+        <span class="newline"><b>Note:</b> You will have to delete the duplicate columns header</span>
+      </li>
+    </ol>
+    
+    <p>Optionally, if you do not want to follow these steps you can use the CSV Combiner Tool mentioned in the Introduction and Windows sections.</p>
+  </article>
+
+  <article id="upload" class="article-style">
+    <h2>Windows</h2>
+    <p>The Windows OS does not recognize the <code class="code-font">cat</code> command. If you're working in this environment just click this link for a <a href="https://serp.co/tools/combine-csv-files/" target="_blank">CSV Combiner Tool</a></p>
+    <p>This is just one tool. You can Google for others but I tried this one and found it to be simple and easy to use.</p>
+  </article>
+
+</body>
+
+</html>
