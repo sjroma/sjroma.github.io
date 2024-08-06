@@ -1,0 +1,69 @@
+<!--
+  steps to have button click open the event to RSVP
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campaign RSVP | HOG[SCAN] Notes</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+  <h1>HOG[SCAN] Mailer - Link RSVP Button to the Event</h1>
+
+  <article class="article-style">
+    <h2>General notes, terminology and policies</h2>
+    <ul>
+      <li>This environment is different than the website. There is only one, shared, account that is used for logging in. Do NOT change the Email or the Password.</li>
+      <li>In this tutorial the Navagational Bar is referred to as the navbar.
+        <ul>
+          <li>Every website has a navbar. It normally appears at the top of the page or on the left side of the page. As a user clicks links in the navbar to go to different pages within the website, the navbar retains its position making it easy for the user to navigate to other pages within the website.</li>
+        </ul>
+      </li>
+    </ul>
+  </article>
+
+  <article class="article-style">
+    <h2>Link an RSVP Button to a Campaign</h2>
+    <p>This is an optional step. When creating any campaign that has an RSVP button, it can be set up so that clicking the button will automatically bring the user to the specific event. This helps members quickly/easily RSVP because rather than being brought to the calendar and then having to hunt for the specific event, they will be brought directly to the event they want to RSVP to.
+      <span>This takes a little extra time when preparing a campaign but our Raleigh HOG members like the convenience and it has helped with getting members to use RSVP.</span>
+    </p>
+
+    <p>The advantages of doing this are;
+      <span> - if the member is logged in to the website, clicking the RSVP button will take them directly to the event page where they can click the <b>RSVP to this event</b> button</span>
+      <span> - if the member is not logged in, clicking the RSVP button will take them to the login page where, after filling in their credentials and clicking the <b>Log in</b> button, they will automatically be brought to the event page where they can click the <b>RSVP to this event</b> button</span>
+    </p>
+
+    <ol>
+      <li>Referencing the image below, click your RSVP button to bring up the buttons ribbon, then click the LINK icon. <img class="screenshot" src="../images/RSVPLink1a.jpg" alt="screenshot showing campaigns RSVP button and associated link ribbon">
+        <ol>
+          <li>Referencing the image below, the Insert Link window opens. <img class="screenshot" src="../images/RSVPLink1b.jpg" alt="screenshot showing empty insert link pop-up window"></li>
+        </ol>
+      </li>
+      <li>Referencing the image below, 
+       <span class="newline"> - you MUST be logged out of the website for these steps</span>
+       <span class="newline"> - on the HOGScan website go to the Calendar page and select the event you want members to RSVP to</span> <img class="screenshot" src="../images/RSVPLink1c.jpg" alt="screenshot showing hogscan calendar">
+        <ol>
+          <li>Referencing the image below, 
+          <span class="newline">the URL for the event is displayed</span>
+          <span class="newline">click the <b>Login</b> link but DO NOT login</span>
+          <span class="newline">note the URL changes to show <code class="code-font">/user/login?destination=node/xxxx</code> where <code class="code-font">xxxx</code> is a unique number for each event (changed URL shown in the next screenshot)</span> <img class="screenshot" src="../images/RSVPLink1d.jpg" alt=" "></li>
+          <li>Referencing the image below, right click three times in rapid succession to highlight the entire URL, then use <code class="code-font">CMD + C</code> (iOS) (<code class="code-font">CTRL + C</code> in Windows) to copy the link to the clipboard.<img class="screenshot" src="../images/RSVPLink1e.jpg" alt=" "></li>
+        </ol>
+      </li>
+      <li>Referencing the image below, back to the campaign in Mailer,
+      <span class="newline"> - use <code class="code-font">CMD + V</code> (iOS) (<code class="code-font">CTRL + V</code> in Windows) to paste the copied link into the <b>LINK</b> area</span>
+      <span class="newline"> - Click the <b>Insert link</b> button to finish</span> <img class="screenshot" src="../images/RSVPLink1f.jpg" alt="screenshot showing filled in insert link pop-up window"></li>
+      <li>Repeat steps <b class="number-reuse">1</b> thru <b class="number-reuse">3</b> above for any additional RSVP buttons in your campaign.
+      <span class="newline">Note: each event has a unique <code class="code-font">destination=node/</code> number. This is what brings the member to each unique event.</span></li>
+    </ol>
+  </article>
+
+</body>
+
+</html>
