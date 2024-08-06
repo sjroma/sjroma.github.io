@@ -33,7 +33,6 @@ I realize some of these may seem verbose but not knowing skill levels I tried to
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsAddTeamMember.html" target="_blank">**Add a Team Member**</a> - **Editor** & **Primary Officer** roles   
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsNewslettersUpdate.html" target="_blank">**Place a Newsletter on the Website**</a> - **Editor** & **Primary Officer** roles     
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsEventCalUpdate.html" target="_blank">**Update the Event Calendar**</a> - **Activities Officer**, **Editor** & **Primary Officer** roles    
-    * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsMailerButtonEvent.html" target="_blank">**Make RSVP button go to Specific Event**</a> - **Activities Officer**, **Editor** & **Primary Officer** roles  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsBlogCreate.html" target="_blank">**Create a Blog entry**</a> - **Activities Officer**, **Editor**, **Membership Officer** & **Primary Officer** roles    
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsGalleriesAdd.html" target="_blank">**Upload Gallery Images**</a> - **Photographer**, **Activities Officer**, **Editor**, **Membership Officer** & **Primary Officer** roles   
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsBasicPageCreate.html" target="_blank">**Create a Basic Page**</a> - **Editor** & **Primary Officer** roles  
@@ -52,6 +51,7 @@ I realize some of these may seem verbose but not knowing skill levels I tried to
 ### Mailer  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsMailerCreateTemplate.html" target="_blank">**Create/Edit an Initial Template &amp; Copy a Template**</a>  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsHogscanMailer.html" target="_blank">**Update Templates &amp; Send a Campaign**</a>  
+    * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsMailerButtonEvent.html" target="_blank">**Make the RSVP button go to a Specific Event**</a>  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsMailerRestoreUnsub.html" target="_blank">**Restore a Member Who Unsubscribed**</a>  
 * How to <a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/comingSoon.html" target="_blank">**Monitor Campaign Progress**</a>  
 
