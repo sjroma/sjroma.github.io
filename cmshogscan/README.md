@@ -15,7 +15,7 @@ The following pages show some of the initial steps you'll need to familiarize yo
 
 <a href="https://sjroma.github.io/cmshogscan/cmswebsite/tokens.html" target="_blank">**_HOG\[SCAN\]_ Tokens**</a> - An overview on using the two types of tokens (Inline and URL Link) provided by HOGScan.  
 
-<a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsManageChapterMembership.html" target="_blank">**Manage Chapter Membership**</a> - This tutorial shows how to manage local chapter membership, such as expiration dates, for both the National level and for HOGScan.
+<a href="https://sjroma.github.io/cmshogscan/updateralhog/procedures/stepsManageChapterMembership.html" target="_blank">**Manage Chapter Membership**</a> - This tutorial shows how to manage local chapter membership, such as expiration dates, add/removing members, etc, for the National level roster and the HOGScan roster.
 
 <a href="https://sjroma.github.io/cmshogscan/cmswebsite/phonesubscribe.html" target="_blank">**Subscribe to the Event Calendar**</a> - Tutorial to subscribe to the chapter Event Calender with Android&trade; and Apple&reg; smartphones.  
 
