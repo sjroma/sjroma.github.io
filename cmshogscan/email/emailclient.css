@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+/*  margin: 0;*/
+/*  padding: 0;*/
+}
+
+body {
+  background-color: #f0f0f0;
+  font-family: Raleway, sans-serif;
+}
+
+.gmail, .yahoo, .outlook {
+  background: #f9f9f9;
+  background: rgba(249, 249, 249, 0.88);
+  border-radius: .25em;
+  margin: 0 auto;
+  max-width: 85%;
+  min-height: 100vh;
+  padding: 1.25em;
+}
+
+h2 {
+  text-align: center;
+}
+
+.code-font {
+  font-size: 1.3em;
+}
+
+ol {
+  counter-reset: section;
+  list-style-type: none;
+}
+
+ol > li::before {
+/*  color: #f77;*/
+  content: counters(section, ".") " ";
+  counter-increment: section;
+/*  font-weight: bold;*/
+}
+
+li {
+  max-width: 95%;
+}
+
+/*
+.pagebreak {
+  page-break-before: always;
+}
+*/
+
+.table,td {
+      border: 1px solid #ddd;
+      border-collapse: collapse;
+      padding: 0.2em 0.3em;
+    }
