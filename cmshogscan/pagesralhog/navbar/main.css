@@ -1,0 +1,13 @@
+body {
+  background: #f0f0f0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.title {
+  color: #ff4a00;
+}
+
+.newline {
+  display: block;
+  padding-left: 1.5em;
+}
