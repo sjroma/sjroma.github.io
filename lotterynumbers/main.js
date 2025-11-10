@@ -29,7 +29,7 @@ function getMegaWhite() {
 }
 
 function getMegaGold() {
-  const megaGoldBall = Math.floor(Math.random() * 25) + 1;
+  const megaGoldBall = Math.floor(Math.random() * 24) + 1;
   mball_div.innerHTML = megaGoldBall;
 }
 
